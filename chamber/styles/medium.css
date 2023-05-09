@@ -1,7 +1,72 @@
 @media only screen and (min-width: 35rem){
-    
+    img {
+        max-width: 25%;
+        margin:.5em;
+        
+      }
+      img.logos {
+        max-width: 7%;
+        text-align: left;
+        float:right;
+        margin-top: 1.5em;
+        margin-right: 0.7em;
+      }
+      h1 {
+        font-size: 3em;
+        text-align: center;
+        margin-top: -1.8em;
+        margin-bottom: -.1em;
+        margin-left: 1.5em;
+        color: white;
+      }
+      h2 {
+        font-size: 2em;
+        text-align: center;
+        color: white;
+        margin-left: 0.5em;
+        margin-top: .3em;
+      }
+      #hamburger-btn span:nth-child(1) {display: block;}
+#hamburger-btn span:nth-child(2) {display: none;}
+
+#hamburger-btn.open span:nth-child(1) {display: none;}
+#hamburger-btn.open span:nth-child(2) {display: block;}
+nav {
+  background-color: #eee;
+}
+nav ul {display: none;}
+  nav ul.open {display: block;}
+nav ul {
+  list-style-type: none;
+}
     nav ul#primary-nav {
         list-style-type: none;
         display:flex;
+      }
+      .grid-item >div:nth-child(1) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      .grid-item >div:nth-child(2) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      .grid-item >div:nth-child(3) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      .grid-item >div:nth-child(4) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      .grid-item >div:nth-child(5) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-bottom: 0em;
+        border: 1px solid black;
+      }
+      .grid-item >div:nth-child(6) {
+        padding-top: 40px;
+        padding-bottom: 40px;
       }
 }
