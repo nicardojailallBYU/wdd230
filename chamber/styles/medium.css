@@ -1,0 +1,7 @@
+@media only screen and (min-width: 35rem){
+    
+    nav ul#primary-nav {
+        list-style-type: none;
+        display:flex;
+      }
+}
