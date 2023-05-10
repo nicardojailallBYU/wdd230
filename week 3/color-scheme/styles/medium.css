@@ -8,6 +8,13 @@
     h3 {
         font-size: 1.5em;
     }
+    li {
+        display: block;
+        display: inline;
+        margin-left: 3em;
+        font-size: 1.5em; 
+        
+      }
     footer {
         font-size: 1em;
     }

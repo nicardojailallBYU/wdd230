@@ -36,6 +36,7 @@
     margin-top: 1.5em;
     color: rgb(180, 158, 34);
   }
+  
   img {
     display: block;
     margin: 0 auto;
@@ -45,6 +46,7 @@
     margin-left: 3em;
     
   }
+  
   nav {
     background-color: grey;
     text-align: left;
@@ -62,9 +64,10 @@
   }
   li {
     display: block;
-    display: inline;
+    display: flex;
     margin-left: 3em;
-    font-size: 1.5em; 
+    font-size: 1.3em; 
+    text-align: left;
     
   }
   li :hover {

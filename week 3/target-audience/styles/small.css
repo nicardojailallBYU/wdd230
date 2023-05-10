@@ -62,9 +62,10 @@
   }
   li {
     display: block;
-    display: inline;
+    display: flex;
     margin-left: 3em;
-    font-size: 1.5em; 
+    font-size: 1.3em; 
+    text-align: left;
     
   }
   li :hover {
@@ -76,11 +77,7 @@
     padding: 0;
     overflow: hidden;
     padding: 5px;
-    
-    
-    
-    
-  }
+    }
   ul {
     list-style-type: disc;
   }
