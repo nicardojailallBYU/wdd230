@@ -34,7 +34,7 @@
   h3 {
     font-size: 1em;
     margin-top: 1.5em;
-    color: rgb(180, 158, 34);
+    color: #9A871D;
   }
   
   img {
@@ -54,9 +54,9 @@
     padding-top: 0%;
     color: white;
     border-radius: 6px;
-    
-    
-
+  }
+  nav ul li a {
+    color:white;
   }
   ul, li, ol {
     font-size: 15px;
