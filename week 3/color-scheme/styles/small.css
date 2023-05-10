@@ -34,7 +34,7 @@
   h3 {
     font-size: 1em;
     margin-top: 1.5em;
-    color: rgb(180, 158, 34);
+    color: #9A871D;
   }
   img {
     display: block;
@@ -46,7 +46,7 @@
     
   }
   nav {
-    background-color: grey;
+    background-color: #808080;
     text-align: left;
     box-shadow: 0 5px 15px white;
     padding-top: 0%;
@@ -55,6 +55,9 @@
     
     
 
+  }
+  nav ul li a {
+    color:white;
   }
   ul, li, ol {
     font-size: 15px;
