@@ -1,47 +1,155 @@
-@media only screen and (min-width: 34rem){
+@media only screen and (min-width: 40.5rem){
     img {
         max-width: 25%;
         margin:.5em;
         
-      }
-      img.logos {
+    }
+    img.logos {
         max-width: 7%;
         text-align: left;
         float:right;
         margin-top: 1.5em;
         margin-right: 0.7em;
-      }
-      h1 {
+    }
+    h1 {
         font-size: 3em;
         text-align: center;
         margin-top: -1.8em;
         margin-bottom: -.1em;
         margin-left: 1.5em;
         color: white;
-      }
-      h2 {
+    }
+    h2 {
         font-size: 2em;
         text-align: center;
         color: white;
         margin-left: 0.5em;
         margin-top: .3em;
-      }
-      #hamburger-btn span:nth-child(1) {display: block;}
+    }
+    nav button {
+        margin: .2rem 2vw;
+        background: transparent;
+        border: none;
+        font-size: 2rem;
+    }
+    #hamburger-btn span:nth-child(1) {display: block;}
     #hamburger-btn span:nth-child(2) {display: none;}
 
     #hamburger-btn.open span:nth-child(1) {display: none;}
-#hamburger-btn.open span:nth-child(2) {display: block;}
-nav {
-  background-color: #eee;
-}
-nav ul {display: none;}
-  nav ul.open {display: block;}
-nav ul {
-  list-style-type: none;
-}
-    nav ul#primary-nav {
+    #hamburger-btn.open span:nth-child(2) {display: block;}
+    nav ul {display: none;}
+    nav ul.open {display: block;}
+    nav ul {
         list-style-type: none;
-        display:flex;
-      }
-   
-}
+    }
+    nav ul li a{
+        display:block;
+         padding: .7rem 1.7vw;
+         text-decoration: none;
+         color:black;
+        border-top: 1px solid black;
+        font-size: 1.5em;
+    }   
+    nav ul li a:hover {
+         background-color: #444;
+        color:yellow;
+    }
+    .container {
+        display: grid;
+        grid-gap:5px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr  ;
+        text-align: center;
+        padding: 10px;
+        
+        
+        
+    }
+    .container >div{
+        padding: 2px;
+        background-color: white;
+        border:1px solid black;
+    
+    }
+    .container >div:nth-child(1) {
+        
+        text-align: left;
+        margin-left:-0em;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .container >div:nth-child(2) {
+        
+        text-align: left;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        
+        grid-row-start: 5;
+        grid-row-end: 6;
+        float: left;
+        width: 100%;
+    }
+    .container >div:nth-child(3) {
+        float: right;
+        text-align: left;
+        grid-column-start: 3;
+        
+        grid-row-start: 5;
+        grid-row-end: 6;
+        float: right;
+        width: 100%;
+        margin-right: -5em;
+    }
+    .container >div:nth-child(4) {
+        
+        visibility: visible;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    .container >div:nth-child(5) {
+        
+        text-align: left;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    
+    
+    .spotlight {
+        border:1px solid black;
+        grid-column: 1;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        
+    }
+    .spotlight >div:nth-child(1) {
+            
+        float: left;
+        width: 50%;
+        
+        
+        
+    }
+    .spotlight >div:nth-child(2) {
+        
+        float: right;
+        margin-bottom: -1em;
+        width: 50%;
+        
+        
+        
+    }
+    .spotlight >div:nth-child(3) {
+        border:1px solid black;
+        visibility: hidden;
+        
+        
+        
+    }
+    }
