@@ -13,7 +13,6 @@ body {
   margin: auto;
   border: 1px solid white;
   box-shadow:5px  5px 50px grey;
-  
 }
 
 header {
@@ -24,20 +23,19 @@ img {
   max-width: 20%;
   margin:.5em;
   border-radius: 8px;
-  
 }
 img.logos {
   max-width: 6%;
-  text-align: left;
+  text-align: center;
   float:right;
   margin-top: 1em;
   margin-right: 0.7em;
   border-radius: 30px;
 }
 h1 {
-  font-size: 2.2em;
+  font-size: 3.2em;
   text-align: center;
-  margin-top: -1.2em;
+  margin-top: -1.5em;
   margin-left: 1em;
   color: white;
 }
@@ -90,7 +88,6 @@ nav ul li a:hover {
   background-color: #444;
   color:yellow;
 }
-
 .container {
   display: grid;
   grid-gap:5px;
@@ -99,16 +96,11 @@ nav ul li a:hover {
   text-align: left;
   padding: 10px;
   
-  
-  
-  
 }
 .container >div{
   padding: 2px;
   background-color: white;
   border:1px solid #DCDCDC;
-  
- 
 }
 .container >div:nth-child(1) {
   
@@ -146,8 +138,6 @@ nav ul li a:hover {
   grid-row-start: 4;
   grid-row-end: 5;
 }
-
-
 .spotlight {
   border:1px solid #DCDCDC;
   grid-column: 1;
@@ -156,50 +146,43 @@ nav ul li a:hover {
   background-color: #E8E8E8;
 }
 .spotlight >div:nth-child(1) {
-        
-  float: center;
-  padding:50px;
-  
-  
-  
+    float: center;
+    padding:50px;
 }
 .spotlight >div:nth-child(2) {
   
-  float: center;
+    float: center;
   padding:50px;
-  margin-bottom: -1em;
-  
-  
-  
+    margin-bottom: -1em;
 }
 .spotlight >div:nth-child(3) {
-  
-  visibility: hidden;
-  
-  
-  
-}
-
-  .copyright{
-    font-size: 0.7em;
+    visibility: hidden;
   }
-  img.logos-footer {
-    max-width: 50%;
+.copyright{
+    margin-top: .5em;
+    padding-top: .5em;
+    border-top: 1px solid #909090;
+    font-size: 0.7em;
+}
+img.logos-footer {
+    max-width: 25%;
     margin:.5em;
     float:center;
     margin:.5em;
-  }
-  h3 {
-    font-size: 1.2em;
-  }
-  p.country{
+}
+h3 {
+    font-size: 1.8em;
+}
+p.country{
     color:white;
-  }
-  .map {
+}
+.map {
     color:white;
     text-align: right;
-  }
-  footer {
+    padding: 1em;
+}
+  
+footer {
     background-color: #444;
     color: yellow;
     margin-top: 2em;
@@ -208,4 +191,5 @@ nav ul li a:hover {
     border-radius: 15px;
     box-shadow: 0 0 15px black;
     border-top: 1px solid white;
-  }
+}
+  
