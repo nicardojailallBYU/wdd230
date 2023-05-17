@@ -35,6 +35,6 @@ const today = new Date();
       const year = today.getFullYear();
 
       const dateElement = document.getElementById('current-date');
-      dateElement.textContent = ` ${dayOfWeek}, ${month} ${dayOfMonth}, ${year}`;
+      dateElement.textContent = ` ${dayOfWeek}, ${dayOfMonth} ${month} , ${year}`;
 
 
