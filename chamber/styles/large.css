@@ -111,9 +111,14 @@
         width: 100%;
     }
     .spotlight >div:nth-child(2) {
+        
+        float: none;
+        
         width: 100%;
     }
     .spotlight >div:nth-child(3) {
+        
+        float: none;
         padding:50px;
         visibility:visible ;
         
