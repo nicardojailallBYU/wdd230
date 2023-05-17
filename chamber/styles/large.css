@@ -70,12 +70,10 @@
         grid-column-end: 2;
         grid-row-start: 1;
         grid-row-end: 2;
-        float: center;
         width: 100%;
     }
     .container >div:nth-child(3) {
         
-        float: center;
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 2;
