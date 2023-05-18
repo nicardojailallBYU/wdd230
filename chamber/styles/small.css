@@ -98,29 +98,43 @@ nav ul li a:hover {
   
 }
 .container >div{
-  padding: 2px;
   background-color: white;
   border:1px solid #DCDCDC;
 }
 .container >div:nth-child(1) {
   
   text-align: left;
-  margin-left:-0em;
   grid-column-start: 1;
   background-color: #E8E8E8;
   grid-row-start: 1;
   grid-row-end: 2;
 }
+
+h4 {
+  text-align: center;
+  font-size: 1.5em;
+  position:absolute;
+  color: white;
+  padding-left: 2em;
+  padding-top: 1em;
+}
 .container >div:nth-child(2) {
   
   text-align: left;
   grid-column-start: 1;
-  background-color: #E8E8E8;
+  background-color: #444;
   grid-row-start: 2;
   grid-row-end: 3;
 }
+p.p2 {
+  font-size: 1em;
+  padding-top: 100px;
+  background-color: #444;
+  color: yellow;
+  text-align: center;
+}
 .container >div:nth-child(3) {
-  background-color: #E8E8E8;
+  background-color: #909090;
   grid-column-start: 1;
   max-width: 100%;
   grid-row-start: 3;
@@ -134,9 +148,26 @@ nav ul li a:hover {
   
   text-align: left;
   grid-column-start: 1;
-  background-color: #E8E8E8;
+  background-color: #444;
   grid-row-start: 4;
   grid-row-end: 5;
+}
+h6 {
+  text-align: center;
+  font-size: 1.5em;
+  position:absolute;
+  color: white;
+  padding-left: 2em;
+  padding-top: 1em;
+
+}
+p.p4 {
+  font-size: 1em;
+  padding-top: 120px;
+  
+  color: yellow;
+  text-align: center;
+  
 }
 .spotlight {
   border:1px solid #DCDCDC;
@@ -146,11 +177,27 @@ nav ul li a:hover {
   background-color: #E8E8E8;
 }
 .spotlight >div:nth-child(1) {
-    padding:50px;
+  background-color: #909090;
+    padding:30px;
+}
+h7 {
+  text-align: center;
+  font-size: 1.5em;
+  position:absolute;
+  color: white;
+  margin-top: -.8em;
+}
+p.p5 {
+  font-size: 1em;
+  padding-top: 5px;
+  margin-top: 2em;
+  color: yellow;
+  text-align: center;
 }
 .spotlight >div:nth-child(2) {
-    padding:50px;
+    padding:40px;
     margin-bottom: -1em;
+    background-color: #444;
 }
 .spotlight >div:nth-child(3) {
     visibility: hidden;
