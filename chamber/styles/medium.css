@@ -1,14 +1,13 @@
-@media only screen and (min-width: 40.5rem){
+@media only screen and (min-width: 35.5rem){
     img {
         max-width: 22%;
-        margin:.5em;
+        
         
     }
     img.logos {
         max-width: 7%;
-        text-align: left;
         float:right;
-        margin-top: 1.5em;
+        margin-top: 0em;
         margin-right: 0.7em;
     }
     h1 {
@@ -53,9 +52,12 @@
     nav ul {
         list-style-type: none;
     }
+    nav {
+        padding: 6px;
+    }
     nav ul li a{
         display:block;
-         padding: .7rem 1.7vw;
+         padding: .8rem 1.8vw;
          text-decoration: none;
          color:black;
         border-top: 1px solid black;
@@ -75,14 +77,12 @@
     }
     .container >div{
         padding: 2px;
-        background-color: white;
-        border:1px solid #DCDCDC;
+        
     
     }
     .container >div:nth-child(1) {
         
         text-align: left;
-        margin-left:-0em;
         grid-column-start: 1;
         grid-column-end: 4;
         grid-row-start: 1;
@@ -127,26 +127,39 @@
     
     
     .spotlight {
-        border:1px solid #DCDCDC;
+        
         grid-column: 1;
         grid-column-end: 4;
         grid-row-start: 3;
         grid-row-end: 4;
         
     }
+    h7 {
+        text-align: left;
+        font-size: 1.2em;
+        position:absolute;
+        color: white;
+        margin-top: -1em;
+      }
+      p.p5 {
+        font-size: .9em;
+        padding-top: 4px;
+        margin-top: 2em;
+        color: yellow;
+        text-align: center;
+      }
     .spotlight >div:nth-child(1) {
             
         float: left;
         width: 50%;
-        
-        
-        
-    }
+        height: 100%;
+        }
     .spotlight >div:nth-child(2) {
         
         float: right;
-        margin-bottom: -1em;
         width: 50%;
+        height: 100%;
+        
     }
     .spotlight >div:nth-child(3) {
         
@@ -178,7 +191,8 @@
         background-color: #444;
         color: yellow;
         margin-top: 2em;
-        padding: 20px 0;
+        margin-bottom: -20em;
+        padding: 0em;
         text-align: center;
         border-radius: 15px;
         box-shadow: 0 0 15px black;
