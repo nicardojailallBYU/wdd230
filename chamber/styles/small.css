@@ -116,20 +116,21 @@ nav ul li a:hover {
   z-index: 1;
 }
 .container >div:nth-child(1) {
-  
-  text-align: left;
   grid-column-start: 1;
   grid-row-start: 1;
   grid-column-end: 2;
   grid-row-end: 2;
+  margin-bottom: .5em;
+  
 }
 img.guyana-pic {
-  max-width: 97%;
-  
-  
+ max-width: 100%;
+ width: 98%;
+ height: 100%;
+  display: block;
 }
 
-h4 {
+h3 {
   text-align: center;
   font-size: 1.5em;
   position:absolute;
@@ -144,11 +145,12 @@ h4 {
 }
 .container >div:nth-child(2) {
   
-  text-align: left;
+  
   grid-column-start: 1;
   background-color: #444;
   grid-row-start: 2;
   grid-row-end: 3;
+  margin-top: .3em;
 }
 p.p2 {
   font-size: 1em;
@@ -164,7 +166,7 @@ p.p2 {
   grid-row-start: 3;
   grid-row-end: 4;
 }
-h5 {
+h4 {
   text-align: center;
   font-size: 1.5em;
   position:absolute;
@@ -185,15 +187,7 @@ p.p3 {
   background-color: #444;
   visibility: hidden;
 }
-h5 {
-  text-align: center;
-  font-size: 1.5em;
-  position:absolute;
-  color: white;
-  padding-left: 2em;
-  padding-top: 1em;
 
-}
 p.p3 {
   font-size: 1em;
   padding-top: 120px;
@@ -210,7 +204,7 @@ p.p3 {
   grid-row-start: 4;
   grid-row-end: 5;
 }
-h6 {
+h3 {
   text-align: center;
   font-size: 1.5em;
   position:absolute;
@@ -244,7 +238,7 @@ p.p4 {
     padding:40px;
     border:1px solid yellow;
 }
-h7 {
+h5 {
   text-align: center;
   font-size: 1.5em;
   position:absolute;
@@ -278,11 +272,15 @@ p.p5 {
 }
 img.logos-footer {
     max-width: 25%;
-    margin:.5em;
-    margin:.5em;
+    margin: -1em;
+    float: left;
 }
-h3 {
-    font-size: 1.8em;
+p.footer-header {
+    font-size: 2em;
+    color: yellow;
+    text-align: left;
+    margin-top: -1em;
+    margin-left: 4em;
 }
 p.country{
     color:white;
@@ -290,7 +288,7 @@ p.country{
 .map {
     color:white;
     text-align: right;
-    padding: 1em;
+    margin-right: -20em;
     
 }
   

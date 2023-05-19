@@ -1,4 +1,4 @@
-@media only screen and (min-width: 60rem){
+@media only screen and (min-width: 50rem){
     #banner {
         padding: 5px;
         font-size: 11px;
@@ -137,7 +137,7 @@
         width: 100%;
         
     }
-    h3 {
+    h6 {
         font-size: 3em;
         margin-top: .1em;
     }
