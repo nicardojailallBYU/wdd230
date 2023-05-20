@@ -103,7 +103,7 @@ nav ul li a:hover {
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr  ;
   text-align: left;
   padding: 10px;
-  background-color: gold;
+  background-color:#101010;
   
 }
 .container >div{
@@ -136,8 +136,7 @@ h3 {
   font-size: 1.5em;
   position:absolute;
   color: white;
-  padding-left: 2em;
-  padding-top: 1em;
+  padding: .5em;
 }
 
 
@@ -271,7 +270,7 @@ img.logos-footer {
     margin: -1em;
     float: left;
 }
-p.footer-header {
+h6 {
     font-size: 2em;
     color: yellow;
     text-align: left;
