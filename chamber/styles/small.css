@@ -127,6 +127,7 @@ img.guyana-pic {
  max-width: 100%;
  width: 98%;
  height: 100%;
+ object-fit: cover;
   display: block;
 }
 
@@ -134,7 +135,7 @@ h3 {
   text-align: center;
   font-size: 1.5em;
   position:absolute;
-  color: #595959;
+  color: white;
   padding-left: 2em;
   padding-top: 1em;
 }
@@ -144,8 +145,6 @@ h3 {
   display: none;
 }
 .container >div:nth-child(2) {
-  
-  
   grid-column-start: 1;
   background-color: #444;
   grid-row-start: 2;
@@ -165,6 +164,11 @@ p.p2 {
   max-width: 100%;
   grid-row-start: 3;
   grid-row-end: 4;
+}
+p.weather {
+  color: yellow;
+  text-align: center;
+  margin-top: 4em;
 }
 h4 {
   text-align: center;
@@ -204,15 +208,7 @@ p.p3 {
   grid-row-start: 4;
   grid-row-end: 5;
 }
-h3 {
-  text-align: center;
-  font-size: 1.5em;
-  position:absolute;
-  color: white;
-  padding-left: 2em;
-  padding-top: 1em;
 
-}
 p.p4 {
   font-size: 1em;
   padding-top: 90px;
