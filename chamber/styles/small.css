@@ -36,7 +36,7 @@ img.logos {
   max-width: 8%;
   float:right;
   border-radius: 5px;
-  margin-top: -0em;
+  margin-top: .5em;
   
 }
 h1 {
@@ -49,7 +49,7 @@ h1 {
 h2 {
   font-size: 1.5em;
   text-align: center;
-  color: white;
+  color: yellow;
   margin-left: 0.5em;
   margin-top: -1em;
 }
@@ -86,7 +86,7 @@ nav ul {
 }
 nav ul li a{
   display:block;
-  padding: .7rem 1.7vw;
+  padding: .6rem 2.8vw;
   text-decoration: none;
   color:black;
   border-top: 1px solid black;
@@ -134,7 +134,7 @@ h3 {
   text-align: center;
   font-size: 1.5em;
   position:absolute;
-  color: white;
+  color: #595959;
   padding-left: 2em;
   padding-top: 1em;
 }
@@ -215,7 +215,7 @@ h3 {
 }
 p.p4 {
   font-size: 1em;
-  padding-top: 120px;
+  padding-top: 90px;
   
   color: yellow;
   text-align: center;
@@ -240,7 +240,7 @@ p.p4 {
 }
 h5 {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.4em;
   position:absolute;
   color: white;
   margin-top: -.8em;
@@ -280,7 +280,7 @@ p.footer-header {
     color: yellow;
     text-align: left;
     margin-top: -1em;
-    margin-left: 4em;
+    margin-left: 3em;
 }
 p.country{
     color:white;
@@ -288,7 +288,7 @@ p.country{
 .map {
     color:white;
     text-align: right;
-    margin-right: -20em;
+    margin-right: -13em;
     
 }
   
@@ -296,7 +296,7 @@ footer {
   height: 21em;
     background-color: #444;
     color: yellow;
-    margin-top: -2.5em;
+    margin-top: -.3em;
     padding: 2em;
     text-align: center;
     border-radius: 15px;

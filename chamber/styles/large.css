@@ -10,7 +10,7 @@
     nav button{display: none;}
     nav ul {
         display: flex;
-        margin-left: 2.5vw;
+        margin-left: .1vw;
         border-left: 1px solid;
     }
     nav ul li a {
@@ -21,17 +21,16 @@
         
         font-size: 5.2em;
         text-align: center;
-        margin-left: 1.8em;;
+        margin-left: 1em;;
     }
     h2 {
         font-size: 2em;
-        margin-left: 4em;;
+        margin-left: 2em;;
     }
     img.logos {
         border-radius: 15px;
         float: right;
         max-width: 5%;
-        margin-top: .5em;
       }
 
     img.logos-footer {
@@ -42,7 +41,7 @@
     
     nav ul li a{
         display:block;
-         padding: .8rem 3vw;
+         padding: .6rem 2.8vw;
          text-decoration: none;
          color:black;
         border-top: 1px solid black;
@@ -137,21 +136,24 @@
         width: 100%;
         
     }
-    h6 {
-        font-size: 3em;
-        margin-top: .1em;
+    p.footer-header {
+        font-size: 2em;
+        color: yellow;
+        text-align: center;
+        margin-top: 1em;
+       
     }
     p.country{
         color:white;
         text-align: right;
-        margin-right: 1.5em;
-        margin-top: -3em;
+        margin-right: 2.5em;
+        margin-top: -.5em;
     }
     .copyright{
         font-size: 1.4em;
         margin-top: -.5em;
-        margin-top: .5em;
-        padding-top: .5em;
+        margin-top: 0em;
+        padding-top: 0em;
         border-top: 1px solid #909090;
       }
       .map {
@@ -161,14 +163,12 @@
         margin-bottom: -3em;
       }
     footer {
-        padding-top: 1em;
+        padding-top: .5em;
         background-color: #444;
         color: yellow;
-        text-align: center;
         border-radius: 15px;
         box-shadow: 0 0 15px black;
-        border-top: 1px solid white;
-        margin-top: .6em;
+        margin-top: -.1em;
         
     }
     
