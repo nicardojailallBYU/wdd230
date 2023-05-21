@@ -187,15 +187,23 @@ p.p3 {
   
 }
 .container >div:nth-child(4) {
-  background-color: #444;
+  background-color: white;
   visibility: hidden;
+  border: 1px solid gold;
+}
+.join-pic {
+  float: center;
+  max-width: 95%;
+  width: 100%;
+  height: 95%;
+  
 }
 
 p.p3 {
   font-size: 1em;
-  padding-top: 120px;
+  margin-top:-13em;
   
-  color: yellow;
+  color: goldenrod;
   text-align: center;
   
 }
@@ -206,6 +214,9 @@ p.p3 {
   background-color: #444;
   grid-row-start: 4;
   grid-row-end: 5;
+}
+.news-pic {
+  float: right;
 }
 
 p.p4 {
