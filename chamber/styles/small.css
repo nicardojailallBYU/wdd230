@@ -112,7 +112,7 @@ nav ul li a:hover {
   border-radius: 15px;
 }
 .container >div:hover {
-  transform: scale(1.3);
+  transform: scale(1.1);
   z-index: 1;
 }
 .container >div:nth-child(1) {
@@ -125,17 +125,16 @@ nav ul li a:hover {
 }
 img.guyana-pic {
  max-width: 100%;
- width: 98%;
+ width: 100%;
  height: 100%;
- object-fit: cover;
-  display: block;
+
 }
 
 h3 {
   text-align: center;
   font-size: 1.5em;
   position:absolute;
-  color: white;
+  color: black;
   padding: .5em;
 }
 
@@ -158,17 +157,46 @@ p.p2 {
   text-align: center;
 }
 .container >div:nth-child(3) {
-  background-color: #444;
+  background-color: #444 ;
   grid-column-start: 1;
   max-width: 100%;
   grid-row-start: 3;
   grid-row-end: 4;
 }
-p.weather {
-  color: yellow;
+.w-header {
+  
+  color: white;
   text-align: center;
-  margin-top: 4em;
+  padding: 1em;
+  width: 18.2%;
+  border-radius: 8px;
 }
+.weather {
+  text-align: left;
+  margin-top: 6em;
+  color:yellow;
+}
+#temperature {
+  float:right;
+  font-size: 2em;
+  margin-top: -1em;
+  color: yellow;
+  
+}
+#conditions {
+  float:center;
+  border-bottom: 1px solid white;
+  font-size: 1.5em;
+  color: yellow;
+}
+#wind-speed {
+  color:white;
+  margin-top: 10px;
+}
+#wind-chill{
+  color: white;
+}
+
 h4 {
   text-align: center;
   font-size: 1.5em;
@@ -192,7 +220,6 @@ p.p3 {
   border: 1px solid gold;
 }
 .join-pic {
-  float: center;
   max-width: 95%;
   width: 100%;
   height: 95%;
@@ -235,7 +262,7 @@ p.p4 {
   
 }
 .spotlight >div:hover {
-    transform: scale(1.1);
+    transform: scale(1.01);
     z-index: 1;
   
 } 

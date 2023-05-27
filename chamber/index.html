@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="styles/small.css">
         <link rel="stylesheet" href="styles/medium.css">
         <link rel="stylesheet" href="styles/large.css">
-        <link rel="icon" href="images/favicon (1).ico"/>
+        <link rel="icon" href="images/favicon.ico">
   </head>
   <body>
     
@@ -59,16 +59,33 @@
         
             <div class="grid-item">
             <h3>Welcome to truefind</h3> 
-            <img class="guyana-pic" src="images/georgetown.jpg" alt="guyana-pic">
+            <picture>
+                <source media="(min-width:800px)" srcset="images/wdd230-01.webp">
+            <source media="(min-width:520px)" srcset="images/wdd230-02.webp">
+            <source media="(min-width:300px)" srcset="images/wdd230-03.webp">
+            <img class="guyana-pic" src="images/wdd230-org.webp" alt="guyana-pic ">
+            </picture>
+            
+            
             </div>
             <div class="grid-item">
                 <h4>Interractive Meeting</h4> 
                 <p class="p2">Come and find out how we can help you and with information of all companies involved <br>@truefind car park<br><b>Time 2:00pm</b></p> 
             </div>  
             <div class="grid-item">
-                <img class="weather-pic" src="images/weather.PNG" alt="weather-pic">
-                <h4>Weather</h4>
-                <p class="weather"> Cloudy<br>Wind Speed : 2.5 km/h<br>Wind Chill: N/A</p>
+                
+                <h4 class="w-header">Weather</h4>
+                
+                <div class="weather">
+
+                <p id="temperature"> </p>
+                <p id="conditions">Conditions: </p>
+                <p id="wind-speed">test</p>
+                <p>Wind Chill: <span id="windChill"></span>&deg;</p>
+                </div>
+                
+                
+                
             </div>
             <div class="grid-item">
                 <img class="join-pic" src="images/join-us.PNG" alt="join-pic">
@@ -122,6 +139,6 @@
 </footer>
 <script src="scripts/main.js"></script>
 <script src="scripts/banner.js"></script>
-
+<script src="scripts/windchill.js"></script>
 </body>
 </html>

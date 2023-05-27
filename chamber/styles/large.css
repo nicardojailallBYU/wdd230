@@ -1,7 +1,7 @@
 @media only screen and (min-width: 50rem){
     #banner {
-        padding: 5px;
-        font-size: 11px;
+        padding: 7px;
+        font-size: 13px;
       }
       img {
         max-width: 20%;
@@ -21,7 +21,8 @@
         
         font-size: 5.2em;
         text-align: center;
-        margin-left: 1em;;
+        margin-top: -1em;
+        margin-left: 1em;
     }
     h2 {
         font-size: 2em;
@@ -70,8 +71,10 @@
         
     }
     img.guyana-pic {
-        max-width: 97%;
+        max-width: 100%;
+        width:100% ;
         height: 25em;
+        
         
         
       }
