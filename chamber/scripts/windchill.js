@@ -1,5 +1,5 @@
 
-fetch("https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/georgetown?unitGroup=us&key=KUTXBUEGB9SZZXYUCFVSXPZSK&contentType=json")
+fetch("https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/georgetown%20guyana?unitGroup=metric&key=7VZBR9QQ78M7G9R9HKPWV322E&contentType=json")
   .then(response => response.json())
   .then(data => {
     const temperature = data.currentConditions.temp;
@@ -14,7 +14,7 @@ fetch("https://weather.visualcrossing.com/VisualCrossingWebServices/rest/service
 
     temperatureElement.textContent = ` ${temperature}°C`;
     conditionsElement.textContent = ` ${conditions}`;
-    windspeedElement.textContent = ` Wind Speed: ${windspeed}km/h`;
+    windspeedElement.textContent = ` Wind Speed: ${windspeed} km/h`;
 
     if (iconElement) {
       iconElement.src = icon;
