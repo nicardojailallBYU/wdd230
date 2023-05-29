@@ -11,6 +11,7 @@ fetch("https://weather.visualcrossing.com/VisualCrossingWebServices/rest/service
     const conditionsElement = document.getElementById('conditions');
     const windspeedElement = document.getElementById('wind-speed');
     const iconElement = document.getElementById('weather-icon');
+    const windChillElement = document.getElementById('windChill');
 
     temperatureElement.textContent = ` ${temperature}°C`;
     conditionsElement.textContent = ` ${conditions}`;
@@ -20,16 +21,18 @@ fetch("https://weather.visualcrossing.com/VisualCrossingWebServices/rest/service
       iconElement.src = icon;
       iconElement.alt = 'weather-icon';
     }
+
+    // Calculate wind chill
+    const temp = parseFloat(temperature);
+    const wSpeed = parseFloat(windspeed);
+    const windchill = (35.74 + (0.6215 * temp)) - (35.75 * Math.pow(wSpeed, 0.16)) + (0.4275 * temp * Math.pow(wSpeed, 0.16));
+    const windChill = Math.round(windchill);
+    windChillElement.textContent = `${windChill}°C`;
   })
   .catch(error => {
     console.error('Error fetching weather data:', error);
   });
 
-  
-  var temp= temperature;
-var wSpeed= windspeedElement.textContent;
-var windchill= (35.74 + (0.6215 * temp))-(35.75 * Math.pow(wSpeed,0.16)) + (0.4275*temp*Math.pow(wSpeed,0.16));
 
-var windChill= Math.round(windchill);
-document.getElementById("windChill").innerHTML= windChill;
+
   

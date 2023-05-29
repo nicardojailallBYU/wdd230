@@ -151,7 +151,7 @@ h3 {
 }
 p.p2 {
   font-size: 1em;
-  padding-top: 100px;
+  padding-top: 60px;
   background-color: #444;
   color: yellow;
   text-align: center;
@@ -198,12 +198,12 @@ p.p2 {
 }
 
 h4 {
-  text-align: center;
+  text-align: left;
   font-size: 1.5em;
   position:absolute;
   color: white;
-  padding-left: 2em;
-  padding-top: 1em;
+  padding-left: .7em;
+  padding-top: .7em;
   
 }
 p.p3 {
@@ -270,24 +270,25 @@ p.p4 {
   background-color: #6B6B6B;
     padding:40px;
     border:1px solid yellow;
+    margin-bottom: .5em;
 }
 h5 {
-  text-align: center;
+  text-align: left;
   font-size: 1.4em;
   position:absolute;
   color: white;
-  margin-top: -.8em;
+  margin-top: -.9em;
 }
 p.p5 {
   font-size: 1em;
   padding-top: 5px;
-  margin-top: 2em;
+  margin-top: 1.5em;
   color: yellow;
   text-align: center;
 }
 .spotlight >div:nth-child(2) {
     padding:40px;
-    margin-bottom: -1em;
+    margin-bottom: -.5em;
     background-color: #444;
     border:1px solid yellow;
 }
