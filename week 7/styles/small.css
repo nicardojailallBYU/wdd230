@@ -9,6 +9,7 @@ body {
  
 }
 h1 {
+  font-size: 1.7em;
   color: black;
   text-align: center;
 }
@@ -22,18 +23,19 @@ h1 {
 img {
   width: 300px;
   height: 400px;
-  transition: opacity 0.5s;
+  opacity: 0;
+  transition: opacity 4s; 
   box-shadow: 2px 2px 4px yellow;
+  animation: showPlaceholder 5s ease-out forwards;
 }
 
 img:not([src]) {
-  opacity: 0;
-}
-img[data-src] {
-  filter: blur(0.6em);
+  opacity: 4;
 }
 
-img{
-  filter: blur(0em);
-  transition: filter 2s;
+@keyframes showPlaceholder {
+  0% {
+    opacity: 1;
+  }
+  
 }
