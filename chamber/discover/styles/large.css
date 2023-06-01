@@ -64,20 +64,22 @@
         margin-left: 4em;
       }
       .geo{
-        max-width: 98%;
+        max-width: 91%;
+        width: 90em;
         height: 35em;
         margin-left: 3em;
         
       }
-   
+   .container {
+        height: 63em;
+   }
    .container img:hover {
     transform: scale(1.1);
     box-shadow: 3px 0px 10px rgb(43, 15, 15);
   }
   #map {
-    display: flex;
+    
     max-width: 70%;
-    width: 100em;
     height: 15em;
     float: left;
     margin: 0;
