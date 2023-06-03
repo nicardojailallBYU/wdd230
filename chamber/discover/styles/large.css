@@ -47,16 +47,16 @@
         font-size: 1.5em;
     } 
     h3 {
-        color:white;
+        color:#858585;
         position: absolute;
         margin: 1em;
-        margin-left: 2em;
+        margin-left: 3em;
         font-size: 2em;
       }
       .p-geo {
-        font-size: 16px;
+        font-size: 1.2em;
         position: absolute;
-        color: white;
+        color: #858585;
         margin-top: 5em;
         margin-left: 4em;
       }
