@@ -38,42 +38,21 @@ const today = new Date();
       dateElement.textContent = ` ${dayOfWeek}, ${dayOfMonth} ${month} , ${year}`;
 
 
-      const imageObserver = new IntersectionObserver((entries, observer) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            const img = entry.target;
-            const src = img.getAttribute("data-src");
-            const placeholderDuration = 1000; 
       
-            if (src) {
-              setTimeout(() => {
-                img.src = src;
-                img.removeAttribute("data-src");
-                img.addEventListener("load", () => {
-                  img.style.opacity = 1;
-                  img.style.transition = "opacity 0.5s";
-                });
-                img.addEventListener("error", () => {
-                  img.style.opacity = 1;
-                  img.style.transition = "opacity 0.5s";
-                });
-              }, placeholderDuration);
-            }
-      
-            observer.unobserve(img);
+
+      document.addEventListener("DOMContentLoaded", function() {
+        if (typeof(Storage) !== "undefined") {
+          const currentDate = new Date();
+          const currentDay = Math.floor(currentDate.getTime() / (24 * 60 * 60 * 1000)); 
+ 
+          let lastVisitDay = localStorage.getItem("lastVisitDay");
+        
+          if (lastVisitDay) {
+            const daysSinceLastVisit = currentDay - parseInt(lastVisitDay);
+        
+            const daysElement = document.getElementById("daysSinceLastVisit");
+            daysElement.textContent = `Days since last visit: ${daysSinceLastVisit}`;
           }
-        });
+          localStorage.setItem("lastVisitDay", currentDay.toString());
+        }
       });
-      
-      const images = document.querySelectorAll("img[data-src]");
-      images.forEach((img) => {
-        img.style.opacity = 0;
-        imageObserver.observe(img);
-      });
-
-      const image = document.getElementById('map');
-const paragraph = document.getElementById('p-map');
-
-image.addEventListener('load', () => {
-  paragraph.style.left = '0';
-});

@@ -17,10 +17,8 @@
     
         
     <header>
-        <div id="banner" class="hidden">
-            🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
-        </div>
-            <img src="images/logo.PNG" alt="site-logo">
+        
+            <img src="images/logo.webp" alt="site-logo">
             <h1>truefind</h1>
       <h2>Chamber of Commerce</h2>
             <a href="https://www.facebook.com" target="blank"><img class="logos" src="images/facebook.PNG" alt="facebook"></a>
@@ -57,21 +55,23 @@
     <main>
         <h3>Georgetown</h3>
         <p class="p-geo"> <b>Guyana's Capital City</b><br><b>Area: 70 km²</b><br><b>Location:South America Coastline</b></p>
-        <img class="geo" src="images/placeholder.webp" alt="pic of georgetown" data-src="images/georgetown.jpg">
+        <img id="geo" src="images/placeholder.webp" alt="pic of georgetown" data-src="images/georgetown.webp" loading="lazy">
         <div class="container">
-            <img id="map" src="images/placeholder.webp" alt="map of guyana" data-src="images/map.PNG">
             
-            <img id="flag" src="images/placeholder.webp" alt="flag of guyana" data-src="images/flag.PNG">
-            <img id="coat-of-arms" src="images/placeholder.webp" alt="coat of arms" data-src="images/coat-of-arms.PNG">
-            <img id="umana-yana" src="images/placeholder.webp" alt="umana yana" data-src="images/umana-yana.PNG">
+            <img id="map" src="images/placeholder.webp" alt="map of guyana" data-src="images/map.webp" loading="lazy">
+            
+            <img id="flag" src="images/placeholder.webp" alt="flag of guyana" data-src="images/flag.webp" loading="lazy">
+            <img id="coat-of-arms" src="images/placeholder.webp" alt="coat of arms" data-src="images/coat-of-arms.webp" loading="lazy">
+            <img id="umana-yana" src="images/placeholder.webp" alt="umana yana" data-src="images/umana-yana.webp" loading="lazy">
+            <p id="daysSinceLastVisit"></p>
             </div>
 
-       
+            
 
     </main>
     
       <footer>
-        <img class="logos-footer" src="images/logo.PNG" alt="site-logo">
+        <img class="logos-footer" src="images/logo.webp" alt="site-logo">
         <a class="map" href="https://www.google.com/maps/place/Co%CF%85n%D1%82y%D1%95+P%D0%BDar%D0%BCacy+And+S%CF%85per%D0%BCar%C4%B8e%D1%82/@6.7226474,-58.2549298,17z/data=!4m6!3m5!1s0x8daffbbf79f7024f:0xd5d389acdc352f68!8m2!3d6.7252334!4d-58.2544641!16s%2Fg%2F11c2qfvc7_" target="blank">📍
             Location</a>
         <h4>truefind <br>Chamber of Commerce<br></h4>
@@ -89,5 +89,6 @@
 </footer>
 <script src="scripts/main.js"></script>
 <script src="scripts/banner.js"></script>
+<script src="scripts/lazy-load.js"></script>
 </body>
 </html>

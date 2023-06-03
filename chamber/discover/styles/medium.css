@@ -101,36 +101,37 @@
   }
   #map {
     display: flex;
-    max-width: 70%;
+    max-width: 80%;
     width: 100em;
     height: 15em;
     float: left;
-    margin: 0;
-    margin-left: 4em;
+    margin: .8em;
+    margin-left: 2.5em;
+    
   }
   #flag {
     display: flex;
-    max-width: 66%;
+    max-width: 76%;
     width: 100em;
     height: 15em;
     float: left;
-    margin: 5px;
-    margin-left: 4em;
+    margin: .8em;
+    margin-left: 2.5em;
   }
   #coat-of-arms {
     display: flex;
-    max-width: 61%;
+    max-width: 71%;
     width: 100em;
     height: 15em;
     float: left;
-    margin: 0;
-    margin-left: 4em;
+    margin: .8em;
+    margin-left: 2.5em;
   }
   #umana-yana {
-    max-width: 56%;
+    max-width: 66%;
     width: 100em;
     height: 15em;
-    margin-left: 4em;
+    margin-left: 2.5em;
   }
     p.country{
         color:white;
@@ -146,7 +147,7 @@
         margin-right: 2em;
         margin-top: 1em;
     }
-    h6 {
+    h4 {
         font-size: 2em;
         color: yellow;
         text-align: center;

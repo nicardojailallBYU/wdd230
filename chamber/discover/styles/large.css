@@ -1,8 +1,5 @@
 @media only screen and (min-width: 50rem){
-    #banner {
-        padding: 7px;
-        font-size: 13px;
-      }
+    
       img {
         max-width: 20%;
         border-radius: 8px;
@@ -63,7 +60,7 @@
         margin-top: 5em;
         margin-left: 4em;
       }
-      .geo{
+      #geo{
         max-width: 91%;
         width: 90em;
         height: 35em;
@@ -109,8 +106,11 @@
     height: 15em;
     margin-left: 4em;
   }
-  
-    h6 {
+  #daysSinceLastVisit {
+    
+    margin-top: -1em;
+  }
+    h4 {
         font-size: 2em;
         color: yellow;
         text-align: center;
