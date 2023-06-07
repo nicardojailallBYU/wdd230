@@ -1,0 +1,165 @@
+@media only screen and (min-width: 50rem){
+    #banner {
+        padding: 7px;
+        font-size: 13px;
+      }
+      img {
+        max-width: 20%;
+        border-radius: 8px;
+      }
+    nav button{display: none;}
+    nav ul {
+        display: flex;
+        margin-left: .1vw;
+        border-left: 1px solid;
+    }
+    nav ul li a {
+        border: none;
+        border-right: 1px solid;
+    }
+    h1 {
+        
+        font-size: 5.2em;
+        text-align: center;
+        margin-top: -1em;
+        margin-left: 1em;
+    }
+    h2 {
+        font-size: 2em;
+        margin-left: 2em;;
+    }
+    h4 {
+        font-size: 1.1em;
+        text-align: left;
+        padding-left: .3em;
+    }
+    img.logos {
+        border-radius: 15px;
+        float: right;
+        max-width: 5%;
+      }
+
+    img.logos-footer {
+        max-width: 20%;
+        margin:.5em;
+        float:left;
+    }
+    
+    nav ul li a{
+        display:block;
+         padding: .6rem 2.8vw;
+         text-decoration: none;
+         color:black;
+        border-top: 1px solid black;
+        font-size: 1.5em;
+    } 
+    
+    h6 {
+        font-size: 2em;
+        color: yellow;
+        text-align: center;
+        margin-top: 1em;
+       
+    }
+    p.country{
+        color:white;
+        text-align: right;
+        margin-right: 2.5em;
+        margin-top: -.5em;
+    }
+    .copyright{
+        font-size: 1.4em;
+        margin-top: -.5em;
+        margin-top: 0em;
+        padding-top: 0em;
+        border-top: 1px solid #909090;
+      }
+      .map {
+        color:white;
+        float: right;
+        margin-right: 1em;
+        margin-bottom: -3em;
+      }
+    footer {
+        padding-top: .5em;
+        background-color: #444;
+        color: yellow;
+        border-radius: 15px;
+        box-shadow: 0 0 15px black;
+        margin-top: -.1em;
+        
+    }
+    .join-hr {
+        border: none;
+        background-color: gold;
+        height: 2px;
+      }
+      
+      .join-main {
+        margin: 0 auto;
+        margin-top: 30px;
+      }
+      
+      .join-form-wrapper {
+        margin: 0 auto;
+        width:60%;
+        border: 2px solid black;
+        border-radius: 10px;
+        background-color: #444;
+        max-width: 100%;
+      }
+      
+      .join-form {
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        gap: 10px;
+      }
+      
+      .join-main p {
+        text-align: center;
+        color: blue;
+        margin: 0 auto;
+        margin-bottom: 20px;
+      }
+      
+      .join-main h1 {
+        text-align: center;
+        margin: 0 auto;
+        color: gold;
+      }
+      
+      label {
+        display: flex;
+        flex-direction: column;
+        color: yellow;
+        max-width: 100%;
+      }
+      
+      .first-label {
+        margin-top: 20px;
+      }
+      
+      input, select, textarea {
+        padding: 10px;
+        font-size: 1em;
+        border-radius: 10px;
+      }
+      
+      input[type="submit"] {
+        cursor: pointer;
+        margin-bottom: 40px;
+        background-color: yellow;
+        color: black;
+        font-weight: bold;
+        border-radius: 10px;
+        max-width: 100%;
+      }
+      .email {
+        font-size: 1em;
+      }
+      input[type="submit"]:hover {
+        background-color: darkgreen;
+      }
+    
+}
