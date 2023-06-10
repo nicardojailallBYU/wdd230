@@ -1,0 +1,152 @@
+@media only screen and (min-width: 50rem){
+    
+      img {
+        max-width: 20%;
+        border-radius: 8px;
+      }
+    nav button{display: none;}
+    nav ul {
+        display: flex;
+        margin-left: .1vw;
+        border-left: 1px solid;
+    }
+    nav ul li a {
+        border: none;
+        border-right: 1px solid;
+    }
+    h1 {
+        
+        font-size: 5.2em;
+        text-align: center;
+        margin-top: -1em;
+        margin-left: 1em;
+    }
+    h2 {
+        font-size: 2em;
+        margin-left: 2em;;
+    }
+   
+    img.logos {
+        border-radius: 15px;
+        float: right;
+        max-width: 5%;
+      }
+
+    img.logos-footer {
+        max-width: 20%;
+        margin:.5em;
+        float:left;
+    }
+    
+    nav ul li a{
+        display:block;
+         padding: .6rem 2.8vw;
+         text-decoration: none;
+         color:black;
+        border-top: 1px solid black;
+        font-size: 1.5em;
+    } 
+    h3 {
+        color:#858585;
+        position: absolute;
+        margin: 1em;
+        margin-left: 3em;
+        font-size: 2em;
+      }
+      .p-geo {
+        font-size: 1.2em;
+        position: absolute;
+        color: #858585;
+        margin-top: 5em;
+        margin-left: 4em;
+      }
+      #geo{
+        max-width: 91%;
+        width: 90em;
+        height: 35em;
+        margin-left: 3em;
+        
+      }
+      #geo:hover {
+        transform: scale(1.1);
+      }
+   .container {
+        height: 63em;
+   }
+   .container img:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 0px 10px rgb(43, 15, 15);
+  }
+  #map {
+    
+    max-width: 70%;
+    height: 15em;
+    float: left;
+    margin: 0;
+    margin-left: 4em;
+  }
+  #flag {
+    display: flex;
+    max-width: 66%;
+    width: 100em;
+    height: 15em;
+    float: left;
+    margin: 5px;
+    margin-left: 4em;
+  }
+  #coat-of-arms {
+    display: flex;
+    max-width: 61%;
+    width: 100em;
+    height: 15em;
+    float: left;
+    margin: 0;
+    margin-left: 4em;
+  }
+  #umana-yana {
+    max-width: 56%;
+    width: 100em;
+    height: 15em;
+    margin-left: 4em;
+  }
+  #daysSinceLastVisit {
+    
+    margin-top: -1em;
+  }
+    h4 {
+        font-size: 2em;
+        color: yellow;
+        text-align: center;
+        margin-top: 1em;
+       
+    }
+    p.country{
+        color:white;
+        text-align: right;
+        margin-right: 2.5em;
+        margin-top: -.5em;
+    }
+    .copyright{
+        font-size: 1.4em;
+        margin-top: -.5em;
+        margin-top: 0em;
+        padding-top: 0em;
+        border-top: 1px solid #909090;
+      }
+      .map {
+        color:white;
+        float: right;
+        margin-right: 1em;
+        margin-bottom: -3em;
+      }
+    footer {
+        padding-top: .5em;
+        background-color: #444;
+        color: yellow;
+        border-radius: 15px;
+        box-shadow: 0 0 15px black;
+        margin-top: -.1em;
+        
+    }
+    
+}
