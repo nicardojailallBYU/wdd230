@@ -115,16 +115,17 @@
         padding: .5em;
       }
       fieldset {
-        background-color: #585656;
-        color: yellow;
+        background-color: #dfdcdc;
+        color: blue;
       }
       .p1 {
         font-size: 1.3em;
         padding-bottom: 1em;
-        color: blue;
+        color: rgb(77, 77, 172);
       }
       .check-mark {
-        color: red;
+        color:rgb(129, 10, 10);
+        font-size: 1em;
       }
       label input[type="radio"] {
         float: left;
