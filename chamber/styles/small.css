@@ -134,7 +134,7 @@ h3 {
   text-align: center;
   font-size: 1.5em;
   position:absolute;
-  color: black;
+  color: red;
   padding: .5em;
 }
 
@@ -197,7 +197,7 @@ p.p2 {
   color: white;
 }
 
-h4 {
+.w-header {
   text-align: left;
   font-size: 1.5em;
   position:absolute;
