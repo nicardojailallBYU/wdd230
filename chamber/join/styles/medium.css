@@ -106,68 +106,16 @@
         box-shadow: 0 0 15px black;
         border-top: 1px solid white;
         }
+        .large-divider {
+            
+            height: 52em;
+          }
         .join-form-wrapper {
-            margin: 0 auto;
-            width:60%;
-            border: 2px solid black;
-            border-radius: 10px;
             background-color: #444;
-            max-width: 100%;
+            padding-top: 2em;
+            padding-left: 4em;
+            margin-left: 4em;
+            margin-right: 6em;
+            
           }
-          
-          .join-form {
-            width: 80%;
-            margin: 0 auto;
-            display: grid;
-            gap: 10px;
-          }
-          
-          .join-main p {
-            text-align: center;
-            color: blue;
-            margin: 0 auto;
-            margin-bottom: 20px;
-          }
-          
-          .join-main h1 {
-            text-align: center;
-            margin: 0 auto;
-            color: gold;
-          }
-          
-          label {
-            display: flex;
-            flex-direction: column;
-            color: yellow;
-            max-width: 100%;
-          }
-          
-          .first-label {
-            margin-top: 20px;
-          }
-          
-          input, select, textarea {
-            padding: 10px;
-            font-size: 1em;
-            border-radius: 10px;
-          }
-          
-          input[type="submit"] {
-            cursor: pointer;
-            margin-bottom: 40px;
-            background-color: yellow;
-            color: black;
-            font-weight: bold;
-            border-radius: 10px;
-            max-width: 100%;
-          }
-          .email {
-            font-size: 1em;
-          }
-          input[type="submit"]:hover {
-            background-color: darkgreen;
-          }
-          .mem-lvl {
-            visibility: hidden;
-          }
-    }
+}

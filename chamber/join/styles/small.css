@@ -141,91 +141,77 @@ footer {
     box-shadow: 0 0 15px black;
     border-top: 1px solid white;
 }
-.large-divider {
+
+  .large-divider {
     display: grid;
-    grid-template-columns: 1fr; /* Updated value for column proportions */
+    grid-template-columns: 1fr;
+    height: 53em;
+  }
+  .mem-lvl {
+    visibility: hidden;
     
   }
-  
-  .join-main {
-    margin: 0 auto;
-    margin-top: 30px;
-  }
-  
-  .join-form-wrapper {
-    margin: 0 auto;
-    width:65%;
-    border: 2px solid black;
-    border-radius: 10px;
+  .member {
+    text-align: center;
     background-color: #444;
-    max-width: 100%;
-   
+    border-radius: 1em;
+    border: 1px solid yellow;
+    
   }
-  
+  .join-form-wrapper {
+    background-color: #444;
+    padding-top: 2em;
+    padding-left: 4em;
+    margin: 2em;
+    border-radius: 1em;
+    
+  }
   .join-form {
     width: 80%;
-    margin: 0 auto;
-    display: grid;
-    gap: 10px;
+    gap: 20px;
   }
-  
-  .join-main p {
-    text-align: center;
-    color: blue;
-    margin: 0 auto;
-    margin-bottom: 20px;
-  }
-  
-  .join-main h1 {
-    text-align: center;
-    margin: 0 auto;
-    color: gold;
-  }
-  
   label {
     display: flex;
     flex-direction: column;
     color: yellow;
-    max-width: 85%;
+    max-width: 100%;
   }
   label input[type="radio"] {
+    float: left;
     order: -1;
-    margin-right: 25em;
+    margin-left: -14em;
   }
-  .first-label {
-    margin-top: 20px;
-  }
-  
   input, select, textarea {
     padding: 10px;
     font-size: 1em;
     border-radius: 10px;
   }
-  
   input[type="submit"] {
     cursor: pointer;
-    margin-bottom: 40px;
+    margin-top: 1em;
+    margin-bottom: 10px;
     background-color: yellow;
     color: black;
     font-weight: bold;
     border-radius: 10px;
     max-width: 85%;
   }
-  .email {
-    font-size: .9em;
-  }
   input[type="submit"]:hover {
     background-color: darkgreen;
   }
+  .email {
+    font-size: .9em;
+  }
+  .memb {
+    border: 1px solid yellow;
+    padding: 5px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: #585656;
+    border-radius: 1em;
+  }
   .member {
-    color: black;
-    background-color: yellow;
-    padding:8px;
-  }
-  .mem-lvl {
-    margin-top: -27em;
-    visibility: hidden;
-  }
-  fieldset {
-    background-color: #444;
+    font-size: 1em;
+    padding: 5px;
+    color: yellow;
   }

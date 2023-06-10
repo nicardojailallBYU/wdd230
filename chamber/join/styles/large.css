@@ -92,44 +92,42 @@
     }
     .large-divider {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr; /* Updated value for column proportions */
-        
+        grid-template-columns: 1fr 1fr 1fr 1fr;
       }
-    .join-form-wrapper{
-        margin-top: 2em;
+      .mem-lvl {
+        visibility: visible;
+        grid-column-start: 4;
+        margin-right: 1em;
+        margin-top: 3em;
+      }
+      .join-form-wrapper {
+        background-color: #444;
+        padding: 2em;
+        padding-left: 6em;
+        margin-left: 4em;
+        margin-right: 6em;
         grid-column-start: 1;
         grid-column-end: 4;
-    }
-      
-    
-      .mem-lvl {
-        max-width: 20%;
-        visibility:visible ;
-         grid-column-start: 4; /* Added style for .mem-lvl to start at column 2 */
-        grid-column-end: 5; /* Added style for .mem-lvl to end at column 3 */
-        position: absolute;
-        right: 0;
-        margin-top: -50em;
-        margin-right: 5em;
-        
-      }
-      .p1{
-        font-size: 1.5em;
-        color: blue;
-        margin-bottom: 1em;
       }
       .ml {
-        font-size: 1.2em;
-        color: rgb(224, 21, 89);
-      }
-      .field-set {
-        background-color: #EBEBEB;
+        background-color: yellow;
+        color: #642727;
+        padding: .5em;
       }
       fieldset {
-        background-color: #444;
+        background-color: #585656;
+        color: yellow;
+      }
+      .p1 {
+        font-size: 1.3em;
+        padding-bottom: 1em;
+        color: blue;
       }
       .check-mark {
-        color: rgb(224, 21, 89);
+        color: red;
       }
-    
+      label input[type="radio"] {
+        float: left;
+        order: -1;
+      }
 }
