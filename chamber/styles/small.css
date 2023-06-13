@@ -9,7 +9,7 @@ body {
   line-height: 1.3;
   color: #333;
   background-color: white;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: auto;
   border: 1px solid #EDEADE;
   box-shadow:5px  5px 50px grey;
@@ -103,7 +103,7 @@ nav ul li a:hover {
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr  ;
   text-align: left;
   padding: 20px;
-  background-color:#101010;
+  background-color:white;
   
 }
 .container >div{
@@ -122,17 +122,20 @@ nav ul li a:hover {
   grid-row-end: 2;
   margin-bottom: .5em;
   
+  
 }
 img.guyana-pic {
- max-width: 100%;
- width: 100%;
- height: 100%;
-
+  margin-left: 2px;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(66, 142, 235, 0.8);
+  
 }
 
 h3 {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.3em;
   position:absolute;
   color: red;
   padding: .5em;
@@ -143,58 +146,82 @@ h3 {
   display: none;
 }
 .container >div:nth-child(2) {
+  background-color: #e0dbdb ;
   grid-column-start: 1;
-  background-color: #444;
+  max-width: 100%;
   grid-row-start: 2;
   grid-row-end: 3;
-  margin-top: .3em;
+}
+.int-header {
+  font-size: 1.3em;
+  color: black;
+  text-align: center;
+  padding: 3px;
+  margin: .4em;
+  background-color: yellow;
+  border-radius: 30px 40px 30px 40px;
+  
+  
 }
 p.p2 {
   font-size: 1em;
-  padding-top: 5.5em;
-  background-color: #444;
-  color: yellow;
+  padding: 1em;
+  color: rgb(182, 37, 37);
   text-align: center;
 }
 .container >div:nth-child(3) {
-  background-color: #444 ;
   grid-column-start: 1;
   max-width: 100%;
   grid-row-start: 3;
   grid-row-end: 4;
+  padding: 1em;
+  border: 1px solid rgb(240, 191, 191);;
 }
 .w-header {
   
   color: white;
   text-align: center;
-  padding: 1em;
   width: 18.2%;
   border-radius: 8px;
 }
 .weather {
   text-align: left;
   margin-top: 6em;
-  color:yellow;
+  color:rgb(161, 24, 24);
+  
+}
+.weather-header {
+  background-color: rgb(240, 191, 191);
+  color: black;
+  text-align: center;
+  font-size: 1.8em;
+  border-radius: 30px 40px 30px 40px;
 }
 #temperature {
   float:right;
   font-size: 2em;
-  margin-top: -1.8em;
-  color: yellow;
+  margin-top: -1.5em;
+  color: blue;
   
 }
 #conditions {
-  float:center;
-  border-bottom: 1px solid white;
+  text-align:center;
+  border-bottom: 1px solid blue;
   font-size: 1.3em;
-  color: yellow;
+  color: rgb(161, 24, 24);
+  font-size: 18px;
+  margin-top: -3em;
+  background-color: yellow;
+  
 }
 #wind-speed {
-  color:white;
+  color:rgb(161, 24, 24);
   margin-top: 10px;
+  font-size: 1em;
 }
 #wind-chill{
-  color: white;
+  color:rgb(161, 24, 24);
+  font-size: 10px;
 }
 
 .w-header {
@@ -220,6 +247,7 @@ p.p3 {
   border: 1px solid gold;
 }
 .join-pic {
+  margin-top: -0em;
   max-width: 95%;
   width: 100%;
   height: 95%;
@@ -229,16 +257,23 @@ p.p3 {
 p.p3 {
   font-size: 1em;
   margin-top:-13em;
-  
+  padding-bottom: 5px;
   color: black;
   text-align: center;
   
 }
+.click-j {
+  background-color: yellow;
+  border-radius: 5px;
+  color: red;
+  text-align: center;
+}
+  
 .container >div:nth-child(5) {
   
   text-align: left;
   grid-column-start: 1;
-  background-color: #444;
+  background-color: #e0dbdb;
   grid-row-start: 4;
   grid-row-end: 5;
 }
@@ -265,15 +300,18 @@ p.p4 {
     z-index: 1;
   
 } 
-
+.spotlight >div:nth-child(1) {
+  margin-bottom: 10px;
+  
+}
 .spotlight1 {
   padding: .5em;
-  background-color: #6B6B6B;
+  background-color: #e0dbdb;
   border-radius: .5em;
 
 }
 .resumes1 {
-  text-align: left;
+  text-align: center;
   color: black;
   background-color: yellow;
   padding: 5px;
@@ -285,12 +323,16 @@ fieldset {
   margin-top: .5em;
   border: 1px solid yellow;
 }
-.check-mark {
-  color:red;
+.rp {
+  color: red;
 }
+.check-mark {
+  color:blue;
+}
+
 .spotlight2 {
   padding: .5em;
-  background-color: #444;
+  background-color: #e0dbdb;
   border-radius: .5em;
 
 }
@@ -306,7 +348,7 @@ fieldset {
   }
   .spotlight3 {
     padding: .5em;
-    background-color: #444;
+    background-color: #e0dbdb;
     border-radius: .5em;
   
   }
@@ -323,33 +365,39 @@ fieldset {
     font-size: 0.7em;
 }
 img.logos-footer {
-    max-width: 25%;
+    max-width: 22%;
     margin: -1em;
     float: left;
 }
 h6 {
-    font-size: 2em;
+    font-size: 1.2em;
     color: yellow;
-    text-align: left;
-    margin-top: -1em;
-    margin-left: 3em;
+    text-align: center;
+    margin-top: -.5em;
+    
 }
 p.country{
     color:white;
+    font-size: .8em;
 }
 .map {
+  font-size: 11px;
     color:white;
-    text-align: right;
-    margin-right: -13em;
+  float: right;
+  margin-right: -2em;
+    
     
 }
-  
+.lastupdated {
+  font-size: .8em;
+  padding-bottom: 2px;
+}
 footer {
-  height: 21em;
+  height: 14em;
     background-color: #444;
     color: yellow;
-    margin-top: -.3em;
-    padding: 2em;
+    margin-top: -4em;
+    padding: 1.3em;
     text-align: center;
     border-radius: 15px;
     box-shadow: 0 0 15px black;
