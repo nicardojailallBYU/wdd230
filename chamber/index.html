@@ -39,7 +39,7 @@
                 <a href="https://nicardojailallbyu.github.io/wdd230/chamber/discover/discover">Discover</a>
             </li>
             <li>
-                <a href="#">Directory</a>
+                <a href="https://nicardojailallbyu.github.io/wdd230/chamber/directory/directory">Directory</a>
             </li>
             <li>
                 <a href="https://nicardojailallbyu.github.io/wdd230/chamber/join/join">Join</a>
@@ -53,52 +53,43 @@
          <span id="current-date"></span>
     </p>
     </header>
-    
+
     <main>
         <div class="container">
+            <div class="hero-item">
+                <div class="hero1">Welcome to truefind</div>
+                <picture>
+                    <source media="(min-width:800px)" srcset="images/wdd230-01.webp">
+                    <source media="(min-width:520px)" srcset="images/wdd230-02.webp">
+                    <source media="(min-width:300px)" srcset="images/wdd230-03.webp">
+                    <img class="guyana-pic" src="images/wdd230-org.webp" alt="guyana-pic ">
+                </picture>
+          </div>
+          <div class="interactive-item">
+            <div class="int-header">Interractive Meeting</div> 
+            <p class="p2">Find out how we can help you with employment <br>@truefind car park<br><b>Time 2:00pm</b></p> 
+          </div>
+          <div class="weather-item">
+            <div class="weather-header">Weather</div>
+            <p id="temperature"> </p>
+            <p id="conditions">Conditions: </p>
+            <p id="wind-speed"></p>
+            <p>Wind Chill: <span id="windChill"></span>&deg;</p>
+          </div>
+          <div class="join-item">
+            <a href="https://nicardojailallbyu.github.io/wdd230/chamber/join/join"> <img class="join-pic" src="images/join-us.PNG" alt="join-pic"></a>
+                
+            <p class="p3"><b>Looking to secure a job based on your qualification? <br></b></p>
+            <a class="click-j" href="https://nicardojailallbyu.github.io/wdd230/chamber/join/join">click to join</a>
+          </div>
+          <div class="news-item">
+            <div class="news-header">News Release</div>
+            <img class="news-pic" src="images/news.PNG" alt="news-pic">
+            <p class="p4">truefind CEO recently spoke with the head of a huge oil company in relations with possible jobs that could benifit the locals and the company at the same time.</p>
         
-            <div class="grid-item">
-            <h3>Welcome to truefind</h3> 
-            <picture>
-                <source media="(min-width:800px)" srcset="images/wdd230-01.webp">
-            <source media="(min-width:520px)" srcset="images/wdd230-02.webp">
-            <source media="(min-width:300px)" srcset="images/wdd230-03.webp">
-            <img class="guyana-pic" src="images/wdd230-org.webp" alt="guyana-pic ">
-            </picture>
-            
-            
-            </div>
-            <div class="grid-item">
-                <div class="int-header">Interractive Meeting</div> 
-                <p class="p2">Find out how we can help you with employment <br>@truefind car park<br><b>Time 2:00pm</b></p> 
-            </div>  
-            <div class="grid-item">
-                
-                <div class="weather-header">Weather</div>
-                <div class="weather">
-
-                    <p id="temperature"> </p>
-                    <p id="conditions">Conditions: </p>
-                    <p id="wind-speed">test</p>
-                    <p>Wind Chill: <span id="windChill"></span>&deg;</p>
-                </div>
-                
-                
-                
-            </div>
-            <div class="grid-item">
-                <a href="https://nicardojailallbyu.github.io/wdd230/chamber/join/join"> <img class="join-pic" src="images/join-us.PNG" alt="join-pic"></a>
-                
-                <p class="p3"><b>Looking to secure a job based on your qualification? <br></b></p>
-                <a class="click-j" href="https://nicardojailallbyu.github.io/wdd230/chamber/join/join">click to join</a>
-            </div>
-            <div class="grid-item">
-                <div class="w-header">News Release</div>
-                
-                <img class="news-pic" src="images/news.PNG" alt="news-pic">
-                <p class="p4">truefind CEO recently spoke with the head of a huge oil company in relations with possible jobs that could benifit the locals and the company at the same time.</p>
-            </div>
-            <div class="spotlight">
+          </div>
+          <div class="spotlight-item">
+            <div class="spotlight-div">
                 <div class="spotlight1">
                   
                     <fieldset class="resume">
@@ -140,16 +131,16 @@
                             </p>
                         </fieldset>
                     </div>
-
+    
                 </div> 
             </div>
-        
-  
-        </div>
-
-    </main>
+            </div>
+           
     
-      <footer>
+
+          </div>
+    </main>
+    <footer>
         <img class="logos-footer" src="images/logo.PNG" alt="site-logo">
         <a class="map" href="https://www.google.com/maps/place/Co%CF%85n%D1%82y%D1%95+P%D0%BDar%D0%BCacy+And+S%CF%85per%D0%BCar%C4%B8e%D1%82/@6.7226474,-58.2549298,17z/data=!4m6!3m5!1s0x8daffbbf79f7024f:0xd5d389acdc352f68!8m2!3d6.7252334!4d-58.2544641!16s%2Fg%2F11c2qfvc7_" target="blank">📍
             Location</a>
@@ -165,9 +156,11 @@
             Last Updated: <span id="currentTime"></span>
         </p>
         
-</footer>
-<script src="scripts/main.js"></script>
-<script src="scripts/banner.js"></script>
-<script src="scripts/windchill.js"></script>
+       
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/banner.js"></script>
+    <script src="scripts/windchill.js"></script>   
+
 </body>
 </html>

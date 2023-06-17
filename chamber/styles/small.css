@@ -1,370 +1,299 @@
 *{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  line-height: 1.3;
-  color: #333;
-  background-color: white;
-  max-width: 1100px;
-  margin: auto;
-  border: 1px solid #EDEADE;
-  box-shadow:5px  5px 50px grey;
-}
-#banner {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: white;
+    max-width: 1100px;
+    height: 75rem;
+    margin: auto;
+    border: 1px solid #EDEADE;
+    box-shadow:5px  5px 50px grey;
+  }
+  #banner {
+    
+    background-color: #f7f7f7;
+    padding: 4px;
+    font-size: 10px;
+    float: right;
+  }
   
-  background-color: #f7f7f7;
-  padding: 4px;
-  font-size: 10px;
-  float: right;
-}
-
-header {
-  background-color: #444;
-  
-}
-
-img {
-  max-width: 23%;
-  border-radius: 8px;
-  margin: .5em;
-}
-img.logos {
-  max-width: 8%;
-  float:right;
-  border-radius: 5px;
-  margin-top: .5em;
-  
-}
-h1 {
-  font-size: 2.7em;
-  text-align: center;
-  margin-top: -1.5em;
-  margin-left: 2em;
-  color: white;
-}
-h2 {
-  font-size: 1.5em;
-  text-align: center;
-  color: yellow;
-  margin-left: 0.5em;
-  margin-top: -1em;
-}
-.date {
-  background-color: #6B6B6B;
-  text-align: center;
-  box-shadow: 0 5px 15px white;
-  padding-top: 0%;
-  color: white;
-  border-radius: 6px;
-  font-size: .8em;
-  padding:1em
-  
-}
-
-nav button {
-  margin: .2rem 2vw;
-  background: transparent;
-  border: none;
-  font-size: 2rem;
-}
-#hamburger-btn span:nth-child(1) {display: block;}
-#hamburger-btn span:nth-child(2) {display: none;}
-
-#hamburger-btn.open span:nth-child(1) {display: none;}
-#hamburger-btn.open span:nth-child(2) {display: block;}
-nav {
-  background-color: #eee;
-}
-nav ul {display: none;}
-  nav ul.open {display: block;}
-nav ul {
-  list-style-type: none;
-}
-nav ul li a{
-  display:block;
-  padding: .6rem 2.8vw;
-  text-decoration: none;
-  color:black;
-  border-top: 1px solid black;
-  font-size: 1.5em;
-}
-nav ul li a:hover {
-  background-color: #444;
-  color:yellow;
-}
-.container {
-  display: grid;
-  grid-gap:5px;
-  grid-template-columns: 1fr ;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr  ;
-  text-align: left;
-  padding: 20px;
-  background-color:white;
-  
-}
-.container >div{
-  width: 100%;
-  height: 13em;
-  border-radius: 15px;
-}
-.container >div:hover {
-  transform: scale(1.1);
-  z-index: 1;
-}
-.container >div:nth-child(1) {
-  grid-column-start: 1;
-  grid-row-start: 1;
-  grid-column-end: 2;
-  grid-row-end: 2;
-  margin-bottom: .5em;
-  
-  
-}
-img.guyana-pic {
-  margin-left: 2px;
-  max-width: 100%;
-  width: 100%;
-  height: 100%;
-  border: 1px solid rgba(66, 142, 235, 0.8);
-  
-}
-
-h3 {
-  text-align: center;
-  font-size: 1.3em;
-  position:absolute;
-  color: red;
-  padding: .5em;
-}
-
-
-.hidden {
-  display: none;
-}
-.container >div:nth-child(2) {
-  background-color: #e0dbdb ;
-  grid-column-start: 1;
-  max-width: 100%;
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-.int-header {
-  font-size: 1.3em;
-  color: black;
-  text-align: center;
-  padding: 3px;
-  margin: .4em;
-  background-color: yellow;
-  border-radius: 30px 40px 30px 40px;
-  
-  
-}
-p.p2 {
-  font-size: 1em;
-  padding: 1em;
-  color: rgb(182, 37, 37);
-  text-align: center;
-}
-.container >div:nth-child(3) {
-  grid-column-start: 1;
-  max-width: 100%;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  padding: 1em;
-  border: 1px solid rgb(240, 191, 191);;
-}
-.w-header {
-  
-  color: white;
-  text-align: center;
-  width: 18.2%;
-  border-radius: 8px;
-}
-.weather {
-  text-align: left;
-  margin-top: 6em;
-  color:rgb(161, 24, 24);
-  
-}
-.weather-header {
-  background-color: rgb(240, 191, 191);
-  color: black;
-  text-align: center;
-  font-size: 1.8em;
-  border-radius: 30px 40px 30px 40px;
-}
-#temperature {
-  float:right;
-  font-size: 2em;
-  margin-top: -1.5em;
-  color: blue;
-  
-}
-#conditions {
-  text-align:center;
-  border-bottom: 1px solid blue;
-  font-size: 1.3em;
-  color: rgb(161, 24, 24);
-  font-size: 18px;
-  margin-top: -3em;
-  background-color: yellow;
-  
-}
-#wind-speed {
-  color:rgb(161, 24, 24);
-  margin-top: 10px;
-  font-size: 1em;
-}
-#wind-chill{
-  color:rgb(161, 24, 24);
-  font-size: 10px;
-}
-
-.w-header {
-  text-align: left;
-  font-size: 1.5em;
-  position:absolute;
-  color: white;
-  padding-left: .7em;
-  padding-top: .7em;
-  
-}
-p.p3 {
-  font-size: 1em;
-  padding-top: 120px;
-  
-  color: yellow;
-  text-align: center;
-  
-}
-.container >div:nth-child(4) {
-  background-color: white;
-  visibility: hidden;
-  border: 1px solid gold;
-}
-.join-pic {
-  margin-top: -0em;
-  max-width: 95%;
-  width: 100%;
-  height: 95%;
-  
-}
-
-p.p3 {
-  font-size: 1em;
-  margin-top:-13em;
-  padding-bottom: 5px;
-  color: black;
-  text-align: center;
-  
-}
-.click-j {
-  background-color: yellow;
-  border-radius: 5px;
-  color: red;
-  text-align: center;
-}
-  
-.container >div:nth-child(5) {
-  
-  text-align: left;
-  grid-column-start: 1;
-  background-color: #e0dbdb;
-  grid-row-start: 4;
-  grid-row-end: 5;
-}
-.news-pic {
-  float: right;
-}
-
-p.p4 {
-  font-size: 1em;
-  padding-top: 90px;
-  
-  color: yellow;
-  text-align: center;
-  
-}
-.spotlight {
-  grid-column: 1;
-  grid-row-start: 5;
-  grid-row-end: 6;
-  
-}
-.spotlight >div:hover {
-    transform: scale(1.01);
-    z-index: 1;
-  
-} 
-.spotlight >div:nth-child(1) {
-  margin-bottom: 10px;
-  
-}
-.spotlight1 {
-  padding: .5em;
-  background-color: #e0dbdb;
-  border-radius: .5em;
-
-}
-.resumes1 {
-  text-align: center;
-  color: black;
-  background-color: yellow;
-  padding: 5px;
-}
-fieldset {
-  text-align: center;
-  color: white;
-  padding-bottom: 2em;
-  margin-top: .5em;
-  border: 1px solid yellow;
-}
-.rp {
-  color: red;
-}
-.check-mark {
-  color:blue;
-}
-
-.spotlight2 {
-  padding: .5em;
-  background-color: #e0dbdb;
-  border-radius: .5em;
-
-}
-.resumes2 {
-  text-align: center;
-  color: black;
-  background-color: yellow;
-  padding: 5px;
-}
-.spotlight >div:nth-child(3) {
-    visibility: hidden;
+  header {
+    background-color: #444;
     
   }
-  .spotlight3 {
-    padding: .5em;
-    background-color: #e0dbdb;
-    border-radius: .5em;
+  
+  img {
+    max-width: 23%;
+    border-radius: 8px;
+    margin: .5em;
+  }
+  img.logos {
+    max-width: 8%;
+    float:right;
+    border-radius: 5px;
+    margin-top: .5em;
+    
+  }
+  h1 {
+    font-size: 2.7em;
+    text-align: center;
+    margin-top: -1.5em;
+    margin-left: 2em;
+    color: white;
+  }
+  h2 {
+    font-size: 1.5em;
+    text-align: center;
+    color: yellow;
+    margin-left: 0.5em;
+    margin-top: -1em;
+  }
+  .date {
+    background-color: #6B6B6B;
+    text-align: center;
+    box-shadow: 0 5px 15px white;
+    padding-top: 0%;
+    color: white;
+    border-radius: 6px;
+    font-size: .8em;
+    padding:1em
+    
+  }
+  
+  nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+  }
+  #hamburger-btn span:nth-child(1) {display: block;}
+  #hamburger-btn span:nth-child(2) {display: none;}
+  
+  #hamburger-btn.open span:nth-child(1) {display: none;}
+  #hamburger-btn.open span:nth-child(2) {display: block;}
+  nav {
+    background-color: #eee;
+  }
+  nav ul {display: none;}
+    nav ul.open {display: block;}
+  nav ul {
+    list-style-type: none;
+  }
+  nav ul li a{
+    display:block;
+    padding: .6rem 2.8vw;
+    text-decoration: none;
+    color:black;
+    border-top: 1px solid black;
+    font-size: 1.5em;
+  }
+  nav ul li a:hover {
+    background-color: #444;
+    color:yellow;
+  }
+  /* Optional: Adds a gap between grid cells */
+  .container {
+    display: grid;
+    grid-template-columns: repeat( 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 10px; /* Optional: Adds a gap between grid cells */
+    height: 63rem;
+    padding: 1em;
+    background-color: black;
+    
+  }
+  .container >div:hover {
+    transform: scale(1.1);
+    z-index: 1;
+  }
+  .hero-item { /* 1 */
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+  }
+  .guyana-pic {
+    max-width: 96%;
+    height: 96%;
+    width: 100%;
+  
   
   }
-  .resumes3 {
+  .hero1 {
+    text-align: center;
+    font-size: 1.3em;
+    position:absolute;
+    color: red;
+    padding: .5em;
+  }
+  .interactive-item {/* 2*/
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #e0dbdb;
+    border-radius: 15px;
+    
+  }
+  .int-header {
+    font-size: 1.3em;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    margin: .4em;
+    background-color: #444;
+    border-radius: 30px 40px 30px 40px;
+    
+  }
+  p.p2 {
+    font-size: 1em;
+    color: rgb(182, 37, 37);
+    text-align: center;
+  }
+  .weather-item {/* 3 */
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border-radius: 15px;
+    background-color: white;
+    padding: 5px;
+    
+  }
+  .weather-header {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    font-size: 1.6em;
+    margin: .4em;
+    border-radius: 30px 40px 30px 40px;
+
+  }
+  #temperature {
+    float:right;
+    font-size: 2em;
+    color: blue;
+    
+  }
+  #conditions {
+    text-align: center;
+    font-size: 1.3em;
+    color: rgb(161, 24, 24);
+    background-color: yellow;
+    margin-right: 5em;
+    border-bottom: 1px solid blue;
+  }
+  
+  
+  #wind-speed {
+    color:rgb(161, 24, 24);
+    font-size: 1em;
+  }
+  #wind-chill{
+    color:rgb(161, 24, 24);
+    font-size: 1em;
+  }
+  .join-item {
+    visibility: hidden;
+    color: white;
+   
+  }
+ 
+  .news-item {/* 4 */
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: #e0dbdb;
+    border-radius: 15px;
+  }
+  .news-header {
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+    background-color:#444;
+    border-radius: 30px 40px 30px 40px;
+    margin-top: .5em;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+  
+  .news-pic {
+    max-width: 8%;
+    float: right;
+  }
+  
+  
+  p.p4 {
+    font-size: 1em;
+    color: black;
+    text-align: center;
+    
+  }
+  .spotlight-item {/* 5-6 */
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    padding-left: .5em;
+    padding-right: .5em;
+    border-radius: 15px;
+    
+    
+  }
+  .spotlight1 {
+    background-color: #e0dbdb;
+    border-radius: .5em;
+    padding: 1px;
+    margin-bottom: 2px;
+}
+.resumes1 {
+    text-align: center;
+    color: black;
+    background-color: yellow;
+    padding: 5px;
+    
+  }
+fieldset {
+    text-align: center;
+    color: white;
+    padding:2px;
+    border: 1px solid black;
+    margin: 5px;
+  }
+  .rp {
+    color: #B80000;
+  }
+  .check-mark {
+    color:blue;
+  }
+  
+.spotlight2 {
+    padding: 1px;
+    background-color: #e0dbdb;
+    border-radius: .5em;
+}
+.resumes2 {
     text-align: center;
     color: black;
     background-color: yellow;
     padding: 5px;
   }
-.copyright{
-    margin-top: .5em;
-    padding-top: .5em;
-    border-top: 1px solid #909090;
-    font-size: 0.7em;
+.spotlight3 {
+    display: none;
+    background-color: #e0dbdb;
+    padding: 1px;
+    border-radius: 0.5em;
+    
 }
-img.logos-footer {
+
+  img.logos-footer {
     max-width: 22%;
     margin: -1em;
     float: left;
@@ -393,14 +322,13 @@ p.country{
   padding-bottom: 2px;
 }
 footer {
+    
   height: 14em;
     background-color: #444;
     color: yellow;
-    margin-top: -4em;
     padding: 1.3em;
     text-align: center;
     border-radius: 15px;
     box-shadow: 0 0 15px black;
     border-top: 1px solid white;
 }
-  
