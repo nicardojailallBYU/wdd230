@@ -205,12 +205,12 @@ img {
 
 .list-view section {
   display: flex;
-  display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  
+    
 }
 .grid-view {
   display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 .grid-view section {
   border: 1px solid black;
