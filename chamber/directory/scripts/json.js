@@ -5,6 +5,7 @@ const listButton = document.querySelector('#list');
 
 function displayDirectories1(directories) {
   let directory = document.createElement('section');
+  directory.classList.add('list-view');
   let h3 = document.createElement('h3');
   h3.textContent = directories.name;
 

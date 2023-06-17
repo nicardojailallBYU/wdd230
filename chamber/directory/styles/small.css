@@ -203,10 +203,10 @@ img {
   max-width: 20%;
 }
 
-.list-view section {
+.list-view {
   display: flex;
-  
-    
+  flex-wrap: wrap;
+  text-align: center;
 }
 .grid-view {
   display: grid;
