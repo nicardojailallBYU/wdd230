@@ -35,7 +35,7 @@ function displayDirectories(directories) {
   h3.textContent = directories.name;
   let img = document.createElement("img");
   img.setAttribute("src", directories.images);
-  img.setAttribute("alt", `Image of ${directories.name}`);
+  img.setAttribute("alt", `${directories.name}`);
   let p1 = document.createElement('p');
   let p2 = document.createElement('p');
   let p3 = document.createElement('p');
