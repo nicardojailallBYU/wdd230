@@ -1,0 +1,68 @@
+{
+    "directories": [
+      {
+        "name": "Good Construction",
+        "images":"images/logo.PNG",
+        "address": "102 Ome st Georgetown",
+        "phone": "(592) 801-2032",
+        "website": "https://goodConstruction.com"
+      },
+      {
+        "name": "Medic Laboratary",
+        "images":"images/logo.PNG",
+        "address": "120 market st Georgetown",
+        "phone": "(592) 801-8042",
+        "website": "https://mediclaoratort.com"
+      },
+      {
+        "name": "Signs Media",
+        "images":"images/logo.PNG",
+        "address": "15 John st Georgetown",
+        "phone": "(592) 801-5036",
+        "website": "https://signsmedia.com"
+      },
+      {
+        "name": "Express Wash",
+        "images":"images/logo.PNG",
+        "address": "500 Alvin st Georgetown",
+        "phone": "(592) 801-3076",
+        "website": "https://expresswash.com"
+      },
+      {
+        "name": "Jai Designs",
+        "images":"images/logo.PNG",
+        "address": "A40 Heaven st Georgetown",
+        "phone": "(592) 801-5036",
+        "website": "https://jaidesigns.com"
+      },
+      {
+        "name": "TechRepairs",
+        "images":"images/logo.PNG",
+        "address": "1500 Shiv st Georgetown",
+        "phone": "(592) 809-2021",
+        "website": "https://www.techrepairs.com"
+      },
+      {
+        "name": "Ureka Laboratary",
+        "images":"images/logo.PNG",
+        "address": "C1510 Middle st Georgetown",
+        "phone": "(592) 801-1056",
+        "website": "https://urekalaoratory.com"
+      },
+      {
+        "name": "Pegasus Suites",
+        "images":"images/logo.PNG",
+        "address": "1-4 Kingston Georgetown",
+        "phone": "(592) 801-9036",
+        "website": "https://www.mediclaoratort.com/"
+      },
+      {
+        "name": "General Spares",
+        "images":"images/logo.PNG",
+        "address": "400 John st Georgetown",
+        "phone": "(592) 801-6038",
+        "website": "https://generalspares.com/"
+      }
+      
+    ]
+  }
