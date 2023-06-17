@@ -66,17 +66,16 @@ fetch(requestURL)
     console.table(jsonObject);
     const directories = jsonObject['directories'];
 
+    
+    directories.forEach(displayDirectories);
+
     gridButton.addEventListener('click', function() {
       directoryDiv.innerHTML = '';
       directories.forEach(displayDirectories);
-      directoryDiv.classList.add('grid-view');
-      directoryDiv.classList.remove('list-view'); // Remove list-view class
     });
 
     listButton.addEventListener('click', function() {
       directoryDiv.innerHTML = '';
       directories.forEach(displayDirectories1);
-      directoryDiv.classList.remove('grid-view');
-      directoryDiv.classList.add('list-view'); // Add list-view class
     });
   });

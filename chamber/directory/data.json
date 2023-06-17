@@ -5,63 +5,75 @@
         "images":"images/GC.PNG",
         "address": "102 Ome st Georgetown",
         "phone": "(592) 801-2032",
-        "website": "https://goodConstruction.com"
+        "website": "https://goodConstruction.com",
+        "membership": "Gold"
       },
       {
         "name": "Medic Laboratary",
         "images":"images/ml.PNG",
         "address": "120 market st Georgetown",
         "phone": "(592) 801-8042",
-        "website": "https://mediclaoratort.com"
+        "website": "https://mediclaoratort.com",
+        "membership": "silver"
       },
       {
         "name": "Signs Media",
         "images":"images/sm.PNG",
         "address": "15 John st Georgetown",
         "phone": "(592) 801-5036",
-        "website": "https://signsmedia.com"
+        "website": "https://signsmedia.com",
+        "membership": "bronze"
+        
       },
       {
         "name": "Express Wash",
         "images":"images/ew.PNG",
         "address": "500 Alvin st Georgetown",
         "phone": "(592) 801-3076",
-        "website": "https://expresswash.com"
+        "website": "https://expresswash.com",
+        "membership": "gold"
       },
       {
         "name": "Jai Designs",
         "images":"images/jd.PNG",
         "address": "A40 Heaven st Georgetown",
         "phone": "(592) 801-5036",
-        "website": "https://jaidesigns.com"
+        "website": "https://jaidesigns.com",
+        "membership": "gold"
       },
       {
         "name": "TechRepairs",
         "images":"images/tr.PNG",
         "address": "1500 Shiv st Georgetown",
         "phone": "(592) 809-2021",
-        "website": "https://www.techrepairs.com"
+        "website": "https://www.techrepairs.com",
+        "membership": "silver"
       },
       {
         "name": "Ureka Laboratary",
         "images":"images/ul.PNG",
         "address": "C1510 Middle st Georgetown",
         "phone": "(592) 801-1056",
-        "website": "https://urekalaoratory.com"
+        "website": "https://urekalaoratory.com",
+        "membership": "bronze"
       },
       {
         "name": "Pegasus Suites",
         "images":"images/ps.PNG",
         "address": "1-4 Kingston Georgetown",
         "phone": "(592) 801-9036",
-        "website": "https://www.mediclaoratort.com/"
+        "website": "https://www.mediclaoratort.com/",
+        "membership": "bronze"
+        
       },
       {
         "name": "General Spares",
         "images":"images/gs.PNG",
         "address": "400 John st Georgetown",
         "phone": "(592) 801-6038",
-        "website": "https://generalspares.com/"
+        "website": "https://generalspares.com/",
+        "membership": "silver"
+        
       }
       
     ]
