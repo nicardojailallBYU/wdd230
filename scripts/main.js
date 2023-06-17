@@ -20,3 +20,21 @@ const formattedDate = formatDate(currentDate);
 
 currentTimeEl.textContent = formattedDate;
 currentYearEl.textContent = currentDate.getFullYear();
+function toggleMenu() {
+  document.getElementById("primary-nav").classList.toggle("open");
+  document.getElementById("hamburger-btn").classList.toggle("open");
+}
+const x = document.getElementById('hamburger-btn');
+x.onclick = toggleMenu;
+
+const today = new Date();
+
+      const dayOfWeek = today.toLocaleDateString('en-US', { weekday: 'long' });
+      const dayOfMonth = today.getDate();
+      const month = today.toLocaleDateString('en-US', { month: 'long' });
+      const year = today.getFullYear();
+
+      const dateElement = document.getElementById('current-date');
+      dateElement.textContent = ` ${dayOfWeek}, ${dayOfMonth} ${month} , ${year}`;
+
+
