@@ -5,6 +5,8 @@ const listButton = document.querySelector('#list');
 
 function displayDirectories1(directories) {
   let directory = document.createElement('section');
+  directory.classList.add('list-view'); // Add the list-view class
+
   let h3 = document.createElement('h3');
   h3.textContent = directories.name;
 
@@ -31,11 +33,15 @@ function displayDirectories1(directories) {
 
 function displayDirectories(directories) {
   let directory = document.createElement('section');
+  directory.classList.add('grid-view'); // Add the grid-view class
+
   let h3 = document.createElement('h3');
   h3.textContent = directories.name;
-  let img = document.createElement("img");
-  img.setAttribute("src", directories.images);
-  img.setAttribute("alt", `Image of ${directories.name}`);
+
+  let img = document.createElement('img');
+  img.setAttribute('src', directories.images);
+  img.setAttribute('alt', `Image of ${directories.name}`);
+
   let p1 = document.createElement('p');
   let p2 = document.createElement('p');
   let p3 = document.createElement('p');
@@ -66,15 +72,14 @@ fetch(requestURL)
     console.table(jsonObject);
     const directories = jsonObject['directories'];
 
-    
     directories.forEach(displayDirectories);
 
-    gridButton.addEventListener('click', function() {
+    gridButton.addEventListener('click', function () {
       directoryDiv.innerHTML = '';
       directories.forEach(displayDirectories);
     });
 
-    listButton.addEventListener('click', function() {
+    listButton.addEventListener('click', function () {
       directoryDiv.innerHTML = '';
       directories.forEach(displayDirectories1);
     });
