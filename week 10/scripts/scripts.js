@@ -22,11 +22,11 @@ async function displayResults(weatherData) {
     currentTemp.innerHTML = weatherData.main.temp.toFixed(0);
 
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
-    const desc = weatherData.weather[0].description;
+    const conditions = weatherData.weather[0].description;
 
     weatherIcon.setAttribute('src', iconsrc);
-    weatherIcon.setAttribute('alt', desc);
-    captionDesc.textContent = desc;
+    weatherIcon.setAttribute('alt', conditions);
+    captionDesc.textContent = conditions;
 }
 
 apiFetch();
