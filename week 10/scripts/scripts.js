@@ -25,7 +25,7 @@ async function displayResults(weatherData) {
     const conditions = weatherData.weather[0].description;
 
     weatherIcon.setAttribute('src', iconsrc);
-    weatherIcon.setAttribute('alt', conditions);
+    weatherIcon.setAttribute('alt', "conditions");
     captionDesc.textContent = conditions;
 }
 
