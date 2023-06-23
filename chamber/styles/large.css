@@ -91,7 +91,7 @@
       #conditions {
         font-size: 1.1em;
         margin-top: 2.5em;
-        margin-right: 4em;
+        
         
       }
       #wind-speed {
@@ -157,6 +157,7 @@
         padding:2px;
         border: 1px solid black;
         margin: 5px;
+        margin-top: 1.5em;
         padding-bottom: 1em;
       }
       .spotlight1 {

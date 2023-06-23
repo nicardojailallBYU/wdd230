@@ -156,13 +156,17 @@
     color: rgb(182, 37, 37);
     text-align: center;
   }
+  #weather-icon {
+    max-width: 100%;
+    float: left;
+  }
   .weather-item {/* 3 */
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 3;
     grid-row-end: 4;
     border-radius: 15px;
-    background-color: white;
+    background-color: rgb(34, 34, 128);
     padding: 5px;
     
   }
@@ -170,35 +174,34 @@
     background-color: #444;
     color: white;
     text-align: center;
-    font-size: 1.6em;
+    font-size: 2em;
     margin: .4em;
     border-radius: 30px 40px 30px 40px;
 
   }
   #temperature {
-    float:right;
-    font-size: 2em;
-    color: blue;
-    
+    color: yellow;
+    text-align: right;
+    padding-top: 15px;
+    font-size: 1.5em;
   }
   #conditions {
+    font-size: 1.5em;
+    color: yellow;
     text-align: center;
-    font-size: 1.3em;
-    color: rgb(161, 24, 24);
-    background-color: yellow;
-    margin-right: 5em;
-    border-bottom: 1px solid blue;
+    padding-right: 2em;
+    padding-left: 2em;
+    border-bottom: 1px solid white;
   }
-  
-  
-  #wind-speed {
-    color:rgb(161, 24, 24);
-    font-size: 1em;
-  }
-  #wind-chill{
-    color:rgb(161, 24, 24);
-    font-size: 1em;
-  }
+
+ #wind-speed {
+  color: white;
+  text-align: center;
+ }
+ #wind-chill {
+  color: white;
+  text-align: center;
+ }
   .join-item {
     visibility: hidden;
     color: white;
