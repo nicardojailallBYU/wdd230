@@ -170,17 +170,13 @@ footer {
     width: 80%;
     gap: 20px;
   }
-  label {
+  .first-label {
     display: flex;
     flex-direction: column;
     color: yellow;
     max-width: 100%;
   }
-  label input[type="radio"] {
-    float: left;
-    order: -1;
-    margin-left: -8em;
-  }
+  
   input, select, textarea {
     padding: 10px;
     font-size: 1em;
@@ -203,15 +199,44 @@ footer {
     font-size: .9em;
   }
   .memb {
+    
     border: 1px solid yellow;
     padding: 5px;
     margin-top: 1em;
     margin-bottom: 1em;
     background-color: #585656;
     border-radius: 1em;
+    color: yellow;
+    flex-direction: row;
   }
   .member {
+    
     font-size: 1em;
     padding: 5px;
     color: yellow;
+    
+    
   }
+  label input[type="radio"] {
+    
+    order: -1;
+    
+  }
+
+
+  .thank-you {
+    text-align: center;
+}
+.thanky {
+    font-size: 3em;
+    color: blue;
+}
+p.ty {
+    font-size: 2em;
+    color: blueviolet;
+}
+a.ty {
+    font-size: 2em;
+    color: red;
+}
+  

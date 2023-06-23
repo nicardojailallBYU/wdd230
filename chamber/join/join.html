@@ -37,7 +37,7 @@
                 <a href="https://nicardojailallbyu.github.io/wdd230/chamber/discover/discover">Discover</a>
             </li>
             <li>
-                <a href="#">Directory</a>
+                <a href="https://nicardojailallbyu.github.io/wdd230/chamber/directory/directory">Directory</a>
             </li>
             <li>
                 <a href="https://nicardojailallbyu.github.io/wdd230/chamber/join/join">Join</a>
@@ -63,23 +63,23 @@
                             First name:
                             <input type="text" name="first-name" required>
                           </label>
-                          <label>
+                          <label class="first-label">
                             Last name
                             <input type="text" name="last-name" required>
                           </label>
-                          <label>
+                          <label class="first-label">
                             Position:
                             <input type="text" name="position" pattern="[A-Za-z\s\-]{7,}">
                           </label>
-                          <label>
+                          <label class="first-label">
                             Email:
                             <input class="email" type="email" name="email" placeholder="example@example.com" required>
                           </label>
-                          <label>
+                          <label class="first-label">
                             Cell phone number:
                             <input type="tel" name="phone" required>
                           </label>
-                          <label>
+                          <label class="first-label">
                             Business name/title:
                             <input type="text" name="business-name" required>
                           </label>
@@ -88,28 +88,31 @@
                                 <div class="member">Select a maintenance level:</div>
                             
                                 
-                                <label for="np" >
-                                    <input type="radio" id="np" name="member-Level" value="np">NP Member for non profit organizations and there is no fee
-                                  </label>
+                                <input type="radio" id="np" name="member-Level" value="np">
+                                <label for="np" >NP Member for non profit organizations and there is no fee</label><br>
+                                    
+                                  
                                 
-                                <label for="bronze">
-                                    <input type="radio" id="bronze" name="member-Level" value="bronze">Bronze Member
-                                  </label>
+                                  <input type="radio" id="bronze" name="member-Level" value="bronze"><label for="bronze">
+                                    Bronze Member
+                                  </label><br>
                     
-                                <label for="silver">
-                                    <input type="radio" id="silver" name="member-Level" value="silver">Silver Member
-                                  </label>
+                                  <input type="radio" id="silver" name="member-Level" value="silver"><label for="silver">
+                                    Silver Member
+                                  </label><br>
                                 
-                                  <label for="gold">
-                                    <input type="radio" id="gold"  name="member-Level" value="gold">Gold Member
-                                  </label>
+                                  
+                                  <input type="radio" id="gold"  name="member-Level" value="gold">
+                                  <label for="gold">Gold Member</label><br>
+                                    
+                                  
                             
                           </div>
                           
                                
                 
                           
-                          <label>
+                          <label class="first-label">
                             Business description:
                             <textarea name="business-description"></textarea>
                           </label>
