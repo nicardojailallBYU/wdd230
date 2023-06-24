@@ -1,52 +1,173 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>WDD 230: Assignemnt Portal</title>
+        <title>WDD 230: Design Principles</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="This is the assignment portal for WDD 230: Assignment Portal">
+        <meta name="description" content="Week 02 Design Principles">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Eczar&display=swap">
+        <link rel="stylesheet" href="styles/normalize.css">
         <link rel="stylesheet" href="styles/small.css">
         <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+        <link rel="icon" href="images/favicon.ico">
+  </head>
+  <body>
+    
         
-    </head>
-    <body>
-        <header>
+    <header>
+        <div id="banner" class="hidden">
+            🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+        </div>
+            <img src="images/logo.PNG" alt="site-logo">
+            <h1>truefind</h1>
+      <h2>Chamber of Commerce</h2>
+            <a href="https://www.facebook.com" target="blank"><img class="logos" src="images/facebook.PNG" alt="facebook"></a>
+            <a href="https://www.linkedin.com/" target="blank"><img class="logos" src="images/linkedin.PNG" alt="linkedin"></a> 
+        
+      
+      
+    
+      <nav>
+        <button id="hamburger-btn"><span>&#9776;</span><span>X</span></button>
+        <ul id="primary-nav">
+            <li>
+                <a href="https://nicardojailallbyu.github.io/wdd230/chamber/">Home</a>
+            </li>
+            <li>
+                <a href="https://nicardojailallbyu.github.io/wdd230/chamber/discover/discover">Discover</a>
+            </li>
+            <li>
+                <a href="https://nicardojailallbyu.github.io/wdd230/chamber/directory/directory">Directory</a>
+            </li>
+            <li>
+                <a href="https://nicardojailallbyu.github.io/wdd230/chamber/join/join">Join</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+      </nav>
+      <p class= "date">
+         <span id="current-date"></span>
+    </p>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="hero-item">
+                <div class="hero1">Welcome to truefind</div>
+                <picture>
+                    <source media="(min-width:800px)" srcset="images/wdd230-01.webp">
+                    <source media="(min-width:520px)" srcset="images/wdd230-02.webp">
+                    <source media="(min-width:300px)" srcset="images/wdd230-03.webp">
+                    <img class="guyana-pic" src="images/wdd230-org.webp" alt="guyana-pic ">
+                </picture>
+          </div>
+          <div class="interactive-item">
+            <div class="int-header">Interractive Meeting</div> 
+            <p class="p2">Find out how we can help you with employment <br>@truefind car park<br><b>Time 2:00pm</b></p> 
+          </div>
+          <div class="weather-item">
+            <div class="weather-header">Weather</div>
+            <img src="https://openweathermap.org/img/w/01n.png" id="weather-icon" alt="weather-img">
+            <h3 id="temperature"> </h3>
+            <h3 id="conditions"> </h3>
+            <h3 id="wind-speed"></h3>
+            <h3 id="wind-chill"></h3>
+          </div>
+          <div class="join-item">
             <div>
-                <img src="images/NJ.jpg" alt="Nicardo Jialall">
+                <img class="join-pic" src="images/join-us.PNG" alt="join-pic"></a>
             </div>
-            <h1>Nicardo Jailall</h1>
-        </header>
-        <main>
-            <h2 class="main-heading">WDD 230: Assignment Portal</h2>
-            <hr>
-            <ul>
-                <li>Lesson 2: <a href ="https://nicardojailallbyu.github.io/wdd230/Week%202/design-principles.html">Design Principles</a> </li>
-                <li>Lesson 3: <a href ="https://nicardojailallbyu.github.io/wdd230/week%203/">Website Planning Document</a> </li>
-                <li>Lesson 4: <a href ="https://nicardojailallbyu.github.io/wdd230/chamber/">Chamber of Commerce</a></li>
-                <li>Lesson 5: <a href ="https://nicardojailallbyu.github.io/wdd230/bom/bom.html">DOM Manuplication Activity</a> </li>
-                <li>Lesson 6: <a href ="https://nicardojailallbyu.github.io/wdd230/chamber/">Chamber of Commerce Home Page Cont'd</a> </li>
-                <li>Lesson 7: <a href ="https://nicardojailallbyu.github.io/wdd230/week%207/lazyload">Lazy Load</a> </li>
-                <li>Lesson 8: <a href ="https://nicardojailallbyu.github.io/wdd230/week%208/tablebuild">Table Build Project</a> </li>
-                <li>Lesson 9: <a href ="https://nicardojailallbyu.github.io/wdd230/week%209/prophets"> JSON Project</a></li>
-                <li>Lesson 10: <a href ="">Title</a> </li>
-                <li>Lesson 11: <a href ="">Title</a> </li>
-                <li> Stylesheet: <a href = "">styles/normalize.css</a></li>
-                <li>Codepen <a href ="">https://codepen.io/nicardojailallBYU/pen/YzJpaby</a> </li>
-                <li>Font <a href ="">//fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap</a> </li>
-            </ul>
-            <hr>
-            <p>Some lessons may need more than one activity/assignment link.</p>
-        </main>
-        <footer>
-                <p class= "copyright">
-                    &copy;<span id="currentYear"></span>  Nicardo Jailall | Georgetown, Guyana
-                </p>
-                <p class= "lastupdated">
-                    Last Updated: <span id="currentTime"></span>
-                </p>
-        </footer>
-        <script src="scripts/main.js"></script>
-    </body>
+            
+                
+            <p class="p3"><b>Looking to secure a job based on your qualification? <br></b></p>
+            <div>
+                <a  class="click-j" href="https://nicardojailallbyu.github.io/wdd230/chamber/join/join">Join Now</a>
+            </div>
+            
+          </div>
+          <div class="news-item">
+            <div class="news-header">News Release</div>
+            <img class="news-pic" src="images/news.PNG" alt="news-pic">
+            <p class="p4">truefind CEO recently spoke with the head of a huge oil company in relations with possible jobs that could benifit the locals and the company at the same time.</p>
+        
+          </div>
+          <div class="spotlight-item">
+            <div class="spotlight-div">
+                <div class="spotlight1">
+                  
+                    <fieldset class="resume">
+                        <legend class="resumes1">Resume Communicates</legend>
+                        <p class="rp">
+                            
+                            <br> qualification <span class="check-mark">&#x2713;</span>
+                            <br>Experience <span class="check-mark">&#x2713;</span>
+                            <br>Professionalism <span class="check-mark">&#x2713;</span>
+                        </p>
+                    </fieldset>
+                </div>
+                <div class="spotlight">
+                    <div class="spotlight2">
+                        <fieldset class="resume">
+                            <legend class="resumes2">Build Experience</legend>
+                            <p class="rp">
+                                
+                                
+                                <br> free resources <span class="check-mark">&#x2713;</span>
+                                <br>mentoring <span class="check-mark">&#x2713;</span>
+                                <br>personal Coach <span class="check-mark">&#x2713;</span>
+                            </p>
+                        </fieldset>
+                    </div>
+                    
+                </div>
+                <div class="spotlight">
+                    
+                    <div class="spotlight3">
+                        <fieldset class="resume">
+                            <legend class="resumes3">Become a Mentor</legend>
+                            <p class="rp">
+                                
+                                
+                                <br> teach others <span class="check-mark">&#x2713;</span>
+                                <br>by role playing <span class="check-mark">&#x2713;</span>
+                                <br>personal Coach <span class="check-mark">&#x2713;</span>
+                            </p>
+                        </fieldset>
+                    </div>
+    
+                </div> 
+            </div>
+            </div>
+           
+    
+
+          </div>
+    </main>
+    <footer>
+        <img class="logos-footer" src="images/logo.PNG" alt="site-logo">
+        <a class="map" href="https://www.google.com/maps/place/Co%CF%85n%D1%82y%D1%95+P%D0%BDar%D0%BCacy+And+S%CF%85per%D0%BCar%C4%B8e%D1%82/@6.7226474,-58.2549298,17z/data=!4m6!3m5!1s0x8daffbbf79f7024f:0xd5d389acdc352f68!8m2!3d6.7252334!4d-58.2544641!16s%2Fg%2F11c2qfvc7_" target="blank">📍
+            Location</a>
+        <div class="footer-head"><b>truefind</b> <br>Chamber of Commerce<br></div>
+        
+        <p class="country">10-11 Georgetown <br>Guyana, South America<br>info@truefind.gy<br>+592 801-1096</p>
+        
+        
+        <p class= "copyright">
+            &copy;<span id="currentYear"></span> truefind |Nicardo Jailall| WDD 230 Project | Georgetown, Guyana
+        </p>
+        <p class= "lastupdated">
+            Last Updated: <span id="currentTime"></span>
+        </p>
+        
+       
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/banner.js"></script>
+    <script src="scripts/windchill.js"></script>   
+
+</body>
 </html>

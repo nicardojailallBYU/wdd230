@@ -1,67 +1,338 @@
-body {
-    max-width: 700px;
-    margin: 0 auto;
-    font-family: 'Eczar', sans-serif;
-}
-
-header {
-    background-color: #444;
-    display: flex;
-    align-items: center;
-    border-radius: 15px;
-    box-shadow: 0 0 15px black;
-}
-  
-header div {
-    flex: 1;
-    margin: 10px;
-    max-width: 150px;
-    border-radius: 15px;
-    box-shadow: 0 0 15px black;
-    transition: transform 0.5s;
-}
-  
-header img {
-    width: 90%;
-    height: auto;
-    display: block;
-    border-radius: 15px;
-}
-
-header h1 {
-    flex: 2;
+*{
+    box-sizing: border-box;
     margin: 0;
-    font-size: 2.5em;
+    padding: 0;
+  }
+  body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: white;
+    max-width: 1100px;
+    height: 75rem;
+    margin: auto;
+    border: 1px solid #EDEADE;
+    box-shadow:5px  5px 50px grey;
+  }
+  #banner {
+    
+    background-color: #f7f7f7;
+    padding: 4px;
+    font-size: 10px;
+    float: right;
+  }
+  
+  header {
+    background-color: #444;
+    
+  }
+  
+  img {
+    max-width: 23%;
+    border-radius: 8px;
+    margin: .5em;
+  }
+  img.logos {
+    max-width: 8%;
+    float:right;
+    border-radius: 5px;
+    margin-top: .5em;
+    
+  }
+  h1 {
+    font-size: 2.7em;
+    text-align: center;
+    margin-top: -1.5em;
+    margin-left: 2em;
+    color: white;
+  }
+  h2 {
+    font-size: 1.5em;
+    text-align: center;
+    color: yellow;
+    margin-left: 0.5em;
+    margin-top: -1em;
+  }
+  .date {
+    background-color: #6B6B6B;
+    text-align: center;
+    box-shadow: 0 5px 15px white;
+    padding-top: 0%;
+    color: white;
+    border-radius: 6px;
+    font-size: .8em;
+    padding:1em
+    
+  }
+  
+  nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+  }
+  #hamburger-btn span:nth-child(1) {display: block;}
+  #hamburger-btn span:nth-child(2) {display: none;}
+  
+  #hamburger-btn.open span:nth-child(1) {display: none;}
+  #hamburger-btn.open span:nth-child(2) {display: block;}
+  nav {
+    background-color: #eee;
+  }
+  nav ul {display: none;}
+    nav ul.open {display: block;}
+  nav ul {
+    list-style-type: none;
+  }
+  nav ul li a{
+    display:block;
+    padding: .6rem 2.8vw;
+    text-decoration: none;
+    color:black;
+    border-top: 1px solid black;
+    font-size: 1.5em;
+  }
+  nav ul li a:hover {
+    background-color: #444;
+    color:yellow;
+  }
+  /* Optional: Adds a gap between grid cells */
+  .container {
+    display: grid;
+    grid-template-columns: repeat( 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 10px; /* Optional: Adds a gap between grid cells */
+    height: 63rem;
+    padding: 1em;
+    background-color: black;
+    
+  }
+  .container >div:hover {
+    transform: scale(1.1);
+    z-index: 1;
+  }
+  .hero-item { /* 1 */
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+  }
+  .guyana-pic {
+    max-width: 96%;
+    height: 96%;
+    width: 100%;
+  
+  
+  }
+  .hero1 {
+    text-align: center;
+    font-size: 1.3em;
+    position:absolute;
+    color: red;
+    padding: .5em;
+  }
+  .interactive-item {/* 2*/
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #e0dbdb;
+    border-radius: 15px;
+    
+  }
+  .int-header {
+    font-size: 1.3em;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    margin: .4em;
+    background-color: #444;
+    border-radius: 30px 40px 30px 40px;
+    
+  }
+  p.p2 {
+    font-size: 1em;
+    color: rgb(182, 37, 37);
+    text-align: center;
+  }
+  #weather-icon {
+    max-width: 100%;
+    float: left;
+  }
+  .weather-item {/* 3 */
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border-radius: 15px;
+    background-color: rgb(34, 34, 128);
+    padding: 5px;
+    
+  }
+  .weather-header {
+    
+    color: yellow;
+    text-align: center;
+    font-size: 2em;
+    margin: .4em;
+    
+
+  }
+  #temperature {
+    color: yellow;
+    text-align: right;
+    padding-top: 15px;
+    font-size: 1.5em;
+  }
+  #conditions {
+    font-size: 1.5em;
+    color: yellow;
+    text-align: center;
+    padding-right: 2em;
+    padding-left: 2em;
+    border-bottom: 1px solid white;
+  }
+
+ #wind-speed {
+  color: white;
+  text-align: center;
+ }
+ #wind-chill {
+  color: white;
+  text-align: center;
+ }
+  .join-item {
+    visibility: hidden;
+    color: white;
+   
+  }
+  
+ 
+  .news-item {/* 4 */
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: #e0dbdb;
+    border-radius: 15px;
+  }
+  .news-header {
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+    background-color:#444;
+    border-radius: 30px 40px 30px 40px;
+    margin-top: .5em;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+  
+  .news-pic {
+    max-width: 8%;
+    float: right;
+  }
+  
+  
+  p.p4 {
+    font-size: 1em;
+    color: black;
+    text-align: center;
+    
+  }
+  .spotlight-item {/* 5-6 */
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    padding-left: .5em;
+    padding-right: .5em;
+    border-radius: 15px;
+    
+    
+  }
+  .spotlight1 {
+    background-color: #e0dbdb;
+    border-radius: .5em;
+    padding: 1px;
+    margin-bottom: 2px;
+}
+.resumes1 {
+    text-align: center;
+    color: black;
+    background-color: yellow;
+    padding: 5px;
+    
+  }
+fieldset {
     text-align: center;
     color: white;
+    padding:2px;
+    border: 1px solid black;
+    margin: 5px;
+  }
+  .rp {
+    color: #B80000;
+  }
+  .check-mark {
+    color:blue;
+  }
+  
+.spotlight2 {
+    padding: 1px;
+    background-color: #e0dbdb;
+    border-radius: .5em;
+}
+.resumes2 {
+    text-align: center;
+    color: black;
+    background-color: yellow;
+    padding: 5px;
+  }
+.spotlight3 {
+    display: none;
+    background-color: #e0dbdb;
+    padding: 1px;
+    border-radius: 0.5em;
+    
 }
 
-.main-heading {
-    font-weight: bolder;
-    font-size: 1.5em;
+  img.logos-footer {
+    max-width: 22%;
+    margin: -1em;
+    float: left;
 }
-
-main li {
-    font-weight: bold;
-}
-
-main p {
-    font-size: .7rem;
-}
-
-.copyright {
-    color: white;
-}
-
-.lastupdated {
+.footer-head {
+    font-size: 1.2em;
     color: yellow;
-    font-size: 15px;
+    text-align: center;
+    margin-top: -.5em;
+    
 }
-
+p.country{
+    color:white;
+    font-size: .8em;
+}
+.map {
+  font-size: 11px;
+    color:white;
+  float: right;
+  margin-right: -2em;
+    
+    
+}
+.lastupdated {
+  font-size: .8em;
+  padding-bottom: 2px;
+}
 footer {
+    
+  height: 14em;
     background-color: #444;
-    padding: 20px 0;
+    color: yellow;
+    padding: 1.3em;
     text-align: center;
     border-radius: 15px;
     box-shadow: 0 0 15px black;
+    border-top: 1px solid white;
 }
