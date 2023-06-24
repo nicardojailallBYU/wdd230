@@ -9,7 +9,7 @@
     color: #333;
     background-color: white;
     max-width: 1100px;
-    height: 75rem;
+    height: 85rem;
     margin: auto;
     border: 1px solid #EDEADE;
     box-shadow:5px  5px 50px grey;
@@ -159,7 +159,7 @@
   }
   #weather-icon {
     max-width: 100%;
-    float: left;
+    float: right;
   }
   .weather-item {/* 3 */
     grid-column-start: 1;
@@ -168,40 +168,38 @@
     grid-row-end: 4;
     border-radius: 15px;
     background-color: rgb(34, 34, 128);
-    padding: 5px;
-    
+    padding: .5em;
   }
   .weather-header {
     
     color: yellow;
-    text-align: center;
+    text-align: left;
     font-size: 2em;
-    margin: .4em;
+    margin: .1em;
     
 
   }
   #temperature {
-    color: yellow;
+    color: white;
     text-align: right;
-    padding-top: 15px;
     font-size: 1.5em;
   }
   #conditions {
     font-size: 1.5em;
     color: yellow;
-    text-align: center;
-    padding-right: 2em;
-    padding-left: 2em;
-    border-bottom: 1px solid white;
+    text-align: left;
+    margin-top: -1em;
+    padding-bottom: 5px;
+     
   }
 
  #wind-speed {
   color: white;
-  text-align: center;
+  text-align: left;
  }
  #wind-chill {
   color: white;
-  text-align: center;
+  text-align: left;
  }
   .join-item {
     visibility: hidden;
@@ -225,19 +223,22 @@
     background-color:#444;
     border-radius: 30px 40px 30px 40px;
     margin-top: .5em;
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+    padding: .3em;
   }
   
   .news-pic {
-    max-width: 8%;
+    max-width: 12%;
     float: right;
   }
   
   
   p.p4 {
+    margin-top: 5px;
     font-size: 1em;
-    color: black;
+    color: #8F0000;
+      
     text-align: center;
     
   }
@@ -274,6 +275,7 @@ fieldset {
   }
   .rp {
     color: #B80000;
+    padding-bottom: .3em;
   }
   .check-mark {
     color:blue;
@@ -283,6 +285,7 @@ fieldset {
     padding: 1px;
     background-color: #e0dbdb;
     border-radius: .5em;
+    margin-bottom: 3em;
 }
 .resumes2 {
     text-align: center;
@@ -302,6 +305,7 @@ fieldset {
     max-width: 22%;
     margin: -1em;
     float: left;
+    padding: .5em;
 }
 .footer-head {
     font-size: 1.2em;
@@ -328,7 +332,7 @@ p.country{
 }
 footer {
     
-  height: 14em;
+  height: 13em;
     background-color: #444;
     color: yellow;
     padding: 1.3em;

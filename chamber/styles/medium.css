@@ -87,7 +87,7 @@
     }
     img.guyana-pic {
         width:100%;
-        height: 400px;
+        height: 295px;
        }
     .interactive-item {/* 2*/
         grid-column-start: 1;
@@ -105,6 +105,46 @@
         
         
       }
+      #weather-icon {
+        max-width: 70%;
+        float: right;
+      }
+      
+      .weather-header {
+        
+        color: yellow;
+        text-align: left;
+        font-size: 1.5em;
+        margin: .1em;
+        padding-bottom: 1em;
+        
+    
+      }
+      #temperature {
+        color: white;
+        text-align: right;
+        margin-top: -1.8em;
+        font-size: 1.2em;
+        padding: 5px;
+      }
+      #conditions {
+        font-size: 1.3em;
+        color: yellow;
+        text-align: left;
+        padding-bottom: 5px;
+         
+      }
+    
+     #wind-speed {
+        font-size: 1em;
+      color: white;
+      text-align: left;
+     }
+     #wind-chill {
+        font-size: 1em;
+      color: white;
+      text-align: left;
+     }
     .join-item {
         visibility: visible;
         background-color: white;
@@ -143,7 +183,11 @@
         grid-column-end: 4;
         grid-row-start: 3;
         grid-row-end: 4;
+        margin-top: 1em;
       } 
+      p.p4 {
+        margin-top: 10px;
+      }
         
       .spotlight-item {/* 3 */
         grid-column-start: 1;
@@ -157,11 +201,13 @@
       .spotlight1 {
         float: left;
         width: 49%; 
+        height: 9rem;
         margin-right: 1px;
     }
     .spotlight2 {
         float: right;
         width: 49%;
+        height: 9rem;
         margin-left: 1px;
     }
     .spotlight3 {
