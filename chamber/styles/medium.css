@@ -131,7 +131,7 @@
         
       }
       .click-j {
-        color: red;
+        color: #8F0000;
         text-align: center;
         margin-top:1em;
           
@@ -193,7 +193,7 @@
         margin-top: 1em;
         margin-left: 5em;
     }
-    h6 {
+    .footer-head  {
         font-size: 1.4em;
         color: yellow;
         text-align: left;
