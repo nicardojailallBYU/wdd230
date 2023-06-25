@@ -87,7 +87,7 @@
     }
     img.guyana-pic {
         width:100%;
-        height: 295px;
+        height: 310px;
        }
     .interactive-item {/* 2*/
         grid-column-start: 1;
@@ -183,7 +183,6 @@
         grid-column-end: 4;
         grid-row-start: 3;
         grid-row-end: 4;
-        margin-top: 1em;
       } 
       p.p4 {
         margin-top: 10px;
@@ -194,7 +193,7 @@
         grid-column-end: 4;
         grid-row-start: 4;
         grid-row-end: 5;
-        height: 7rem;
+        height: 100%;
         
         
       }
@@ -203,12 +202,17 @@
         width: 49%; 
         height: 9rem;
         margin-right: 1px;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
+    
     .spotlight2 {
         float: right;
         width: 49%;
         height: 9rem;
-        margin-left: 1px;
+        margin-right: 1px;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
     .spotlight3 {
         display: none;
