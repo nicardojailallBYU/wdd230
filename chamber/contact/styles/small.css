@@ -168,13 +168,13 @@ legend {
 }
 .c-phone{
   font-size: 1.5em;
-  color: #444;
+  color: #990000;
   text-align: center;
   padding: 5px;
 }
 .c-email{
   font-size: 1.5em;
-  color: #444;
+  color: #990000;
   text-align: center;
   padding-bottom: 1em;
   padding: 5px;
@@ -213,7 +213,7 @@ legend {
 }
 .s-m {
   font-size: 1.2em;
-  color: red;
+  color: #9E0000;
   text-align: center;
   background-color: yellow;
   padding: 5px;

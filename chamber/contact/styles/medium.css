@@ -127,13 +127,12 @@
           }
           .c-phone{
             font-size: 1.2em;
-            color: red;
+
             text-align: center;
             padding: 10px;
           }
           .c-email{
             font-size: 1.2em;
-            color: red;
             text-align: center;
             padding-bottom: 1em;
           }
@@ -166,7 +165,6 @@
             
           }
           .s-m {
-            color: red;
             margin-left: 3em;
             margin-right: 3em;
           }
