@@ -194,8 +194,14 @@
         grid-row-start: 4;
         grid-row-end: 5;
         height: 100%;
+        background-color: #444;
+        border: 1px solid yellow;
+        border-radius: 10px;
         
-        
+      }
+      .spotlight-div {
+        border: none;
+        border-radius: 10px;
       }
       .spotlight1 {
         float: left;

@@ -48,6 +48,7 @@ function displayResults(weatherData) {
   currentTemp.innerHTML = temperatureCelsius.toFixed(0) + "°C";
   currentWindSpeed.innerHTML = "Wind Speed: " + windSpeedKmph.toFixed(0) + " km/h";
   captionDesc.innerHTML = weatherData.weather[0].description;
+  captionDesc.style.textDecoration = "underline"
 
   if (windChill !== 'N/A') {
     windChillResult.innerHTML = "Wind Chill: " + windChill.toFixed(0) + "°C";

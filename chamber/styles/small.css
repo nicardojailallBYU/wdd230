@@ -247,7 +247,6 @@
     grid-column-end: 1;
     grid-row-start: 5;
     grid-row-end: 7;
-    
     border-radius: 15px;
 
     
@@ -257,6 +256,22 @@
     background-color: #444;
     padding: .5em;
     margin: 0 auto;
+    border: 1px solid yellow;
+    border-radius: 15px;
+  }
+ #member-image {
+  float: right;
+ }
+
+  h4 {
+    text-align: left;
+    padding: 7px;
+    font-size: 1.5em;
+    
+  }
+  p {
+    font-size: 1em;
+    
   }
   .spotlight1 {
     background-color: #e0dbdb;
@@ -264,40 +279,14 @@
     padding: 1px;
     margin-bottom: 4px;
 }
-.resumes1 {
-    text-align: center;
-    color: black;
-    background-color: yellow;
-    padding: 5px;
-    
-  }
-fieldset {
-    text-align: center;
-    color: white;
-    padding:2px;
-    border: 1px solid black;
-    margin: 3px;
-  }
-  .rp {
-    color: #B80000;
-    padding-bottom: .3em;
-  }
-  .check-mark {
-    color:blue;
-  }
-  
+
 .spotlight2 {
     padding: 1px;
     background-color: #e0dbdb;
     border-radius: .5em;
    
 }
-.resumes2 {
-    text-align: center;
-    color: black;
-    background-color: yellow;
-    padding: 5px;
-  }
+
 .spotlight3 {
     display: none;
     background-color: #e0dbdb;
