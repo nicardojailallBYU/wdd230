@@ -101,7 +101,6 @@ nav ul li a:hover {
 .copyright{
     margin-top: .5em;
     padding-top: .5em;
-    border-top: 1px solid #909090;
     font-size: 0.7em;
 }
 img.logos-footer {
@@ -109,7 +108,7 @@ img.logos-footer {
     margin: -1em;
     float: left;
 }
-.foot-head {
+.footer-head {
     font-size: 1.2em;
     color: yellow;
     text-align: center;
@@ -136,12 +135,10 @@ footer {
   height: 14em;
     background-color: #444;
     color: yellow;
-    
     padding: 1.3em;
     text-align: center;
     border-radius: 15px;
     box-shadow: 0 0 15px black;
-    border-top: 1px solid white;
 }
 /*Directory*/
 .direc-header{

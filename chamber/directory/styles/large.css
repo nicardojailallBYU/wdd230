@@ -60,7 +60,7 @@
         text-align: left;
     }
     
-    .foot-head {
+    .footer-head {
         font-size: 2em;
         color: yellow;
         text-align: left;
@@ -79,7 +79,6 @@
         margin-top: -.5em;
         margin-top: 0em;
         padding-top: 0em;
-        border-top: 1px solid #909090;
       }
       .map {
         color:white;
