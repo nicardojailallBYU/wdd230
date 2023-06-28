@@ -101,7 +101,6 @@ nav ul li a:hover {
 .copyright{
     margin-top: .5em;
     padding-top: .5em;
-    border-top: 1px solid #909090;
     font-size: 0.7em;
 }
 img.logos-footer {
@@ -109,7 +108,7 @@ img.logos-footer {
     margin: -1em;
     float: left;
 }
-.foot-head {
+.footer-head {
     font-size: 1.2em;
     color: yellow;
     text-align: center;
@@ -141,7 +140,7 @@ footer {
     text-align: center;
     border-radius: 15px;
     box-shadow: 0 0 15px black;
-    border-top: 1px solid white;
+    
 }
 /*Contacts*/
 .container {
@@ -165,6 +164,11 @@ legend {
  background-color:  #444;
   padding: 10px;
   color: yellow;
+}
+.hours-of-work {
+  font-size: 1em;
+  text-align: center;
+  color: blue;
 }
 .c-phone{
   font-size: 1.5em;
@@ -264,4 +268,22 @@ p.ty {
 a.ty {
   font-size: 2em;
   color: red;
+}
+
+.ceo-img {
+ max-width: 75%;
+ margin-left: 3em;
+ 
+  
+}
+.p-ceo {
+  background-color:#e0dbdb ;
+  text-align: center;
+  padding: 5px;
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-bottom: .5em;
+  font-size: 1em;
+  color: #09336b;
+  border-radius: 15px;
 }
