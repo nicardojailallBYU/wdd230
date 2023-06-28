@@ -1,5 +1,8 @@
 var currentDay = new Date().getDay();
+var banner = document.getElementById('banner');
+
 if (currentDay === 1 || currentDay === 2) {
-  var banner = document.getElementById('banner');
-  banner.classList.remove('hidden');
+  banner.style.display = 'block'; // Show the banner
+} else {
+  banner.style.display = 'none'; // Hide the banner on other days
 }
