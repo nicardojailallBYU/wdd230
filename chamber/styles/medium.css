@@ -203,6 +203,9 @@
         border: none;
         border-radius: 10px;
       }
+      h4 {
+        font-size: 1.3em;
+      }
       .spotlight1 {
         float: left;
         width: 49%; 

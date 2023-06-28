@@ -8,16 +8,15 @@ fetch(requestURL)
     const spotlight2Div = document.querySelector('.spotlight2');
     const spotlight3Div = document.querySelector('.spotlight3');
 
-    // Filter chamber members with silver or gold status
+  
     const silverGoldMembers = data.directories.filter(directory => {
       const status = directory.membership.toLowerCase();
       return status === 'silver' || status === 'gold';
     });
 
-    // Shuffle the silverGoldMembers array randomly
     const shuffledMembers = shuffleArray(silverGoldMembers);
 
-    // Display two to three randomly selected members in the spotlight sections
+   
     for (let i = 0; i < Math.min(3, shuffledMembers.length); i++) {
       const member = shuffledMembers[i];
       const name = member.name;
@@ -27,33 +26,35 @@ fetch(requestURL)
       const website = member.website;
       const membership = member.membership;
 
-      // Create a div for each member
+     
       const memberDiv = document.createElement('div');
       memberDiv.classList.add('member');
 
-      // Create an image element for the member's image
+      
       const imageElement = document.createElement('img');
       imageElement.src = image;
-      imageElement.alt = "company-logo";
-      imageElement.setAttribute('id', 'member-image'); // Add an id for the image
+      imageElement.alt = "name";
+      imageElement.setAttribute('id', 'member-image');
       memberDiv.appendChild(imageElement);
 
-      // Create a heading for the member's name
+    
       const nameHeading = document.createElement('h4');
       nameHeading.textContent = name;
       memberDiv.appendChild(nameHeading);
 
-      // Create a paragraph for the member's address
+     
       const addressParagraph = document.createElement('p');
       addressParagraph.textContent = address;
+      addressParagraph.setAttribute('id', 'member-p');
       memberDiv.appendChild(addressParagraph);
 
-      // Create a paragraph for the member's phone number
+    
       const phoneParagraph = document.createElement('p');
       phoneParagraph.textContent = phone;
+      phoneParagraph.setAttribute('id', 'member-p');
       memberDiv.appendChild(phoneParagraph);
 
-      // Create a paragraph for the member's website
+    
       const websiteParagraph = document.createElement('p');
       const websiteLink = document.createElement('a');
       websiteLink.href = website;
@@ -61,12 +62,13 @@ fetch(requestURL)
       websiteParagraph.appendChild(websiteLink);
       memberDiv.appendChild(websiteParagraph);
 
-      // Create a paragraph for the member's membership status
+      
       const membershipParagraph = document.createElement('p');
       membershipParagraph.textContent = `Membership: ${membership}`;
+      membershipParagraph.setAttribute('id', 'member-p');
       memberDiv.appendChild(membershipParagraph);
 
-      // Determine which spotlight section to append the member's div
+     
       if (i === 0) {
         spotlight1Div.appendChild(memberDiv);
       } else if (i === 1) {
