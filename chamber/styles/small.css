@@ -99,7 +99,7 @@
   /* Optional: Adds a gap between grid cells */
   .container {
     display: grid;
-    grid-template-columns: repeat( 1fr);
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(7, 1fr);
     gap: 10px; /* Optional: Adds a gap between grid cells */
     height: 63rem;
