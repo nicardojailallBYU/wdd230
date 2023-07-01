@@ -1,0 +1,80 @@
+{
+    "directories": [
+      {
+        "name": "Good Construction",
+        "images":"images/GC.webp",
+        "address": "102 Ome st Georgetown",
+        "phone": "(592) 801-2032",
+        "website": "https://goodConstruction.com",
+        "membership": "Gold"
+      },
+      {
+        "name": "Medic Laboratary",
+        "images":"images/ml.webp",
+        "address": "120 market st Georgetown",
+        "phone": "(592) 801-8042",
+        "website": "https://mediclaoratort.com",
+        "membership": "silver"
+      },
+      {
+        "name": "Signs Media",
+        "images":"images/sm.webp",
+        "address": "15 John st Georgetown",
+        "phone": "(592) 801-5036",
+        "website": "https://signsmedia.com",
+        "membership": "bronze"
+        
+      },
+      {
+        "name": "Express Wash",
+        "images":"images/ew.webp",
+        "address": "500 Alvin st Georgetown",
+        "phone": "(592) 801-3076",
+        "website": "https://expresswash.com",
+        "membership": "gold"
+      },
+      {
+        "name": "Jai Designs",
+        "images":"images/jd.webp",
+        "address": "A40 Heaven st Georgetown",
+        "phone": "(592) 801-5036",
+        "website": "https://jaidesigns.com",
+        "membership": "gold"
+      },
+      {
+        "name": "TechRepairs",
+        "images":"images/tr.webp",
+        "address": "1500 Shiv st Georgetown",
+        "phone": "(592) 809-2021",
+        "website": "https://www.techrepairs.com",
+        "membership": "silver"
+      },
+      {
+        "name": "Ureka Laboratary",
+        "images":"images/ul.webp",
+        "address": "C1510 Middle st Georgetown",
+        "phone": "(592) 801-1056",
+        "website": "https://urekalaoratory.com",
+        "membership": "bronze"
+      },
+      {
+        "name": "Pegasus Suites",
+        "images":"images/ps.webp",
+        "address": "1-4 Kingston Georgetown",
+        "phone": "(592) 801-9036",
+        "website": "https://www.mediclaoratort.com/",
+        "membership": "bronze"
+        
+      },
+      {
+        "name": "General Spares",
+        "images":"images/gs.webp",
+        "address": "400 John st Georgetown",
+        "phone": "(592) 801-6038",
+        "website": "https://generalspares.com/",
+        "membership": "silver"
+        
+      }
+      
+    ]
+  }

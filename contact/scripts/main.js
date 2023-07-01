@@ -38,3 +38,6 @@ const today = new Date();
       dateElement.textContent = ` ${dayOfWeek}, ${dayOfMonth} ${month} , ${year}`;
 
 
+      function redirectToThankYou() {
+        window.location.href = "thankyou.html";
+      }
