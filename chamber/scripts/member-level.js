@@ -33,13 +33,13 @@ fetch(requestURL)
       
       const imageElement = document.createElement('img');
       imageElement.src = image;
-      imageElement.alt = name;
+      imageElement.alt = name + "logo";
       imageElement.setAttribute('id', 'member-image');
       memberDiv.appendChild(imageElement);
 
     
       const nameHeading = document.createElement('h4');
-      nameHeading.textContent = name + "logo";
+      nameHeading.textContent = name ;
       memberDiv.appendChild(nameHeading);
 
      
