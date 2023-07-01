@@ -33,7 +33,7 @@ fetch(requestURL)
       
       const imageElement = document.createElement('img');
       imageElement.src = image;
-      imageElement.alt = "name";
+      imageElement.alt = name;
       imageElement.setAttribute('id', 'member-image');
       memberDiv.appendChild(imageElement);
 
