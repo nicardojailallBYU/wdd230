@@ -1,0 +1,225 @@
+@media only screen and (min-width: 32.5rem){
+    #banner {
+        padding: 7px;
+        font-size: 13px;
+      }img {
+        max-width: 22%;
+        
+        
+    }
+    img.logos {
+        max-width: 7%;
+        float:right;
+        margin-top: 0em;
+        margin-right: 0.7em;
+    }
+    h1 {
+        font-size: 4.3em;
+        text-align: center;
+        margin-top: -1.4em;
+        margin-bottom: -.1em;
+        margin-left: 1.5em;
+        color: white;
+    }
+    h2 {
+        font-size: 2em;
+        text-align: center;
+        margin-top: .3em;
+    }
+    .date {
+        background-color: #6B6B6B;
+        text-align: center;
+        box-shadow: 0 5px 15px white;
+        padding-top: 0%;
+        color: white;
+        border-radius: 6px;
+        font-size: 1.2em;
+        padding:.5em
+        
+      }
+    nav button {
+        margin: .2rem 2vw;
+        background: transparent;
+        border: none;
+        font-size: 2rem;
+    }
+    #hamburger-btn span:nth-child(1) {display: block;}
+    #hamburger-btn span:nth-child(2) {display: none;}
+
+    #hamburger-btn.open span:nth-child(1) {display: none;}
+    #hamburger-btn.open span:nth-child(2) {display: block;}
+    nav ul {display: none;}
+    nav ul.open {display: block;}
+    nav ul {
+        list-style-type: none;
+    }
+    nav {
+        padding: 6px;
+    }
+    nav ul li a{
+        display:block;
+         padding: .8rem 1.8vw;
+         text-decoration: none;
+         color:black;
+        border-top: 1px solid black;
+        font-size: 1.5em;
+    }   
+    nav ul li a:hover {
+         background-color: #444;
+        color:yellow;
+    }
+    
+    
+    img.logos-footer {
+        max-width: 20%;
+        margin:.5em;
+        
+    }
+    
+    p.country{
+        font-size: .8em;
+        color:white;
+        text-align: right;
+        margin-right: 1.5em;
+        margin-top: -.8em;
+    }
+    .copyright{
+        font-size: 1em;
+    }
+    .map {
+        color:white;
+        float: right;
+        margin-right: 2em;
+        margin-top: 1em;
+        margin-left: 5em;
+    }
+    .footer-head {
+        font-size: 1.4em;
+        color: yellow;
+        text-align: left;
+        margin-top: 8px;
+        margin-left: 5em;
+    }
+    footer {
+        background-color: #444;
+        color: yellow;
+        margin-top: -.4em;
+        padding: 0em;
+        text-align: center;
+        border-radius: 15px;
+        box-shadow: 0 0 15px black;
+        border-top: 1px solid white;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+          }
+          
+          .c-heading {
+            font-size: 3em;
+            text-align: center;
+            margin-bottom: .5em;
+          }
+          fieldset {
+            margin: 1em;
+            grid-column-start: 1;
+            grid-row-end: 2;
+            height: 18rem;
+          }
+          .c-phone{
+            font-size: 1.2em;
+
+            text-align: center;
+            padding: 10px;
+          }
+          .c-email{
+            font-size: 1.2em;
+            text-align: center;
+            padding-bottom: .5em;
+          }
+          .fb {
+            padding: .3em;
+            font-size: 1.5em;
+            color: #1877F2;
+            text-align: center;
+            
+          }
+          .ldin {
+            padding: 2px;
+            font-size: 1.5em;
+            color: white;
+            background: #0072b1;
+            text-align: center;
+            border-radius: 5px;
+          }
+          .ceo {
+            grid-column-start: 1;
+            grid-row-end: 3;
+            
+          }
+          .ceo-img {
+            max-width: 100%;
+            height: 180px;
+            margin: .5em;
+          }
+          .join-form {
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            background-color: #444;
+            padding:5px;
+            border: 1px solid black;
+            margin: 1em;
+            margin-left: 2em;
+            width: 80%;
+            gap: 15px;
+            border-radius: 5px;
+            margin-bottom: 3em;
+            
+          }
+          .s-m {
+            margin-left: 3em;
+            margin-right: 3em;
+          }
+          label {
+            padding:.5em;
+          }
+          
+          .first-label {
+            display: flex;
+            flex-direction: column;
+            color: yellow;
+            max-width: 100%;
+          }
+          
+          input, select, textarea {
+            padding: 10px;
+            font-size: 1em;
+            border-radius: 10px;
+          }
+          input[type="submit"] {
+            cursor: pointer;
+            margin-top: 1em;
+            margin-bottom: 10px;
+            background-color: yellow;
+            color: black;
+            font-weight: bold;
+            border-radius: 10px;
+            max-width: 85%;
+          }
+          input[type="submit"]:hover {
+            background-color: darkgreen;
+          }    
+          .p-ceo {
+            
+            padding: 10px;
+            margin-left: 2em;
+            margin-right: 1m;
+            margin-bottom: .5em;
+            font-size: 1.2em;
+            
+          }
+         
+    }
