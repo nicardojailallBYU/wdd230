@@ -1,0 +1,46 @@
+@media only screen and (min-width: 50rem){
+    
+    h1 {
+        
+        font-size: 5.2em;
+        text-align: center;
+        margin-top: 0em;
+        
+    }
+    h2{
+        text-align: left;
+        padding: 1em;
+    }
+    h3{
+        text-align: center;
+        padding: .6em;
+    }
+    .value {
+        
+    }
+    
+    
+    h6 {
+        font-size: 2em;
+        color: yellow;
+        text-align: center;
+        margin-top: 1em;
+       
+    }
+    
+    .copyright{
+        font-size: 1.4em;
+        
+        border-top: 1px solid #909090;
+      }
+      
+    footer {
+        background-color: #444;
+        color: yellow;
+        border-radius: 15px;
+        box-shadow: 0 0 15px black;
+       
+        
+    }
+    
+}
