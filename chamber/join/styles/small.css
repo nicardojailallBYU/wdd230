@@ -239,4 +239,9 @@ a.ty {
     font-size: 2em;
     color: red;
 }
-  
+  .field {
+    background-color: #444;
+    border: none;
+    color: yellow;
+    border-radius: 5px;
+  }
