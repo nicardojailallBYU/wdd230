@@ -39,7 +39,7 @@ fetch(requestURL)
 
     
       const nameHeading = document.createElement('h4');
-      nameHeading.textContent = name;
+      nameHeading.textContent = name + "logo";
       memberDiv.appendChild(nameHeading);
 
      
