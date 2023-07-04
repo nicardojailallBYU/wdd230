@@ -97,7 +97,7 @@
         grid-column-end: 4;
        grid-row-start: 6;
        grid-row-end: 7;
-        
+        margin-top: 2em;
       }
       .map {
         grid-column-start: 1;
@@ -111,7 +111,7 @@
         grid-column-end: 5;
        grid-row-start: 3;
        grid-row-end: 8;
-      
+      margin: 0 auto;
       }
     .contain3{
       display: grid;

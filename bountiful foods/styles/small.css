@@ -43,9 +43,11 @@
     
   }
   h1{
+    font-family: 'Noto Serif', serif;
     font-size: 1.2em;
   }
   .p1 {
+    font-family: 'Noto Serif', serif;
     font-size: 20px;
     color: green;
   }
@@ -147,14 +149,12 @@
     grid-column-end: 2;
    grid-row-start: 4;
    grid-row-end: 5;
-    
   }
-  .summary-info {
-    display: flex;
-  }
+  
   .coastal-img {
     max-width: 50%;
     float: left;
+   height: 8rem;
   }
   .coastal-img {
     max-width: 100%;
@@ -171,43 +171,15 @@
     grid-column-end: 2;
    grid-row-start: 6;
    grid-row-end: 7;
-    background-color: grey;
+    text-align: center;
     padding: 5px;
   }
-  .weather-header {
-    
-    color: blue;
-    text-align: left;
-    font-size: 1.5em;
-    margin: .1em;
- }
- #weather-icon{
-    float: right;
-    margin-top: -1em;
- }
-  #temperature {
-    color: black;
-    text-align: right;
-    font-size: 1.5em;
-  }
-  #conditions {
-    font-size: 1em;
-    color: black;
-    text-align: left;
-    margin-top: -1em;
-    padding-bottom: 5px;
-     
-  }
-
- #humidity {
-  color: black;
-  text-align: left;
-  font-size: 1em;
- }
+  
  #forecast{
-  color: black;
+  color: rgb(150, 19, 19);
   text-align: center;
   font-size: 1em;
+  
  }
   .contain3{
     display: grid;
@@ -215,7 +187,7 @@
     grid-template-rows: 1fr 1fr 1fr  1fr;
     border-top: 1px solid red;
     border-radius: 15px;
-    height: 12rem;
+    
   }
   .f-one {
     grid-column-start: 1;
@@ -249,10 +221,12 @@
     font-size: 10px;
   }
   .p-head{
+    font-family: 'Noto Serif', serif;
     color: red;
     font-size: 1.3em;
   }
   .p-head2{
+    font-family: 'Noto Serif', serif;
     color: green;
     font: 8px;
   }
