@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>WDD 230: Bountiful Foods</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="WDD 230: Bountiful Foods">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Eczar&display=swap">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/small.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+        <link rel="icon" href="images/favicon.ico">
+  </head>
+  <body>
+    
+        
+    <header>
+        
+       
+        <div class="social-links">
+          <a href="https://www.facebook.com" target="blank"><img class="logos1" src="images/facebook.webp" alt="facebook"></a>
+              <a href="https://www.linkedin.com/" target="blank"><img class="logos2" src="images/linkedin.webp" alt="linkedin"></a> 
+              <a href="https://twitter.com/" target="blank"><img class="logos3" src="images/twitter.png" alt="linkedin"></a> 
+        </div>
+        <div class="head-img">
+          <img class="img-logo" src="images/logo1.PNG" alt="company logo">
+        
+          <h1>Fruits & Juice</h1>
+          <h2>Freshly made for you <span class="check">&check;</span></h2>
+        </div>
+          
+           
+        <nav>
+        <button id="hamburger-btn"><span class="check">&#9776;</span><span>X</span></button>
+        <ul id="primary-nav">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Fresh</a>
+            </li>
+            <li>
+                <a href="#">About Us</a>
+            </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form id="drinkForm">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+    
+        <label for="fruit1">Fruit 1:</label>
+        <select id="fruit1" name="fruit1" required></select>
+    
+        <label for="fruit2">Fruit 2:</label>
+        <select id="fruit2" name="fruit2" required></select>
+    
+        <label for="fruit3">Fruit 3:</label>
+        <select id="fruit3" name="fruit3" required></select>
+    
+        <label for="instructions">Special Instructions:</label>
+        <textarea id="instructions" name="instructions"></textarea>
+    
+        <input type="submit" value="Submit">
+      </form>
+    </main>
+    <footer>
+       
+    </footer> 
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/weather.js"></script> 
+    <script src="scripts/contemps.js"></script>  
+    <script src="scripts/fruit-data.js"></script> 
+
+</body>
+</html>

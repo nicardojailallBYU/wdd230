@@ -1,0 +1,53 @@
+@media only screen and (min-width: 32.5rem){
+    .img-logo {
+        max-width: 40%;
+        margin: 5px;
+        
+     }
+    h1 {
+        font-size: 3.5em;
+        text-align: center;
+        margin-top: 1em;
+        
+        margin-left: 1.5em;
+        
+    }
+    h2 {
+        font-size: 2em;
+        text-align: center;
+        
+  
+    }
+  
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+}
+#hamburger-btn span:nth-child(1) {display: block;}
+#hamburger-btn span:nth-child(2) {display: none;}
+
+#hamburger-btn.open span:nth-child(1) {display: none;}
+#hamburger-btn.open span:nth-child(2) {display: block;}
+nav ul {display: none;}
+nav ul.open {display: block;}
+nav ul {
+    list-style-type: none;
+}
+nav {
+    padding: 6px;
+}
+nav ul li a{
+    display:block;
+     padding: .8rem 1.8vw;
+     text-decoration: none;
+     color:black;
+    border-top: 1px solid black;
+    font-size: 1.5em;
+}   
+nav ul li a:hover {
+     background-color: #444;
+    color:yellow;
+}
+  }

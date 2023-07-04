@@ -1,0 +1,162 @@
+@media only screen and (min-width: 55rem){
+
+  .contain1{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    }
+    .one {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 2;
+      grid-row-end: 5;
+      
+    }
+    .img1 {
+      max-width: 100%;
+      width: 90%;
+      height: 95%;
+      float: right;
+      
+    }
+    .two {
+      grid-column-start: 4;
+      grid-column-end: 6;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+    .img2, .img3, .img4 {
+      max-width: 10%;
+      height: 100%;
+      float: right;
+      
+    }
+    .three {
+      grid-column-start: 3;
+      grid-column-end: 6;
+      grid-row-start: 2;
+      grid-row-end: 4;
+      font-size: 4em;
+    }
+    
+    
+    .four {
+      grid-column-start: 3;
+      grid-column-end: 6;
+      grid-row-start: 4;
+      grid-row-end: 5;
+      text-align: center;
+    }
+    nav {
+      
+      position: relative;
+      
+    }
+    nav button{display: none;}
+        nav ul {
+            display: flex;
+            float: right;
+        }
+        nav ul li a {
+            border: none;
+            
+        }
+    nav ul li a{
+      display:block;
+       padding: .2rem 4vw;
+       text-decoration: none;
+       color:white;
+      font-size: 1.5em;
+    }
+    .container2 {
+    
+      display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 10px; /* Optional: Adds a gap between grid cells */
+        padding: 1em;
+        height: 50rem;
+      }
+      .contemp {
+        display: flex;
+       grid-column-start: 1;
+       grid-column-end: 4;
+       grid-row-start: 1;
+       grid-row-end: 6;
+       
+      }
+      .fruit-mix{
+        grid-column-start: 4;
+        grid-column-end: 5;
+       grid-row-start: 1;
+       grid-row-end: 3;
+      }
+      .summary-info {
+        grid-column-start: 1;
+        grid-column-end: 4;
+       grid-row-start: 6;
+       grid-row-end: 7;
+        border: 1px solid blue;
+      }
+      .map {
+        grid-column-start: 1;
+        grid-column-end: 4;
+       grid-row-start: 7;
+       grid-row-end: 8;
+        border: 1px solid blue;
+      }
+      .weather-item {
+        grid-column-start: 4;
+        grid-column-end: 5;
+       grid-row-start: 3;
+       grid-row-end: 8;
+        border: 1px solid blue;
+      }
+    .contain3{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr ;
+      grid-gap: 10px;
+    }
+    .f-one {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 3;
+    }
+    .f-logo {
+      max-width: 800%;
+      width: 90%;
+    }
+    .f-two {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 3;
+      grid-row-end: 4;
+      border: 1px solid blue;
+    }
+    .f-three {
+      grid-column-start: 3;
+      grid-column-end: 5;
+      grid-row-start: 1;
+      grid-row-end: 3;
+      border: 1px solid blue;
+    }
+    .f-four {
+      grid-column-start: 5;
+      grid-column-end: 6;
+      grid-row-start: 1;
+      grid-row-end: 3;
+      border: 1px solid blue;
+    }
+    .f-five {
+      grid-column-start: 3;
+      grid-column-end: 6;
+      grid-row-start: 3;
+      grid-row-end: 4;
+      border: 1px solid blue;
+    }
+  
+
+}
