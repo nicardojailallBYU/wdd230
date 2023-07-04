@@ -1,4 +1,4 @@
-const imageUrls = ["images/logo1.png", "images/logo2.png", "images/logo3.png", "images/logo4.png"];
+const imageUrls = ["images/logo1.PNG", "images/logo2.PNG", "images/logo3.PNG", "images/logo4.PNG"];
 
 // Get the img element
 const contempsImg = document.getElementById("contemps-img");
