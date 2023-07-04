@@ -97,27 +97,27 @@
         grid-column-end: 4;
        grid-row-start: 6;
        grid-row-end: 7;
-        border: 1px solid blue;
+        
       }
       .map {
         grid-column-start: 1;
         grid-column-end: 4;
        grid-row-start: 7;
        grid-row-end: 8;
-        border: 1px solid blue;
+      
       }
       .weather-item {
         grid-column-start: 4;
         grid-column-end: 5;
        grid-row-start: 3;
        grid-row-end: 8;
-        border: 1px solid blue;
+      
       }
     .contain3{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr ;
-      grid-gap: 10px;
+      
     }
     .f-one {
       grid-column-start: 1;
@@ -134,28 +134,35 @@
       grid-column-end: 3;
       grid-row-start: 3;
       grid-row-end: 4;
-      border: 1px solid blue;
+      
     }
     .f-three {
       grid-column-start: 3;
       grid-column-end: 5;
       grid-row-start: 1;
       grid-row-end: 3;
-      border: 1px solid blue;
+      
+    }
+    .p-head {
+      padding-top: 1em;
+      font-size: 3.5em;
+    }
+    .p-head2 {
+      font-size: 2em;
     }
     .f-four {
       grid-column-start: 5;
       grid-column-end: 6;
       grid-row-start: 1;
       grid-row-end: 3;
-      border: 1px solid blue;
+     
     }
     .f-five {
       grid-column-start: 3;
       grid-column-end: 6;
       grid-row-start: 3;
       grid-row-end: 4;
-      border: 1px solid blue;
+      
     }
   
 

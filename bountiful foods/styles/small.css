@@ -18,7 +18,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    border-bottom: 1px solid black;
+    
   }
   .one {
     grid-column-start: 1;
@@ -92,7 +92,7 @@
     padding: .6rem 2.8vw;
     text-decoration: none;
     color:red;
-    border-top: 1px solid black;
+   
     font-size: 1.5em;
   }
   nav ul li a:hover {
@@ -118,7 +118,7 @@
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 10px; /* Optional: Adds a gap between grid cells */
     padding: 1em;
-    border: 1px solid blue;
+    
     height: 60rem;
   }
   .contemp {
@@ -140,7 +140,7 @@
     grid-column-end: 2;
    grid-row-start: 3;
    grid-row-end: 4;
-    border: 1px solid blue;
+   
   }
   .summary-info {
     grid-column-start: 1;
@@ -148,6 +148,13 @@
    grid-row-start: 4;
    grid-row-end: 5;
     
+  }
+  .summary-info {
+    display: flex;
+  }
+  .coastal-img {
+    max-width: 50%;
+    float: left;
   }
   .coastal-img {
     max-width: 100%;
@@ -157,7 +164,7 @@
     grid-column-end: 2;
    grid-row-start: 5;
    grid-row-end: 6;
-    border: 1px solid blue;
+    
   }
   .weather-item {
     grid-column-start: 1;
@@ -206,7 +213,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr  1fr;
-    grid-gap: 10px;
+    border-top: 1px solid red;
+    border-radius: 15px;
     height: 12rem;
   }
   .f-one {
@@ -225,15 +233,20 @@
     grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 4;
-    border: 1px solid blue;
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding-top: 5px;
+    
   }
   .f-three {
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 3;
-    border: 1px solid green;
+    
     text-align: center;
+    font-size: 10px;
   }
   .p-head{
     color: red;
@@ -248,14 +261,18 @@
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 4;
-    border: 1px solid red;
+    
   }
   .f-five {
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 4;
     grid-row-end: 5;
-    border: 1px solid blue;
+    background-color: rgba(173, 171, 12, 0.8);
+    text-align: center;
+    font-size: 17px;
+    color: rgb(143, 24, 24);
+    padding-top: 2px;
   }
 
   
