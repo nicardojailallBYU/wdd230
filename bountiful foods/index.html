@@ -1,106 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles/small.css">
-    <link rel="stylesheet" href="styles/large.css">
-    <link rel="icon" href="images/favicon.PNG">
-</head>
-<body>
-    <header>
-
-        <div class="contain1">
-            <div class="one">
-                <img class='img1'src="images/Capture3.PNG" alt="site-logo">
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bountiful Foods</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="WDD 230: Bountiful Foods">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Eczar&display=swap">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/small.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+        <link rel="icon" href="images/favicon.ico">
+  </head>
+  
+    <body>
+        <header>
+    
+            <div class="contain1">
+                <div class="one">
+                    <img class='img1'src="images/Capture3.PNG" alt="site-logo">
+                </div>
+                <div class="two">
+                    <a href="https://www.facebook.com" target="blank"><img class="logos1" src="images/facebook.webp" alt="facebook"></a>
+                  <a href="https://www.linkedin.com/" target="blank"><img class="logos2" src="images/linkedin.webp" alt="linkedin"></a> 
+                  <a href="https://twitter.com/" target="blank"><img class="logos3" src="images/twitter.png" alt="linkedin"></a> 
+                </div>
+                <div class="three">
+                    <h1>Bountiful Food</h1>
+                    <p class="p1">freshly made for you <span class="check">&check;</span></p>
+                </div>
+                <div class="four">
+                    <nav>
+                        <button id="hamburger-btn"><span class="check">&#9776;</span><span>X</span></button>
+                        <ul id="primary-nav">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Fresh</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                    </ul>
+                </nav>
+                </div>
             </div>
-            <div class="two">
-                <a href="https://www.facebook.com" target="blank"><img class="logos1" src="images/facebook.webp" alt="facebook"></a>
-              <a href="https://www.linkedin.com/" target="blank"><img class="logos2" src="images/linkedin.webp" alt="linkedin"></a> 
-              <a href="https://twitter.com/" target="blank"><img class="logos3" src="images/twitter.png" alt="linkedin"></a> 
+        </header>
+        <main>
+            <div class="container2">
+             <div class="contemp">
+               <img id="contemps-img" src="images/logo1.PNG" alt="contempary images1">
+               
+             </div>
+             <div class="fruit-mix">
+               <p>Fruit Drink</p>
+             </div>
+             <div class="summary-info">
+               <p>summary-info</p>
+             </div>
+             <div class="map">
+               <p>map</p>
+             </div>
+             <div class="weather-item">
+               <div class="weather-header">Weather</div>
+               <img src="https://openweathermap.org/img/w/01n.png" id="weather-icon" alt="weather-img">
+               <h3 id="temperature"> #</h3>
+               <h3 id="conditions"> #</h3>
+               <h3 id="humidity">#</h3>
+               <div id="forecast-container"></div>
+               <p><span id="forecast"></span></p>
+               <h3 id="tomorrowDateId"></h3>
+             </div>
             </div>
-            <div class="three">
-                <h1>Bountiful Food</h1>
-                <p class="p1">freshly made for you <span class="check">&check;</span></p>
-            </div>
-            <div class="four">
-                <nav>
-                    <button id="hamburger-btn"><span class="check">&#9776;</span><span>X</span></button>
-                    <ul id="primary-nav">
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">Fresh</a>
-                    </li>
-                    <li>
-                        <a href="#">About Us</a>
-                    </li>
-                </ul>
-            </nav>
-            </div>
-        </div>
-    </header>
-    <main>
-        <div class="container2">
-         <div class="contemp">
-           <img id="contemps-img" src="images/logo1.PNG" alt="contempary images1">
-           
-         </div>
-         <div class="fruit-mix">
-           <p>Fruit Drink</p>
-         </div>
-         <div class="summary-info">
-           <p>summary-info</p>
-         </div>
-         <div class="map">
-           <p>map</p>
-         </div>
-         <div class="weather-item">
-           <div class="weather-header">Weather</div>
-           <img src="https://openweathermap.org/img/w/01n.png" id="weather-icon" alt="weather-img">
-           <h3 id="temperature"> #</h3>
-           <h3 id="conditions"> #</h3>
-           <h3 id="humidity">#</h3>
-           <div id="forecast-container"></div>
-           <p><span id="forecast"></span></p>
-           <h3 id="tomorrowDateId"></h3>
-         </div>
-        </div>
-        
-      </div>
-     </main>
-    <footer>
-        <div class="contain3">
-            <div class="f-one">
-                <img class='f-logo'src="images/Capture3.PNG" alt="site-logo">
             
+          </div>
+         </main>
+        <footer>
+            <div class="contain3">
+                <div class="f-one">
+                    <img class='f-logo'src="images/Capture3.PNG" alt="site-logo">
+                
+                </div>
+                <div class="f-two">
+                    info@bountifulfoods.com
+    
+                    +1-707-801-1096
+                </div>
+                <div class="f-three">
+                    <p class="p-head">Bountiful Food</p>
+                    <p class="p-head2">freshly made for you <span class="check">&check;</span></p>
+                </div>
+                <div class="f-four">
+                    location<br>
+                    Carlsbad, CA 92018
+                </div>   
+                <div class="f-five">
+                    ©2023 truefind |Nicardo Jailall| Bountiful Fruits | Georgetown, Guyana
+                </div>
             </div>
-            <div class="f-two">
-                info@bountifulfoods.com
-
-                +1-707-801-1096
-            </div>
-            <div class="f-three">
-                <p class="p-head">Bountiful Food</p>
-                <p class="p-head2">freshly made for you <span class="check">&check;</span></p>
-            </div>
-            <div class="f-four">
-                location<br>
-                Carlsbad, CA 92018
-            </div>   
-            <div class="f-five">
-                ©2023 truefind |Nicardo Jailall| Bountiful Fruits | Georgetown, Guyana
-            </div>
-        </div>
-        
-
-    </footer>
-    <script src="scripts/main.js"></script>
-    <script src="scripts/hamburger.js"></script>
-    <script src="scripts/weather.js"></script> 
-    <script src="scripts/contemps.js"></script> 
-</body>
-</html>
+            
+    
+        </footer>
+        <script src="scripts/main.js"></script>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/weather.js"></script> 
+        <script src="scripts/contemps.js"></script> 
+    </body>
+    </html>
