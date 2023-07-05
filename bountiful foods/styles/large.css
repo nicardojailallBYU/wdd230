@@ -99,6 +99,19 @@
        grid-row-end: 7;
         margin-top: 2em;
       }
+      .coastal-img {
+        max-width: 50%;
+        width: 80%;
+       height: 10rem;
+       border: 5px solid grey;
+       float: left;
+       
+      }
+      .summary-p {
+        margin-top: .5em;
+        font-size: 15px;
+        text-align: center;
+      }
       .map {
         grid-column-start: 1;
         grid-column-end: 4;
@@ -113,6 +126,9 @@
        grid-row-end: 8;
       margin: 0 auto;
       }
+      h3 {
+        font-size: 23px;
+      }
     .contain3{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -126,8 +142,9 @@
       grid-row-end: 3;
     }
     .f-logo {
-      max-width: 800%;
-      width: 90%;
+      max-width: 100%;
+      width: 50%;
+      height: 7rem;
     }
     .f-two {
       grid-column-start: 1;
@@ -144,7 +161,6 @@
       
     }
     .p-head {
-      padding-top: 1em;
       font-size: 3.5em;
     }
     .p-head2 {

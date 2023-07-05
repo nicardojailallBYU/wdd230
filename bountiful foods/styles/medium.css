@@ -12,4 +12,71 @@
         font-size: 2em;
         text-align: center;
     }
+    .container2 {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .contemp {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    .fruit-mix {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    .summary-info {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 6;
+        padding: 5px;
+    }
+    .coastal-img {
+        max-width: 100%;
+        width: 100%;
+       height: 15rem;
+       
+       
+       
+      }
+      .summary-p {
+        font-size: 15px;
+        
+      }
+    .map {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    .weather-item  {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 6;
+        
+    }
+    .today {
+        border-bottom: none;
+        box-shadow: #333;
+        margin-bottom: 10px;
+      }
+      .weather-header {
+        color: blue;
+        font-size: 1em;
+      }
+      h3 {
+        color: blue;
+        font-size: 1.5em;
+      }
+     #forecast{
+      color: rgb(150, 19, 19);
+      text-align: center;
+      font-size: 15px;
+      
+     }
   }
