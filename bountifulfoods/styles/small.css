@@ -1,0 +1,367 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: white;
+    max-width: 1100px;
+  
+    margin: auto;
+    border: 1px solid #EDEADE;
+    box-shadow:5px  5px 50px grey;
+  }
+  .contain1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    
+  }
+  .one {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    
+
+  }
+  .img1 {
+    
+    box-shadow:10px -10px  10px rgba(6, 155, 33, 0.8),-10px 10px  5px  rgba(173, 171, 12, 0.8);
+    max-width: 90%;
+    height: 100%;
+    float: right;
+  }
+  .two {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+  }
+  h1{
+    font-family: 'Noto Serif', serif;
+    font-size: 1.2em;
+    color: red;
+  }
+  .p1 {
+    font-family: 'Noto Serif', serif;
+    font-size: 20px;
+    color: green;
+  }
+  .logos1, .logos2, .logos3{
+    padding-top: 1em;
+    max-width: 10%;
+    float: right;
+    
+  }
+  
+  .three {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .four {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    height: 3rem;
+    background-color: green;
+  }
+  #hamburger-btn span:nth-child(1) {display: block;}
+  #hamburger-btn span:nth-child(2) {display: none;}
+  
+  #hamburger-btn.open span:nth-child(1) {display: none;}
+  #hamburger-btn.open span:nth-child(2) {display: block;}
+  nav {
+    background-color: green;
+  }
+  nav ul {display: none;}
+    nav ul.open {display: block;}
+  nav ul {
+    list-style-type: none;
+  }
+  nav ul li a{
+    display:block;
+    padding: .6rem 2.8vw;
+    text-decoration: none;
+    color:red;
+   
+    font-size: 1.5em;
+  }
+  nav ul li a:hover {
+    background-color: #444;
+    color:yellow;
+  }
+  #hamburger-btn{
+    color: red;
+    float: left;
+    padding: 8px;
+    margin: 2px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px; /* Optional: Adds a gap between grid cells */
+    height: 63rem;
+    padding: 1em;
+  }
+  .container2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px; /* Optional: Adds a gap between grid cells */
+    padding: 1em;
+    
+    height: 90rem;
+  }
+  .contemp {
+
+   grid-column-start: 1;
+   grid-column-end: 2;
+   grid-row-start: 1;
+   grid-row-end: 3;
+   
+   
+  }
+  #contemps-img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+  }
+  .fruit-mix{
+    grid-column-start: 1;
+    grid-column-end: 2;
+   grid-row-start: 3;
+   grid-row-end: 4;
+   background-color: rgb(243, 78, 78);
+   
+  }
+  .fruit-name {
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  .fruit-image {
+    max-width: 30%;
+    float: right;
+    border: 3px solid rgb(214, 247, 207);
+    margin-top: -4em;
+    margin-bottom: 3px;
+  }
+  .drink-mix{
+    padding: 5px;
+  }
+  .calories {
+    color: white;
+    font-size: 1em;
+    text-align: left;
+    margin-left: 10px;
+    
+  }
+  .sugar {
+    color: white;
+    font-size: 1em;
+    text-align: left;
+    margin-left: 10px;
+    
+  }
+  .carbohydrates {
+    color: white;
+    font-size: 1em;
+    text-align: left;
+    margin-left: 10px;
+    
+  }
+  .total-drink{
+    background-color: white;
+    color: green;
+    padding: 5px;
+    font-size: 13px;
+  }
+  .summary-info {
+    grid-column-start: 1;
+    grid-column-end: 2;
+   grid-row-start: 4;
+   grid-row-end: 5;
+   background-color: rgb(156, 230, 156);
+  border: calc(2*var(--s)) solid #0000;
+  outline: 2px solid green;
+  outline-offset: calc(-1*var(--s));
+  background: conic-gradient(from 90deg at 5px 1px,#0000 25%,red 0);
+  --s: 10px; /* control the size */
+  }
+  
+  .coastal-img {
+    max-width: 100%;
+    width: 80%;
+   height: 6rem;
+   border: 5px solid rgb(233, 121, 121);
+   
+   
+  }
+  .summary-p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .map {
+    grid-column-start: 1;
+    grid-column-end: 2;
+   grid-row-start: 5;
+   grid-row-end: 6;
+    padding: 10px;
+    border: 5px solid rgb(202, 202, 202);
+    background-color: rgb(245, 238, 238);
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, red, green);
+  }
+  .card {
+    text-align: center;
+    background-color: #DF1616;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding:10px;
+    font-size: 1.3em;
+  }
+  .card1 {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 1em;
+    color: rgb(28, 126, 28);
+  }
+  
+  .weather-item {
+    grid-column-start: 1;
+    grid-column-end: 2;
+   grid-row-start: 6;
+   grid-row-end: 7;
+    text-align: center;
+    padding: 5px;
+    border: 5px solid rgb(30, 158, 30);
+    margin-left: 20px;
+    margin-right: 20px;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, green, red);
+  }
+  .today {
+    border-bottom: 5px solid rgb(223, 212, 212);
+    box-shadow: #333;
+    margin-bottom: 10px;
+  }
+  .weather-header {
+    color: blue;
+    font-size: 1em;
+  }
+  h3 {
+    color: blue;
+    font-size: 1.5em;
+  }
+ #forecast{
+  color: rgb(150, 19, 19);
+  text-align: center;
+  font-size: 20px;
+  
+ }
+  .contain3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr  1fr;
+    border: 1px solid red;
+    height: 10rem;
+  }
+  .f-one {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .f-logo {
+    max-width: 100%;
+    width: 100%;
+    height: 3rem;
+  }
+  .f-two {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    text-align: center;
+    color: #E60000;
+    padding-top: 5px;
+    margin-bottom: -1em;
+  }
+  .f-three {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: center;
+    
+  }
+  .p-head{
+    font-family: 'Noto Serif', serif;
+    color: red;
+    font-size: 2em;
+  }
+  .p-head2{
+    font-family: 'Noto Serif', serif;
+    color: green;
+    font: 10px;
+  }
+  .f-four {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 1em;
+  }
+  .f-map {
+    float: right;
+  }
+  .f-p {
+    margin-top: 2px;
+    text-align: right;
+    color: green;
+  }
+  .f-five {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: green;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    padding-top: 2px;
+    border-top: 1px solid red;
+    border-radius: 15px;
+  }
+
+
+      /*Drinks*/
+      #special-drinks {
+        display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        grid-gap: 10px;
+        text-align: center;
+        padding: 10px;
+      }
+      h4 {
+        color: white;
+        text-align: center;
+        font-size: 1.5em;
+        padding-bottom: 5px;
+      }
+      .drink {
+        border: 1px solid red;
+        padding: 10px;
+        background-color: rgb(240, 158, 158);
+      }

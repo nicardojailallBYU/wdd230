@@ -1,0 +1,225 @@
+@media only screen and (min-width: 55rem){
+
+  .contain1{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    }
+    .one {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 2;
+      grid-row-end: 5;
+      
+    }
+    .img1 {
+      max-width: 100%;
+      width: 90%;
+      height: 95%;
+      float: right;
+      
+    }
+    .two {
+      grid-column-start: 4;
+      grid-column-end: 6;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+    .img2, .img3, .img4 {
+      max-width: 10%;
+      height: 100%;
+      float: right;
+      
+    }
+    .three {
+      grid-column-start: 3;
+      grid-column-end: 6;
+      grid-row-start: 2;
+      grid-row-end: 4;
+      font-size: 2em;
+    }
+    
+    
+    .four {
+      grid-column-start: 3;
+      grid-column-end: 6;
+      grid-row-start: 4;
+      grid-row-end: 5;
+      text-align: center;
+    }
+    nav {
+      
+      position: relative;
+      
+    }
+    nav button{display: none;}
+        nav ul {
+            display: flex;
+            float: right;
+        }
+        nav ul li a {
+            border: none;
+            
+        }
+    nav ul li a{
+      display:block;
+       padding: .2rem 2vw;
+       text-decoration: none;
+       color:white;
+      font-size: 1.5em;
+    }
+    .container2 {
+    
+      display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 10px; /* Optional: Adds a gap between grid cells */
+        padding: 1em;
+        height: 50rem;
+      }
+      .contemp {
+        display: flex;
+       grid-column-start: 1;
+       grid-column-end: 4;
+       grid-row-start: 1;
+       grid-row-end: 6;
+       
+      }
+      .fruit-mix{
+        grid-column-start: 4;
+        grid-column-end: 5;
+       grid-row-start: 1;
+       grid-row-end: 3;
+      }
+      .fruit-name {
+        text-align: left;
+        margin-left: 10px;
+        font-size: 1.3em;
+      }
+      .fruit-image {
+        max-width: 25%;
+        float: right;
+        border: 3px solid rgb(190, 245, 179);
+        
+      }
+      .drink-mix{
+        padding: 5px;
+      }
+      .calories {
+        color: white;
+        font-size: 1em;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 5px;
+        
+        
+      }
+      .sugar {
+        color: white;
+        font-size: 1em;
+        text-align: left;
+        margin-left: 20px;
+        
+      }
+      .carbohydrates {
+        color: white;
+        font-size: 1em;
+        text-align: left;
+        margin-left: 20px;
+        
+      }
+      .total-drink{
+        font-size: 15px;
+      }
+      .summary-info {
+        grid-column-start: 1;
+        grid-column-end: 4;
+       grid-row-start: 6;
+       grid-row-end: 7;
+        margin-top: 2em;
+      }
+      .coastal-img {
+        max-width: 50%;
+        width: 80%;
+       height: 10rem;
+       border: 5px solid grey;
+       float: left;
+       
+      }
+      .summary-p {
+        margin-top: .5em;
+        font-size: 15px;
+        text-align: center;
+      }
+      .map {
+        grid-column-start: 1;
+        grid-column-end: 4;
+       grid-row-start: 7;
+       grid-row-end: 8;
+      
+      }
+      .weather-item {
+        grid-column-start: 4;
+        grid-column-end: 5;
+       grid-row-start: 3;
+       grid-row-end: 8;
+      margin: 0 auto;
+      }
+      h3 {
+        font-size: 23px;
+      }
+    .contain3{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr ;
+      
+    }
+    .f-one {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 3;
+    }
+    .f-logo {
+      max-width: 100%;
+      width: 50%;
+      height: 7rem;
+    }
+    .f-two {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 3;
+      grid-row-end: 4;
+      
+    }
+    .f-three {
+      grid-column-start: 3;
+      grid-column-end: 5;
+      grid-row-start: 1;
+      grid-row-end: 3;
+      
+    }
+    .p-head {
+      font-size: 3.5em;
+    }
+    .p-head2 {
+      font-size: 2em;
+    }
+    .f-four {
+      grid-column-start: 5;
+      grid-column-end: 6;
+      grid-row-start: 1;
+      grid-row-end: 3;
+     
+    }
+    .f-five {
+      grid-column-start: 3;
+      grid-column-end: 6;
+      grid-row-start: 3;
+      grid-row-end: 4;
+      
+    }
+  
+
+}
