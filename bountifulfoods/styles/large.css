@@ -143,7 +143,7 @@
         max-width: 50%;
         width: 80%;
        height: 10rem;
-       border: 5px solid grey;
+       border: 5px solid rgb(233, 121, 121);
        float: left;
        
       }
@@ -158,6 +158,10 @@
        grid-row-start: 7;
        grid-row-end: 8;
       
+      }
+      .card {
+        margin-left: 9em;
+        margin-right: 9em;
       }
       .weather-item {
         grid-column-start: 4;

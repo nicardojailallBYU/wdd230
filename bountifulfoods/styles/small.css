@@ -192,11 +192,7 @@
    grid-row-start: 4;
    grid-row-end: 5;
    background-color: rgb(156, 230, 156);
-  border: calc(2*var(--s)) solid #0000;
-  outline: 2px solid green;
-  outline-offset: calc(-1*var(--s));
-  background: conic-gradient(from 90deg at 5px 1px,#0000 25%,red 0);
-  --s: 10px; /* control the size */
+  
   }
   
   .coastal-img {
@@ -210,6 +206,7 @@
   .summary-p {
     font-size: 15px;
     text-align: center;
+    color: rgb(70, 67, 67);
   }
   .map {
     grid-column-start: 1;
@@ -218,14 +215,14 @@
    grid-row-end: 6;
     padding: 10px;
     border: 5px solid rgb(202, 202, 202);
-    background-color: rgb(245, 238, 238);
+    background-color: rgb(243, 114, 114);
     border-image-slice: 1;
     border-image-source: linear-gradient(to right, red, green);
   }
   .card {
     text-align: center;
-    background-color: #DF1616;
-    color: white;
+    background-color: white;
+    color: green;
     margin-left: 20px;
     margin-right: 20px;
     padding:10px;
@@ -235,7 +232,7 @@
     text-align: center;
     margin-top: 5px;
     font-size: 1em;
-    color: rgb(28, 126, 28);
+    color: white;
   }
   
   .weather-item {

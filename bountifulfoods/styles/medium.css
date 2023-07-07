@@ -25,8 +25,8 @@
     .fruit-mix {
         grid-column-start: 1;
         grid-column-end: 3;
-        grid-row-start: 3;
-        grid-row-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 5;
     }
     .fruit-name {
         text-align: left;
@@ -69,9 +69,9 @@
       }
     .summary-info {
         grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 4;
-        grid-row-end: 6;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
         padding: 5px;
     }
     .coastal-img {
@@ -87,10 +87,10 @@
         
       }
     .map {
-        grid-column-start: 3;
-        grid-column-end: 5;
-        grid-row-start: 3;
-        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 6;
     }
     .weather-item  {
         grid-column-start: 3;
