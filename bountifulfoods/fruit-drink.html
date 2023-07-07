@@ -5,49 +5,51 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Bountiful-Foods</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="WDD 230: Bountiful Foods">
+        <meta name="description" content="WDD 230: Bountiful Foods Fruit Page">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Eczar&display=swap">
         <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/normalize.css">
         <link rel="stylesheet" href="../bountifulfoods/styles/small.css">
-        <link rel="stylesheet" href="styles/medium.css">
-        <link rel="stylesheet" href="styles/large.css">
-        <link rel="icon" href="images/favicon.PNG">
+        <link rel="stylesheet" href="../bountifulfoods/styles/medium.css">
+        <link rel="stylesheet" href="../bountifulfoods/styles/large.css">
+        <link rel="icon" href="../bountifulfoods/images/favicon.webp">
   </head>
   <body>
-    
-        
     <header>
-        
-       
-        <div class="social-links">
-          <a href="https://www.facebook.com" target="blank"><img class="logos1" src="images/facebook.webp" alt="facebook"></a>
-              <a href="https://www.linkedin.com/" target="blank"><img class="logos2" src="images/linkedin.webp" alt="linkedin"></a> 
-              <a href="https://twitter.com/" target="blank"><img class="logos3" src="images/twitter.png" alt="linkedin"></a> 
-        </div>
-        <div class="head-img">
-          <img class="img-logo" src="images/logo1.PNG" alt="company logo">
-        
-          <h1>Fruits & Juice</h1>
-          <h2>Freshly made for you <span class="check">&check;</span></h2>
-        </div>
-          
-           
-        <nav>
-        <button id="hamburger-btn"><span class="check">&#9776;</span><span>X</span></button>
-        <ul id="primary-nav">
-            <li>
-                <a href="https://nicardojailallbyu.github.io/wdd230/bountiful%20foods/index">Home</a>
-            </li>
-            <li>
-                <a href="https://nicardojailallbyu.github.io/wdd230/bountiful%20foods/fruit-drink">Fresh</a>
-            </li>
-            <li>
-                <a href="#">About Us</a>
-            </li>
-        </ul>
-      </nav>
-    </header>
+    
+      <div class="contain1">
+          <div class="one">
+              <img class='img1' src="images/company-logo.webp" alt="site-logo">
+          </div>
+          <div class="two">
+              <a href="https://www.facebook.com" target="blank"><img class="logos1" src="images/facebook.webp" alt="facebook"></a>
+            <a href="https://www.linkedin.com/" target="blank"><img class="logos2" src="images/linkedin.webp" alt="linkedin"></a> 
+            <a href="https://twitter.com/" target="blank"><img class="logos3" src="images/twitter.webp" alt="twitter"></a> 
+          </div>
+          <div class="three">
+              <h1>Bountiful Food</h1>
+              <p class="p1">freshly made for you <span class="check">&check;</span></p>
+          </div>
+          <div class="four">
+              <nav>
+                  <button id="hamburger-btn"><span class="check">&#9776;</span><span>X</span></button>
+                  <ul id="primary-nav">
+                  <li>
+                      <a href="https://nicardojailallbyu.github.io/wdd230/bountifulfoods/index">Home</a>
+                  </li>
+                  <li>
+                      <a href="https://nicardojailallbyu.github.io/wdd230/bountifulfoods/fruit-drink">Fresh</a>
+                  </li>
+                  <li>
+                      <a href="https://nicardojailallbyu.github.io/wdd230/bountifulfoods/menu">Menu</a>
+                  </li>
+                  <li>
+                    <a href="#">About Us</a>
+                </li>
+              </ul>
+          </nav>
+          </div>
+      </div>
     <main>
       <form id="drinkForm">
         <label for="firstName">First Name:</label>
@@ -75,14 +77,39 @@
       </form>
     </main>
     <footer>
-       
-    </footer> 
+      <div class="contain3">
+          <div class="f-one">
+              <img class='f-logo'src="images/company-logo.webp" alt="site-logo">
+          
+          </div>
+          <div class="f-two">
+              info@bountifulfoods.com<br>
 
-    <script src="scripts/main.js"></script>
-    <script src="scripts/hamburger.js"></script>
-    <script src="scripts/weather.js"></script> 
-    <script src="scripts/contemps.js"></script>  
-    <script src="scripts/fruit-data.js"></script> 
+              +1 592 801 1000
+          </div>
+          <div class="f-three">
+              <p class="p-head">Bountiful Food</p>
+              <p class="p-head2">freshly made for you <span class="check">&check;</span></p>
+          </div>
+          <div class="f-four">
+            <a class="f-map" href="https://www.google.com/maps/place/Carlsbad,+CA" target="_blank">📌 Location</a><br>
+            <p class="f-p">Carlsbad, CA.</p>
+          </div>   
+          <div class="f-five">
+              ©2023 truefind |Nicardo Jailall| Bountiful Fruits | Georgetown, Guyana
+              <p class= "lastupdated">
+                Last Updated: <span id="currentTime"></span>
+            </p>
+          </div>
+      </div>
+      
 
+  </footer>
+  <script src="scripts/main.js"></script>
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/weather.js"></script> 
+  <script src="scripts/contemps.js"></script> 
+  <script src="scripts/date.js"></script> 
+  <script src="scripts/menu.js"></script> 
 </body>
 </html>

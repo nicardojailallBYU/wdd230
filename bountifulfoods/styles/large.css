@@ -76,7 +76,7 @@
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         gap: 10px; /* Optional: Adds a gap between grid cells */
         padding: 1em;
-        height: 50rem;
+        height: 60rem;
       }
       .contemp {
         display: flex;
@@ -137,7 +137,8 @@
         grid-column-end: 4;
        grid-row-start: 6;
        grid-row-end: 7;
-        margin-top: 2em;
+       margin-left: 3em;
+       margin-right: 3em;
       }
       .coastal-img {
         max-width: 50%;
@@ -149,27 +150,30 @@
       }
       .summary-p {
         margin-top: .5em;
-        font-size: 15px;
+        font-size: 18px;
         text-align: center;
       }
       .map {
         grid-column-start: 1;
-        grid-column-end: 4;
+        grid-column-end: 3;
        grid-row-start: 7;
        grid-row-end: 8;
+       margin-left: 5em;
       
       }
       .card {
-        margin-left: 9em;
-        margin-right: 9em;
+        margin-left: 3em;
+        margin-right: 3em;
       }
       .weather-item {
         grid-column-start: 4;
         grid-column-end: 5;
        grid-row-start: 3;
        grid-row-end: 8;
-      margin: 0 auto;
+       margin-left: 10px;
+       margin-right: 10px;
       }
+      
       h3 {
         font-size: 23px;
       }
@@ -187,8 +191,8 @@
     }
     .f-logo {
       max-width: 100%;
-      width: 50%;
-      height: 7rem;
+      width: 60%;
+      height: 8rem;
     }
     .f-two {
       grid-column-start: 1;
