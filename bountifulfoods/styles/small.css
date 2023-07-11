@@ -343,7 +343,7 @@
     color: white;
     padding-top: 2px;
     border-top: 1px solid red;
-    border-radius: 15px;
+    border-radius: 10px;
   }
 
 
@@ -354,6 +354,7 @@
         grid-gap: 10px;
         text-align: center;
         padding: 10px;
+        color: black;
       }
       h4 {
         color: blue;
@@ -368,4 +369,194 @@
       }
       .nutritional-facts {
         margin: 0 auto;
+      }
+      table{
+        color: black;
+      }
+      /*About*/
+      .container-about {
+        display: grid;
+        grid-template-columns: 1fr  ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 4px;
+      }
+      .ceo {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        border: 5px solid rgb(30, 158, 30);
+        border-image-slice: 1;
+       border-image-source: linear-gradient(to right, green, red);
+      }
+      .ceo-img {
+        max-width: 98%;
+        width: 98%;
+        padding: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+        height: 25rem;
+        margin-left: 5px;
+      }
+      .p-ceo {
+        text-align: center;
+       color: black;
+        font-size: 14px;
+        padding: 5px;
+      }
+      .diamond{
+        color: blue;
+      }
+      .quote{
+        color: rgb(9, 99, 9);
+        text-align: center;
+        padding-bottom: 5px;
+        font-size: 13px;
+      }
+      .about {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        margin-left: 20px;
+        margin-right: 20px;
+
+      }
+      .about-img {
+        max-width: 100%;
+        width: 100%;
+        height: 11rem;
+      
+      }
+      
+      .history {
+        max-width: 100%;
+        width: 100%;
+        height: 12rem;
+        
+      }
+      
+      .contact {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        background-color: rgb(214, 207, 207);
+        padding: 15px;
+        text-align: center;
+      }
+      .join-form {
+        width: 100%;
+       padding: 5px;
+       font-size: 15px;
+      }
+      label {
+        font-size: 15px;
+      }
+      .first-label {
+        display: flex;
+        flex-direction: column;
+        color: black;
+        max-width: 100%;
+        text-align: left;
+      }
+      
+      input, select, textarea {
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 10px;
+      }
+      input[type="submit"] {
+        cursor: pointer;
+        margin-top: 2px;
+        background-color: yellow;
+        color: black;
+        font-weight: bold;
+        border-radius: 10px;
+        max-width: 85%;
+        float: left;
+      }
+      input[type="submit"]:hover {
+        background-color: darkgreen;
+      }
+      
+      
+      
+    
+      .maps {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        border: 5px solid rgb(197, 193, 193);
+        
+      }
+      iframe {
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+      }
+
+      /*Fresh Page*/
+      
+      .form {
+        display: grid;
+       grid-template-columns: 1fr;
+        
+        padding: 20px;
+        color: white;
+        
+      }
+      #fruit-drink{
+        grid-column-start: 1;
+        background-color: grey;
+        padding: 20px;
+        margin: 15px;
+        border-radius: 10px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      input[type="tel"],
+      textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        
+      }
+
+      .select-wrapper {
+        position: relative;
+        margin-bottom: 10px;
+      }
+      
+      select {
+        width: 50%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        
+        background: url("dropdown-arrow.png") no-repeat right center;
+      }
+ 
+      input[type="button"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type="button"]:hover {
+        background-color: red;
       }

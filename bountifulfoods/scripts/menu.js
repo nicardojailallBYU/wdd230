@@ -92,3 +92,38 @@ document.addEventListener('DOMContentLoaded', (event) => {
       carbohydratesElement.textContent = `Carbs: ${fruit.carbohydrates}`;
     });
   });
+
+
+
+
+  document.addEventListener('DOMContentLoaded', (event) => {
+    const fruit1Select = document.getElementById('fruit1');
+    const fruit2Select = document.getElementById('fruit2');
+    const fruit3Select = document.getElementById('fruit3');
+  
+    // Add a blank option to each select dropdown
+    const blankOption = document.createElement('option');
+    blankOption.value = '';
+    blankOption.textContent = 'Select Fruit';
+    fruit1Select.appendChild(blankOption.cloneNode(true));
+    fruit2Select.appendChild(blankOption.cloneNode(true));
+    fruit3Select.appendChild(blankOption.cloneNode(true));
+  
+    fetch('https://brotherblazzard.github.io/canvas-content/fruit.json')
+      .then(response => response.json())
+      .then(data => {
+        data.forEach(fruit => {
+          // Create an option element
+          const option = document.createElement('option');
+          option.value = fruit.name;
+          option.textContent = fruit.name;
+  
+          // Append the option to each select dropdown
+          fruit1Select.appendChild(option.cloneNode(true));
+          fruit2Select.appendChild(option.cloneNode(true));
+          fruit3Select.appendChild(option.cloneNode(true));
+        });
+      })
+      .catch(error => console.error('Error:', error));
+  });
+  

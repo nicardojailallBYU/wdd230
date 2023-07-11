@@ -52,26 +52,68 @@
       </div>
     </header>
     <main>
-      <div class="form">
-        <form id="fruit-drink" action="thankyou.html" method="get" onsubmit="redirectToThankYou()">
-          <label class="first-names" for="firstName">Full Name:</label>
-          <input type="text" id="firstName" name="firstName" required><br>
-          <label class="first-names" for="email">Email:</label>
-          <input type="email" id="email" name="email" required><br>
-          <label class="first-names" for="phone">Phone Number:</label>
-          <input type="tel" id="phone" name="phone" required><br>
-          <label class="first-names1"for="fruit1">Fruit 1:</label>
-          <div class="select-wrapper"><select id="fruit1" name="fruit1" ></select></div>
-          <label class="first-names1" for="fruit2">Fruit 2:</label>
-          <div class="select-wrapper"><select id="fruit2" name="fruit2" ></select></div>
-          <label class="first-names1" for="fruit3">Fruit 3:</label>
-          <div class="select-wrapper"><select id="fruit3" name="fruit3" ></select></div>
-          <label class="first-names"for="specialInstructions">Special Instructions:</label>
-          <textarea id="specialInstructions" name="specialInstructions"></textarea><br>
-          <input type="submit" value="Submit" onclick="submitForm()">
-        </form>
-      </div>
+      <div class="container-about">
+        <div class="ceo">
+            <img class="ceo-img" src="images/ceo-img.PNG" alt="ceo image">
+            <p class="p-ceo"><b>Meet </b><br>
+                <br><b>Nicardo Jailall</b><br>
+                Founder/ Managing Director<br>
+                 <span class="diamond">&#9830;</span> Born and raised in CA
+                <br><span class="diamond">&#9830;</span> Married with 3 Children
+                <br><span class="diamond">&#9830;</span> Hobby: Farming,   <br>  1hr x5 day weekly exercise
+                <br><span class="diamond">&#9830;</span> Heath Enthusiast<br>
+                <br>Message
+                <br>My passion for farming has led me to open a company that mainly sells alot
+                of various kinds of fruits and boost fruit farming production in California. with
+                your continue you support we have grown from where we started and made adjustments as well with
+                you feedbacks.<br>
+                <br><br><span>&#128231;</span> n.jailall@bountifulfoods.com
+                <br><span>&#128222;</span>592 706 5600<br>
+                
+
+            
+                <br><p class="quote">"A journey of a thousand miles start with a single step".</p>
+            </p>
+        </div>
+        <div class="about">
+            <div class="about-us"> 
+                <img class='about-img'src="images/about.PNG" alt="about img">
+            </div>
+            <div class="p-history">
+                <img class='history'src="images/history.PNG" alt="history img">
+            </div>
+        </div>
       
+        <div class="contact">
+            <p class="contact-info">
+                Monday to Fridays 8:00am to 5:00pm
+                <br><span>&#128222;</span> +592 801-1096
+                <br><span>&#128231;</span> info@bountifulfoods.com
+                
+            </p>
+            <form class="join-form" action="thankyou.html" method="get" onsubmit="redirectToThankYou()">
+                <div class="s-m">SEND A MESSAGE</div>
+                <label class="first-label">
+                    Full Name:
+                    <input type="text" name="full-name" placeholder="Full Name" required>
+                  </label>
+                  <label class="first-label"><br>
+                    Email:
+                    <input class="email" type="email" name="email" placeholder="example@example.com" required>
+                  </label>
+                  <label class="first-label"><br>
+                    Your Message:
+                    <textarea name="business-description" placeholder="Message" required></textarea>
+                  </label>
+                  
+                  <input type="submit" value="Submit"><br>
+                </form>
+        </div>
+        <div class="maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106928.86080965448!2d-117.287802!3d33.12151955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc73453f3bee59%3A0xa4cb5592fcf65d2f!2sCarlsbad%2C%20CA%2C%20USA!5e0!3m2!1sen!2sgy!4v1688920302921!5m2!1sen!2sgy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+      </div>
     </main>
     <footer>
       <div class="contain3">
@@ -108,6 +150,5 @@
   <script src="scripts/contemps.js"></script> 
   <script src="scripts/date.js"></script> 
   <script src="scripts/menu.js"></script> 
-  <script src="scripts/fruit-data.js"></script>
 </body>
 </html>
