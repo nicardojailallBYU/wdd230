@@ -47,3 +47,11 @@ async function populateFruitOptions() {
 }
 
 populateFruitOptions();
+
+
+// thank you page
+function redirectToThankYou() {
+  window.location.href = "thank-you.html";
+}
+document.getElementById("fruit-drink").addEventListener("submit", redirectToThankYou);
+document.getElementById("join-form").addEventListener("submit", redirectToThankYou);

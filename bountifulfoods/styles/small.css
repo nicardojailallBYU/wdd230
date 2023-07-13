@@ -358,23 +358,25 @@
         text-align: center;
         padding: 10px;
         color: black;
+        background-color: rgb(175, 32, 32);
       }
-      h4 {
-        color: blue;
+      .menu1 {
+        color: white;
         text-align: center;
         font-size: 1.5em;
         padding-bottom: 5px;
       }
       .drink {
-        border: 1px solid red;
+        border: 1px solid white;
         padding: 10px;
-        background-color: rgb(240, 158, 158);
+        background-color: rgb(175, 32, 32);
       }
       .nutritional-facts {
         margin: 0 auto;
+        color: white;
       }
-      table{
-        color: black;
+      p{
+        color: white;
       }
       /*About*/
       .container-about {
@@ -448,7 +450,7 @@
         padding: 15px;
         text-align: center;
       }
-      .join-form {
+      #join-form {
         width: 100%;
        padding: 5px;
        font-size: 15px;
@@ -507,7 +509,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         padding: 20px;
-        color: red;
+        color: white;
         
       }
       #fruit-drink{
@@ -570,3 +572,19 @@
         position: absolute;
       }
       
+
+
+
+      .thank-you {
+        text-align: center;
+    }
+    .thanky {
+        font-size: 3em;
+        color: blue;
+    }
+    p.ty {
+        font-size: 2em;
+        color: blueviolet;
+        margin-bottom: 10rem;
+    }
+    
