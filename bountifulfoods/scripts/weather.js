@@ -26,7 +26,7 @@ async function fetchWeatherData() {
       const iconCode = data.weather[0].icon;
       const iconUrl = `https://openweathermap.org/img/w/${iconCode}.png`;
       weatherIcon.src = iconUrl;
-      weatherIcon.alt = conditions;
+      weatherIcon.alt = conditions ;
     } else {
       throw new Error(await response.text());
     }
@@ -91,7 +91,7 @@ async function fetchForecastData() {
 
           const iconElement = document.createElement("img");
           iconElement.src = iconUrl;
-          iconElement.alt = conditions;
+          iconElement.alt = conditions + " images";
           forecastItem.appendChild(iconElement);
 
           forecastElement.appendChild(forecastItem);
