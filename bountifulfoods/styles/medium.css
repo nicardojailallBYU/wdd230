@@ -108,16 +108,11 @@
         box-shadow: #333;
         margin-bottom: 10px;
       }
-      .weather-header {
-        color: blue;
-        font-size: 1em;
-      }
+ 
       h3 {
-        color: blue;
         font-size: 1.5em;
       }
      #forecast{
-      color: rgb(150, 19, 19);
       text-align: center;
       font-size: 15px;
       
