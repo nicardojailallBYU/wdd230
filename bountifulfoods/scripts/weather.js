@@ -74,18 +74,22 @@ async function fetchForecastData() {
           forecastItem.classList.add("forecast-item");
 
           const dateElement = document.createElement("p");
+          dateElement.classList.add('forecast-1');
           dateElement.textContent = forecastDate.toDateString();
           forecastItem.appendChild(dateElement);
 
           const temperatureElement = document.createElement("p");
+          temperatureElement.classList.add('forecast-1');
           temperatureElement.textContent = `${temperatureCelsius.toFixed(1)}°C`;
           forecastItem.appendChild(temperatureElement);
 
           const humidityElement = document.createElement("p");
+          humidityElement.classList.add('forecast-1');
           humidityElement.textContent = `Humidity: ${humidity}%`;
           forecastItem.appendChild(humidityElement);
 
           const conditionsElement = document.createElement("p");
+          conditionsElement.classList.add('forecast-1');
           conditionsElement.textContent = conditions;
           forecastItem.appendChild(conditionsElement);
 

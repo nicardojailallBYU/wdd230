@@ -65,9 +65,9 @@ function createNutritionalFactRow(label, value) {
     const drinkMixElements = document.querySelectorAll('.drink-mix');
   
     const fruits = [
-      { name: 'Apple', calories: 52, sugar: 10, carbohydrates: 11.4, image: 'images/apple.png' },
-      { name: 'Banana', calories: 96, sugar: 17, carbohydrates: 22,image: 'images/banana.png' },
-      { name: 'Cherry', calories: 50, sugar: 10, carbohydrates: 12,image: 'images/cherry.png' },
+      { name: 'Apple', calories: 52, sugar: 10, carbohydrates: 11.4, image: 'images/apple.webp' },
+      { name: 'Banana', calories: 96, sugar: 17, carbohydrates: 22,image: 'images/banana.webp' },
+      { name: 'Cherry', calories: 50, sugar: 10, carbohydrates: 12,image: 'images/cherry.webp' },
       // Add more fruits with their respective image paths
     ];
   

@@ -55,3 +55,28 @@ function redirectToThankYou() {
 }
 document.getElementById("fruit-drink").addEventListener("submit", redirectToThankYou);
 document.getElementById("join-form").addEventListener("submit", redirectToThankYou);
+
+// drink count from local storage
+const drinkCount = localStorage.getItem('drinkCount');
+
+const drinkCountElement = document.getElementById('drink-count');
+if (drinkCountElement) {
+  drinkCountElement.textContent = drinkCount || '0';
+}
+
+function incrementDrinkCount() {
+  let count = parseInt(drinkCount) || 0;
+  count++;
+  localStorage.setItem('drinkCount', count);
+  if (drinkCountElement) {
+    drinkCountElement.textContent = count;
+  }
+}
+
+const freshForm = document.getElementById('fresh-form');
+if (freshForm) {
+  freshForm.addEventListener('submit', function (event) {
+    event.preventDefault();
+    incrementDrinkCount();
+  });
+}
