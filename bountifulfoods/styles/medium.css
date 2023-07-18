@@ -313,7 +313,11 @@
       height: 28rem;
       margin-top: 3em;
     }
-    
+    #output {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      position: relative;
+    }
     
     
     
