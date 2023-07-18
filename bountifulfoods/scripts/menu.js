@@ -68,7 +68,6 @@ function createNutritionalFactRow(label, value) {
       { name: 'Apple', calories: 52, sugar: 10, carbohydrates: 11.4, image: 'images/apple.webp' },
       { name: 'Banana', calories: 96, sugar: 17, carbohydrates: 22,image: 'images/banana.webp' },
       { name: 'Cherry', calories: 50, sugar: 10, carbohydrates: 12,image: 'images/cherry.webp' },
-      // Add more fruits with their respective image paths
     ];
   
     drinkMixElements.forEach((element) => {
@@ -100,8 +99,7 @@ function createNutritionalFactRow(label, value) {
     const fruit1Select = document.getElementById('fruit1');
     const fruit2Select = document.getElementById('fruit2');
     const fruit3Select = document.getElementById('fruit3');
-  
-    // Add a blank option to each select dropdown
+
     const blankOption = document.createElement('option');
     blankOption.value = '';
     blankOption.textContent = 'Select Fruit';
@@ -113,17 +111,36 @@ function createNutritionalFactRow(label, value) {
       .then(response => response.json())
       .then(data => {
         data.forEach(fruit => {
-          // Create an option element
           const option = document.createElement('option');
           option.value = fruit.name;
           option.textContent = fruit.name;
-  
-          // Append the option to each select dropdown
           fruit1Select.appendChild(option.cloneNode(true));
           fruit2Select.appendChild(option.cloneNode(true));
           fruit3Select.appendChild(option.cloneNode(true));
         });
       })
       .catch(error => console.error('Error:', error));
+  });
+
+
+  // Function to handle form submission
+  function submitForm() {
+    const currentCount = localStorage.getItem('fruit-drink-count');
+    const newCount = currentCount ? parseInt(currentCount) + 1 : 1;
+    localStorage.setItem('fruit-drink-count', newCount);
+    updateDrinkCount(newCount);
+  }
+  function updateDrinkCount(count) {
+    const drinkCountSpan = document.getElementById('drink-count');
+    drinkCountSpan.textContent = count;
+  }
+  function populateDropdowns() {
+  }
+  document.addEventListener('DOMContentLoaded', (event) => {
+    if (localStorage.getItem('fruit-drink-count')) {
+      populateDropdowns();
+      const currentCount = localStorage.getItem('fruit-drink-count');
+      updateDrinkCount(currentCount);
+    }
   });
   
