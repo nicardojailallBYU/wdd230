@@ -97,8 +97,11 @@ function createNutritionalFactRow(label, value) {
 
   document.addEventListener('DOMContentLoaded', (event) => {
     const fruit1Select = document.getElementById('fruit1');
+    fruit1Select.classList.add('select1');
     const fruit2Select = document.getElementById('fruit2');
+    fruit2Select.classList.add('select1');
     const fruit3Select = document.getElementById('fruit3');
+    fruit3Select.classList.add('select1');
 
     const blankOption = document.createElement('option');
     blankOption.value = '';
@@ -172,4 +175,6 @@ function createNutritionalFactRow(label, value) {
       <p class="output">Submitted on: ${formattedDate}</p>
     `;
   }
+  
+
   
