@@ -309,5 +309,21 @@
     margin-left: 4em;
     margin-right: 4em;
 }
-
+.form {
+  margin-left: 10em;
+  margin-right: 10em;
+ 
+}
+#output {
+      
+  margin-left: 15em;
+  margin-right: 15em;
+  margin-bottom: 25px;
+  
+}
+.output {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
 }

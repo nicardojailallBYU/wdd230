@@ -124,46 +124,52 @@ function createNutritionalFactRow(label, value) {
 
   function submitForm(event) {
     event.preventDefault();
-
+  
     const form = document.getElementById('fruit-drink');
     const outputDiv = document.getElementById('output');
-
+  
     const fullNameInput = document.getElementById('fullName');
     const fullName = fullNameInput.value;
-
+  
     const emailInput = document.getElementById('email');
     const email = emailInput.value;
-
+  
     const phoneInput = document.getElementById('phone');
     const phone = phoneInput.value;
-
+  
     const fruit1Input = document.getElementById('fruit1');
     const fruit1 = fruit1Input.value;
-
+  
     const fruit2Input = document.getElementById('fruit2');
     const fruit2 = fruit2Input.value;
-
+  
     const fruit3Input = document.getElementById('fruit3');
     const fruit3 = fruit3Input.value;
-
+  
     const specialInstructionsInput = document.getElementById('specialInstructions');
     const specialInstructions = specialInstructionsInput.value;
-
+  
+    // Get the current date and time
+    const currentDate = new Date();
+    const formattedDate = currentDate.toLocaleString();
+  
     // Remove the form from the DOM
     form.remove();
-
+  
     // Show the output div and set its content with the "Hello" message
     outputDiv.style.display = 'block';
     outputDiv.innerHTML = `
-      <p>Hello, <strong>${fullName}</strong>!</p>
-      <p>Email: ${email}</p>
-      <p>Phone: ${phone}</p>
-      <p>Selected Fruits:</p>
+      <p class="output">Hello, <strong>${fullName}</strong>!</p>
+      <p class="output">Email: ${email}</p>
+      <pclass="output">Phone: ${phone}</p>
+      <p class="output">Selected Fruits:</p>
       <ul>
-        <li>${fruit1}</li>
-        <li>${fruit2}</li>
-        <li>${fruit3}</li>
+        <li><span class="check">&check;</span>${fruit1}</li>
+        <li><span class="check">&check;</span>${fruit2}</li>
+        <li><span class="check">&check;</span>${fruit3}</li>
       </ul>
-      <p>Special Instructions: ${specialInstructions}</p>
+      <p class="output">Special Instructions: ${specialInstructions}</p>
+      <p class="output">Submitted on: ${formattedDate}</p>
     `;
   }
+  

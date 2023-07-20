@@ -615,8 +615,19 @@
     }
     #output {
       display: none;
-      position: absolute;
-      grid-column-start: 1;
-        grid-row-start: 1;
-        grid-row-end: 1;
+      background-color: #444;
+      border: 1px solid green;
+      color: white;
+      margin-left: 2em;
+      margin-right: 2em;
+      margin-bottom: 15px;
+      font-size: 1em;
+      text-align: center;
+      text-decoration: none;
+      padding: 5px;
+    }
+    .output {
+      color: white;
+      text-decoration: none;
+      padding-bottom: 5px;
     }
