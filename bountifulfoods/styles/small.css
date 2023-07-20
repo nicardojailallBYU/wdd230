@@ -543,7 +543,7 @@
         grid-column-start: 1;
         grid-row-start: 1;
         grid-row-end: 1;
-        background-color: #737373;
+        background-color: #383737;
         padding: 20px;
         margin: 15px;
         border-radius: 10px;
@@ -576,7 +576,7 @@
         padding: 8px;
         border: 1px solid #ccc;
         border-radius: 4px;
-        
+        color: white;
         background: url("dropdown-arrow.png") no-repeat right center;
       }
  
