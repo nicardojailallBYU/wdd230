@@ -264,7 +264,6 @@
   }
   .today {
     border-bottom: 5px solid rgb(222, 230, 189);
-    box-shadow: #444;
     margin-bottom: 10px;
   }
   .weather-header {
@@ -510,7 +509,9 @@
       input[type="submit"]:hover {
         background-color: darkgreen;
       }
-      
+      .contact-info {
+        color: black;
+      }
       
       
     
