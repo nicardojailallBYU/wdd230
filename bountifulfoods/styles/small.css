@@ -569,6 +569,7 @@
       .select-wrapper {
         position: relative;
         margin-bottom: 10px;
+        
       }
       
       select {
@@ -576,7 +577,7 @@
         padding: 8px;
         border: 1px solid #ccc;
         border-radius: 4px;
-        color: white;
+        color: black;
         background: url("dropdown-arrow.png") no-repeat right center;
       }
  
@@ -631,4 +632,8 @@
       color: white;
       text-decoration: none;
       padding-bottom: 5px;
+    }
+    .select1 {
+      background-color: #444;
+      color: white;
     }
